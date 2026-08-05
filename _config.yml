@@ -18,16 +18,16 @@ source-code: https://github.com/artcenterms/home
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Art Center MS Collection
+title: Arts Center of Mississippi
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: CollectionBuilder shell instance
+tagline: Digital collections, exhibitions, and cultural memory
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Starter CollectionBuilder-CSV shell for the Art Center MS home repository."
+description: "A refined digital portal for the Arts Center of Mississippi, designed to showcase collections, exhibitions, and place-based cultural stories."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: art center; collectionbuilder; digital collections
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Art Center MS
+author: Arts Center of Mississippi
 
 ##########
 # COLLECTION SETTINGS
@@ -50,11 +50,11 @@ metadata: demo-compoundobjects-metadata
 #
 # Enter name and link for your organization (replacing the name and links below)
 # These values will be used in attribution and data 
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
+organization-name: "Arts Center of Mississippi"
+organization-link: https://jacksonms.gov/government/city-departments/human-and-cultural-services/cultural-services/arts-center-of-mississippi/
 # Add logo image links if you would like them to appear in banner and footer. Delete or leave blank to remove logos.
-organization-logo-banner: https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png
-organization-logo-nav: https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png
+organization-logo-banner: /assets/img/arts-center-logo.png
+organization-logo-nav: /assets/img/arts-center-logo.png
 
 ##########
 # ROBOTS EXCLUDE

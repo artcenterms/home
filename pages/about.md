@@ -3,37 +3,49 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: false
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_031
+about-featured-image: /assets/img/arts-center-logo.png
 # set background-position for featured image, "center", "top", "bottom"
-position: bottom
+position: center
 # major heading to display over featured image
-heading: About the Collection
+heading: About the Arts Center
 # paragraph text below heading in featured image
-sub-heading: 
+sub-heading: A visual identity rooted in Mississippi culture, reimagined for digital discovery
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
-padding: 6em
+padding: 10em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About CollectionBuilder CSV
+## A Branded Digital Home
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+This site is designed as a clean, modern digital home for the Arts Center of Mississippi. The visual language follows the brand direction you provided: confident Futura-inspired typography, dramatic letter spacing, a sharp black-and-white foundation, and a bold red accent that carries the identity across every page.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+The goal of the redesign is to make the collections feel editorial, intentional, and institutionally grounded while still keeping the experience easy to browse, search, and expand over time.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+{% include feature/button.html text="Browse the Collection" link="/browse.html" color="primary" %}
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+## Designed for Discovery
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+The site structure supports multiple ways of moving through material:
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+- `Browse` for visual scanning
+- `Subjects` and `Locations` for thematic entry points
+- `Map` and `Timeline` for spatial and historical context
+- `Data` for deeper research access
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+This creates a digital experience that feels curated without becoming rigid, allowing the identity of the Arts Center to lead while the metadata does the structural work beneath it.
+
+## Visual Direction
+
+The design system is intentionally restrained:
+
+- red as the primary accent for action and emphasis
+- black for structure, navigation, and typography
+- warm white surfaces to keep the site feeling gallery-like rather than sterile
+- strong uppercase headings with spacious tracking to echo the brand mark
+
+## Built to Grow
+
+Because this site is powered by CollectionBuilder, the presentation can evolve with new exhibitions, collections, and archival records without rebuilding the visual foundation from scratch. The result is a branded framework that can expand as the Arts Center's digital presence grows.

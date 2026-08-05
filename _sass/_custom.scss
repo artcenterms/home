@@ -2,3 +2,317 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+:root {
+    --acm-red: #df2027;
+    --acm-black: #111111;
+    --acm-cream: #f7f4ef;
+    --acm-line: rgba(17, 17, 17, 0.14);
+    --acm-shadow: 10px 10px 0 rgba(223, 32, 39, 0.9);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(180deg, #fbfaf7 0%, #f7f4ef 100%);
+    color: var(--acm-black);
+    letter-spacing: 0.04em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar .nav-link,
+.btn,
+#footer-nav .nav-link,
+.card-title,
+th,
+.dropdown-item {
+    font-family: "Futura", "Trebuchet MS", "Arial", sans-serif;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+p,
+li,
+dd,
+dt,
+.card-text,
+input,
+select,
+textarea,
+button {
+    letter-spacing: 0.05em;
+}
+
+a {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.16em;
+}
+
+a:hover,
+a:focus {
+    color: var(--acm-red);
+}
+
+.navbar {
+    border-top: 6px solid var(--acm-red);
+    border-bottom: 1px solid var(--acm-line);
+    box-shadow: 0 8px 30px rgba(17, 17, 17, 0.04);
+}
+
+.navbar .container {
+    gap: 1rem;
+}
+
+.navbar .nav-link,
+.navbar .dropdown-item {
+    color: var(--acm-black) !important;
+    font-size: 0.88rem;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+    color: var(--acm-red) !important;
+    background: transparent;
+}
+
+#mobile-nav-image {
+    max-height: 3.25rem;
+    width: auto;
+}
+
+#home-banner {
+    min-height: clamp(24rem, 68vh, 44rem);
+    background-color: var(--acm-cream);
+    background-image: none !important;
+    border-bottom: 1px solid var(--acm-line);
+    overflow: hidden;
+}
+
+#home-banner::before,
+#about-feature::before {
+    content: "";
+    position: absolute;
+    inset: auto auto 2rem 5%;
+    width: clamp(6rem, 14vw, 10rem);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: var(--acm-red);
+    opacity: 0.95;
+    z-index: 0;
+}
+
+#home-banner::after,
+#about-feature::after {
+    content: "";
+    position: absolute;
+    inset: 2rem 4% auto auto;
+    width: clamp(7rem, 18vw, 12rem);
+    height: 1px;
+    background: var(--acm-black);
+    opacity: 0.25;
+}
+
+#home-title-box,
+#about-title-box {
+    position: relative;
+    z-index: 1;
+}
+
+#home-banner .p-2,
+#about-feature .about-title {
+    background: rgba(247, 244, 239, 0.92) !important;
+    color: var(--acm-black) !important;
+    border: 1px solid rgba(17, 17, 17, 0.08);
+    box-shadow: var(--acm-shadow);
+    max-width: min(92vw, 54rem);
+    margin: 0 auto;
+    padding: 1.25rem 1.5rem !important;
+}
+
+#home-banner h1,
+#about-feature h2 {
+    font-size: clamp(2rem, 6vw, 4.9rem);
+    line-height: 0.98;
+    margin-bottom: 0.8rem;
+}
+
+#home-banner p,
+#about-feature p {
+    font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+#home-banner-logo {
+    display: block;
+    width: min(78vw, 34rem);
+    margin: 0 auto 2rem;
+    background: #fff;
+    padding: 1rem;
+}
+
+#home-banner a.fs-6.position-absolute {
+    display: none;
+}
+
+#about-feature {
+    position: relative;
+    background-color: var(--acm-cream);
+    background-size: contain !important;
+    background-position: center center !important;
+    border-bottom: 1px solid var(--acm-line);
+    overflow: hidden;
+}
+
+.container.my-4,
+#about-wrapper {
+    position: relative;
+}
+
+.card,
+.modal-content,
+.offcanvas,
+.dropdown-menu {
+    border-radius: 0;
+    border: 1px solid rgba(17, 17, 17, 0.12);
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 18px 40px rgba(17, 17, 17, 0.05);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 0.8rem 1.15rem;
+    font-size: 0.82rem;
+    transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.btn:hover,
+.btn:focus {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 rgba(17, 17, 17, 0.12);
+}
+
+.btn-primary {
+    border-color: var(--acm-red);
+}
+
+.btn-outline-secondary {
+    color: var(--acm-black);
+    border-color: var(--acm-black);
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+    background: var(--acm-black);
+    border-color: var(--acm-black);
+    color: #fff;
+}
+
+main .container,
+#about-contents-wrapper,
+#credits-contents-wrapper {
+    max-width: 1200px;
+}
+
+#about-contents-wrapper h2,
+#about-contents-wrapper h3 {
+    margin-top: 2.25rem;
+    margin-bottom: 0.85rem;
+}
+
+#about-toc .btn {
+    background: #fff;
+    border-color: rgba(17, 17, 17, 0.12);
+    color: var(--acm-black);
+}
+
+table,
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-striped-bg: rgba(17, 17, 17, 0.025);
+}
+
+thead th {
+    border-bottom-width: 1px !important;
+}
+
+footer.container-fluid {
+    background: var(--acm-black) !important;
+    border-top: 8px solid var(--acm-red);
+}
+
+#footer-logo {
+    background: #fff;
+    padding: 0.85rem;
+    max-width: min(100%, 22rem);
+}
+
+#footer-credits img {
+    background: #fff;
+    padding: 0.25rem 0.4rem;
+}
+
+#footer-nav .nav-link.active,
+#footer-nav .nav-link:hover,
+#footer-nav .nav-link:focus {
+    color: #fff !important;
+    background: transparent;
+    text-decoration: underline;
+    text-decoration-color: var(--acm-red);
+}
+
+.browse-list,
+.dataTables_wrapper,
+.pagination,
+.timeline,
+#map {
+    border-radius: 0;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    border-radius: 0;
+}
+
+@media (max-width: 991.98px) {
+    #home-banner .p-2,
+    #about-feature .about-title {
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    body {
+        letter-spacing: 0.025em;
+    }
+
+    .navbar .nav-link,
+    .btn,
+    #footer-nav .nav-link,
+    .card-title,
+    th,
+    .dropdown-item {
+        letter-spacing: 0.1em;
+    }
+}
