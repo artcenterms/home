@@ -37,6 +37,14 @@ var items = [
 // Valid field names for URL-based searches
 const validFields = [{% for f in fields %}"{{ f.field }}",{% endfor %}"title","display_template"];
 
+const browseFieldConfig = [
+    {% for f in fields %}{% unless f.hidden == 'true' %}{
+        field: {{ f.field | jsonify }},
+        displayName: {{ f.display_name | default: f.field | capitalize | jsonify }},
+        buttonized: {% if f.btn == 'true' %}true{% else %}false{% endif %}
+    }{% unless forloop.last %},{% endunless %}{% endunless %}{% endfor %}
+];
+
 // Date field names - add your date fields here
 const dateFields = ['date', 'created', 'published', 'modified', 'issued', 'date_created', 'date_published'];
 
@@ -55,51 +63,92 @@ var loadingIcon, filterTextBox, browseItemsDiv;
 function makeCard(obj) {
     const placeholder = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E";
     const itemHref = `{{ '/items/' | relative_url }}${ obj.parent ? obj.parent + ".html#" + obj.id : obj.id + ".html"}`;
-    
-    let card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
-    
-    // Image or icon
-    if(obj.img) {
-        card += `<a href="${itemHref}"><img class="card-img-top lazyload" src="${placeholder}" data-src="${obj.img}" alt="${obj.alt || obj.title}"></a>`;
+    const template = document.getElementById('browseCardTemplate');
+    const fragment = template.content.cloneNode(true);
+
+    const article = fragment.querySelector('.item');
+    const mediaLink = fragment.querySelector('.browse-card__media-link');
+    const image = fragment.querySelector('.browse-card__image');
+    const iconWrap = fragment.querySelector('.browse-card__icon');
+    const type = fragment.querySelector('.browse-card__type');
+    const titleLink = fragment.querySelector('.browse-card__title-link');
+    const meta = fragment.querySelector('.browse-card__meta');
+    const chips = fragment.querySelector('.browse-card__chips');
+    const cta = fragment.querySelector('.browse-card__cta');
+
+    article.dataset.itemId = obj.id;
+    mediaLink.href = itemHref;
+    mediaLink.setAttribute('aria-label', `View ${obj.title}`);
+    titleLink.href = itemHref;
+    titleLink.textContent = obj.title;
+    cta.href = itemHref;
+    cta.title = `View full record for ${obj.title}`;
+
+    if (obj.display_template) {
+        type.textContent = obj.display_template.replace(/_/g, " ");
+    } else {
+        type.remove();
     }
-    
-    // Title
-    card += `<div class="card-body text-center"><h3 class="card-title h4"><a href="${itemHref}" class="text-dark">${obj.title}</a></h3>`;
-    
-    // Icon for items without images
-    if(!obj.img) {
+
+    if (obj.img) {
+        image.classList.remove('d-none');
+        image.src = placeholder;
+        image.dataset.src = obj.img;
+        image.alt = obj.alt || obj.title;
+        iconWrap.remove();
+    } else {
+        image.remove();
         const thumbIcon = getIcon(obj.display_template, obj.format, "thumb");
-        if(thumbIcon) card += `<p><a href="${itemHref}">${thumbIcon}</a></p>`;
+        if (thumbIcon) {
+            iconWrap.classList.remove('d-none');
+            iconWrap.innerHTML = thumbIcon;
+        } else {
+            iconWrap.remove();
+        }
     }
-    
-    // Field data
-    card += '<p class="card-text">';
-    {% for f in fields %}{% unless f.hidden == 'true' %}
-    if(obj[{{ f.field | jsonify }}]){
-        {% if f.display_name %}card += '<strong>{{ f.display_name }}:</strong> ';{% endif %}
-        {% if f.btn == 'true' %}
-        const btns = obj[{{ f.field | jsonify }}].split(";");
-        btns.forEach(btn => {
-            if(btn.trim()) {
-                card += `<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ page.url | relative_url }}#{{ f.field }}:${encodeURIComponent(btn.trim())}">${btn.trim()}</a>`;
-            }
-        });
-        {% else %}
-        card += obj[{{ f.field | jsonify }}];
-        {% endif %}
-        {% unless forloop.last %}card += '<br>';{% endunless %}
+
+    browseFieldConfig.forEach(config => {
+        const value = obj[config.field];
+        if (!value) return;
+
+        if (config.buttonized) {
+            value.split(";").forEach(rawChip => {
+                const chip = rawChip.trim();
+                if (!chip) return;
+                const chipLink = document.createElement('a');
+                chipLink.className = 'browse-card__chip';
+                chipLink.href = `{{ page.url | relative_url }}#${config.field}:${encodeURIComponent(chip)}`;
+                chipLink.textContent = chip;
+                chips.appendChild(chipLink);
+            });
+            return;
+        }
+
+        const row = document.createElement('div');
+        row.className = 'browse-card__meta-row';
+
+        const term = document.createElement('dt');
+        term.className = 'browse-card__meta-term';
+        term.textContent = config.displayName;
+
+        const detail = document.createElement('dd');
+        detail.className = 'browse-card__meta-value';
+        detail.textContent = value;
+
+        row.appendChild(term);
+        row.appendChild(detail);
+        meta.appendChild(row);
+    });
+
+    if (!chips.children.length && obj.display_template) {
+        const mediaChip = document.createElement('a');
+        mediaChip.className = 'browse-card__chip browse-card__chip--type';
+        mediaChip.href = `{{ page.url | relative_url }}#display_template:${encodeURIComponent(obj.display_template)}`;
+        mediaChip.textContent = obj.display_template.toUpperCase().replace(/_/g, " ");
+        chips.appendChild(mediaChip);
     }
-    {% endunless %}{% endfor %}
-    card += '</p>';
-    
-    // Media type badge
-    if(obj.display_template) {
-        const mediaIcon = getIcon(obj.display_template, obj.format, "hidden");
-        card += `<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ page.url | relative_url }}#display_template:${encodeURIComponent(obj.display_template)}">${obj.display_template.toUpperCase().replace("_"," ")} ${mediaIcon}</a></small></p>`;
-    }
-    
-    card += `<hr><a href="${itemHref}" class="btn btn-sm btn-light" title="link to ${obj.title}">View Full Record</a></div></div></div>`;
-    return card;
+
+    return fragment;
 }
 
 // =============================================================================
@@ -351,16 +400,10 @@ function advancedFilterItems(arr, searchCriteria) {
 function updateDisplay(filteredItems, query = "", field = "", startDate = "", endDate = "") {
     // Use DocumentFragment for better performance when adding many cards
     const fragment = document.createDocumentFragment();
-    const tempDiv = document.createElement('div');
-    
-    // Generate all cards at once
-    const cardsHTML = filteredItems.map(item => makeCard(item)).join('');
-    tempDiv.innerHTML = cardsHTML;
-    
-    // Move all cards to fragment
-    while (tempDiv.firstChild) {
-        fragment.appendChild(tempDiv.firstChild);
-    }
+
+    filteredItems.forEach(item => {
+        fragment.appendChild(makeCard(item));
+    });
     
     // Single DOM update
     browseItemsDiv.innerHTML = '';

@@ -6,7 +6,6 @@ layout: default
 ---
 
 {% if page.about-featured-image or page.heading or page.sub-heading %}
-
 {% assign jumboId = page.about-featured-image %}
 {% if jumboId contains '/' %}
 {% assign jumboSrc = jumboId | relative_url %}
@@ -14,46 +13,23 @@ layout: default
 {% assign jumboItem = site.data[site.metadata] | where: "objectid", jumboId | first %}
 {% capture jumboSrc %}{{ jumboItem.object_location | default: jumboItem.image_small | relative_url }}{% endcapture %}
 {%- endif -%}
-
-<style>
-    #about-feature {
-        padding: 4rem 0;
-        margin-bottom: 1rem;
-        {% if page.about-featured-image %}
-        background-image: url({{ jumboSrc }});
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: {{ page.position | default: 'center' }};{% endif %}
-    }
-    {% if page.padding %}
-    #about-title-box {
-        padding-top: {{ page.padding }};
-        padding-bottom: 1em;
-    }
-    {%- endif -%}
-    .about-title {
-        padding-left: 15% !important;
-    }
-    @media screen and (max-width: 576px) {
-        {% if page.padding %}
-        .about-title-box {
-            padding-top: min({{ page.padding }}, 45vh);
-        }{% endif %}
-        .about-title {
-            padding-left: 1rem !important;
-        }
-    }
-</style>
-<div id="about-feature">
-    <div id="about-title-box">
-        {% if page.heading or page.sub-heading %}
-        <div class="p-2 text-start text-white bg-dark bg-opacity-75 about-title">
-            {% if page.heading %}<h2 class="display-2">{{ page.heading }}</h2>{% endif %}
-            {% if page.sub-heading  %}<p class="h5">{{ page.sub-heading }}</p>{% endif %}
+<section
+    id="about-feature"
+    class="site-hero site-hero--page"
+    style="--site-hero-image: url('{{ jumboSrc }}'); --site-hero-position: {{ page.position | default: 'center' }}; --site-hero-padding-top: {{ page.padding | default: '6em' }};"
+>
+    <div class="container site-hero__inner">
+        <div id="about-title-box" class="site-hero__content site-hero__content--page">
+            {% if page.heading or page.sub-heading %}
+            {% if site.organization-name %}
+            <p class="site-hero__eyebrow">{{ site.organization-name }}</p>
+            {% endif %}
+            {% if page.heading %}<h2 class="site-hero__title">{{ page.heading }}</h2>{% endif %}
+            {% if page.sub-heading  %}<p class="site-hero__dek">{{ page.sub-heading }}</p>{% endif %}
+            {% endif %}
         </div>
-        {% endif %}
     </div>
-</div>
+</section>
 {% endif %}
 
 <div id="about-wrapper">

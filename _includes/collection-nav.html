@@ -9,20 +9,23 @@
     The color theme options can be set in "theme.yml"
 
 {%- endcomment -%}
-<nav class="navbar navbar-expand-lg {{ site.data.theme.navbar-background | default: 'bg-black' }}" data-bs-theme="{{ site.data.theme.navbar-color | default: 'dark' }}">
-    <div class="container">
+<nav class="site-nav navbar navbar-expand-lg {{ site.data.theme.navbar-background | default: 'bg-black' }}" data-bs-theme="{{ site.data.theme.navbar-color | default: 'dark' }}">
+    <div class="container site-nav__inner">
+        <a class="navbar-brand site-nav__brand" href="{{ '/' | relative_url }}">
+            {% if site.organization-logo-nav %}
+            <img class="site-nav__brand-mark" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
+            {% endif %}
+            <span class="site-nav__brand-copy">
+                <span class="site-nav__brand-name">{{ site.title }}</span>
+                {% if site.tagline %}<span class="site-nav__brand-tag">{{ site.tagline }}</span>{% endif %}
+            </span>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#page-nav" aria-controls="page-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        {% if site.organization-logo-nav %}<span class="d-lg-none text-end">
-            <a href="{{ site.organization-link }}">
-                <img class="img-fluid" id="mobile-nav-image" src="{{ site.organization-logo-nav | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home" >
-            </a>
-        </span>{% endif %}
-        
-        <div class="collapse navbar-collapse" id="page-nav">
-            <ul class="navbar-nav me-auto">
+        <div class="collapse navbar-collapse site-nav__collapse" id="page-nav">
+            <ul class="navbar-nav site-nav__links">
                 {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.display_name and item.dropdown_parent == nil' -%} 
                 {% for nav in navItems %}
                 {% if nav.stub %}
@@ -44,7 +47,9 @@
                 {%- endfor -%}
             </ul>
             
-            {% include nav-search-lunr.html %}
+            <div class="site-nav__search">
+                {% include nav-search-lunr.html %}
+            </div>
             
         </div>
     </div>

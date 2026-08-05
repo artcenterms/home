@@ -6,20 +6,26 @@
 {%- endcomment -%}
 {%- assign fields = site.data.config-metadata | where_exp: 'item', 'item.display_name != nil' -%}
 <div id="item-metadata">
-    <dl>
+    <div class="item-metadata__header">
+        <p class="item-metadata__eyebrow">Collection Record</p>
+        <h2 class="item-metadata__title">Metadata</h2>
+    </div>
+    <dl class="item-metadata__list">
         {% for f in fields %}{% if page[f.field] %}
-        <dt class="field">{{ f.display_name }}:</dt>
-        <dd class="field-value">
+        <div class="item-metadata__row">
+        <dt class="field item-metadata__term">{{ f.display_name }}</dt>
+        <dd class="field-value item-metadata__value">
             {% if f.browse_link == "true" %}
             {% assign topics = page[f.field] | split: ";" %}
             {% for t in topics %}
-            <a class="me-3" href="{{ t | strip | url_param_escape | prepend: ':' | prepend: f.field | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
+            <a class="item-metadata__chip" href="{{ t | strip | url_param_escape | prepend: ':' | prepend: f.field | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
             {% endfor %}
             {% elsif f.external_link == "true" %}
             <a href="{{ page[f.field] }}">{{ page[f.field] }}</a>
             {% else %}
             {{ page[f.field] | replace: '""','"' }}{% endif %}
         </dd>
+        </div>
         {% endif %}{% endfor %}
     </dl>
 </div>
