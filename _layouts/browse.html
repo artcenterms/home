@@ -6,9 +6,21 @@ custom-foot: js/browse-js.html
 {%- assign fields = site.data.config-browse -%}
 
 <section class="browse-shell">
-    <div class="browse-shell__intro row align-items-end g-3">
-        <div class="col-lg-8">{{ content }}</div>
-        <div class="col-lg-4 text-lg-end">{% if site.data.theme.advanced-search == true %}{% include advanced-search-modal.html %}{% endif %}</div>
+    <div class="browse-shell__intro row g-4 align-items-end">
+        <div class="col-xl-8">
+            <p class="browse-shell__eyebrow">Collection Browser</p>
+            <h1 class="browse-shell__title">Explore the archive by image, keyword, place, and time.</h1>
+            <div class="browse-shell__lead">{{ content }}</div>
+        </div>
+        <div class="col-xl-4">
+            <div class="browse-shell__aside">
+                <p class="browse-shell__aside-title">Discovery Modes</p>
+                <p class="mb-0">Search broadly, narrow by field, sort in different ways, or move into the record view for fuller context and metadata.</p>
+                {% if site.data.theme.advanced-search == true %}
+                <div class="browse-shell__aside-action">{% include advanced-search-modal.html %}</div>
+                {% endif %}
+            </div>
+        </div>
     </div>
 
     <div class="browse-toolbar">
@@ -101,7 +113,7 @@ custom-foot: js/browse-js.html
         <div id="loadingIcon" class="browse-results__loading text-center">
             <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
         </div>
-        <div class="row g-4" id="browseItems"></div>
+        <div class="row g-4 browse-results__grid" id="browseItems"></div>
     </div>
 </section>
 

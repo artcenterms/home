@@ -56,14 +56,15 @@
     {% endif %}
 </section>
 {%- else -%}
-<section class="site-banner">
+<section class="site-banner site-banner--page">
     <div class="container site-banner__inner">
         <div class="site-banner__copy">
-            <p class="site-banner__eyebrow">{{ page.title | default: site.title }}</p>
-            <h1 class="site-banner__title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+            <p class="site-banner__eyebrow"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
             {% if page.title and page.title != 'Home' %}
-            <p class="site-banner__dek">{{ page.title }} / {{ site.tagline }}</p>
+            <h1 class="site-banner__title">{{ page.title }}</h1>
+            <p class="site-banner__dek">{{ site.tagline }}</p>
             {% elsif site.tagline %}
+            <h1 class="site-banner__title">{{ site.title }}</h1>
             <p class="site-banner__dek">{{ site.tagline }}</p>
             {% endif %}
         </div>

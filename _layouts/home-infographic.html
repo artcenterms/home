@@ -4,32 +4,56 @@ layout: page
 ---
 <section class="home-editorial">
   <div class="home-editorial__lead row g-4 align-items-stretch">
-    <div class="col-xl-7">
-      <div class="home-editorial__feature">
-        {% include index/carousel.html title="Featured Selections" %}
+    <div class="col-xl-5">
+      <div class="home-editorial__intro card">
+        <div class="card-body">
+          <p class="home-editorial__eyebrow">Digital Collection</p>
+          <h2 class="home-editorial__title">An editorial archive for Mississippi art, memory, and cultural history.</h2>
+          <p class="home-editorial__summary">{{ site.description }}</p>
+          <div class="home-editorial__actions">
+            <a class="btn btn-primary" href="{{ '/browse.html' | relative_url }}">Browse Collection</a>
+            <a class="btn btn-outline-secondary" href="{{ '/about.html' | relative_url }}">About the Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-editorial__note card">
+        <div class="card-body">
+          <p class="home-editorial__eyebrow">Curatorial Approach</p>
+          <p class="mb-0">The site is designed to feel less like a database and more like a visual reading room: bold typography, restrained color, and multiple ways to move through the collection.</p>
+        </div>
       </div>
     </div>
-    <div class="col-xl-5">
-      <div class="home-editorial__stack">
-        {% include index/description.html %}
-        {% include index/content.html %}
+
+    <div class="col-xl-7">
+      <div class="home-editorial__feature">
+        {% include index/carousel.html title="Featured Selections" height=520 btn-text="Open Record" %}
       </div>
     </div>
   </div>
 
   <div class="home-editorial__secondary row g-4">
     <div class="col-lg-4">
-      {% include index/time.html %}
+      {% include index/time.html btn-color="outline-secondary" %}
     </div>
     <div class="col-lg-4">
-      {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
+      {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="outline-secondary" %}
     </div>
     <div class="col-lg-4">
       {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
     </div>
   </div>
 
-  <div class="home-editorial__data">
-    {% include index/data-download.html %}
+  <div class="home-editorial__tertiary row g-4">
+    <div class="col-lg-6">
+      <div class="home-editorial__stack">
+        {% include index/content.html btn-color="outline-secondary" total=true %}
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="home-editorial__data">
+        {% include index/data-download.html %}
+      </div>
+    </div>
   </div>
 </section>
