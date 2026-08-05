@@ -3,5 +3,4 @@ title: Browse
 layout: browse
 permalink: /browse.html
 ---
-
-## Browse Items
+Move through the collection visually, search across descriptive fields, and narrow results by subject, format, creator, location, or date.

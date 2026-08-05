@@ -1,9 +1,21 @@
 <footer class="site-footer mt-auto container-fluid">
-    <div class="site-footer__inner row">
-        <div class="col-lg-7 site-footer__intro">
-            <p class="site-footer__eyebrow">{{ site.organization-name | default: site.title }}</p>
+    <div class="site-footer__inner">
+        <div class="site-footer__intro">
+            <p class="site-footer__eyebrow">Arts Center of Mississippi</p>
             <h2 class="site-footer__title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
-            <p class="site-footer__description"><small>{{ site.description }}</small></p>
+            <p class="site-footer__description">{{ site.description }}</p>
+            <div class="site-footer__actions">
+                <a class="btn btn-primary" href="{{ '/browse.html' | relative_url }}">Browse Collection</a>
+                <a class="btn btn-outline-secondary" href="{{ '/about.html' | relative_url }}">About</a>
+            </div>
+        </div>
+        <div class="site-footer__brand">
+           {% if site.organization-logo-nav %}<p class="site-footer__mark">
+                <a href="{{ site.organization-link }}">
+                    <img id="footer-logo" class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
+                </a>
+            </p>
+            {% endif %}
             <nav>
                 <ul id="footer-nav" class="nav site-footer__nav">
                     {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
@@ -20,23 +32,8 @@
                 </ul>
             </nav>
         </div>
-        <div class="col-lg-5 site-footer__brand">
-           {% if site.organization-logo-nav %}<p class="site-footer__mark">
-                <a href="{{ site.organization-link }}">
-                    <img id="footer-logo" class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
-                </a>
-            </p>
-            {% endif %}
-            <p id="footer-credits" class="site-footer__credits">
-                <small><em>built with</em>
-                    <a href="https://collectionbuilder.github.io/" title="CollectionBuilder">
-                        <img src="{{ '/assets/img/collectionbuilder-logo.png' | relative_url }}" class="img-fluid" alt="CollectionBuilder" >
-                    </a>
-                </small>
-            </p>
-        </div>
     </div>
     <div class="site-footer__meta">
-        <p>Last updated {{ site.time | date: '%Y' }}</p>
+        <p>Digital collection interface built on CollectionBuilder. Last updated {{ site.time | date: '%Y' }}.</p>
     </div>
 </footer>

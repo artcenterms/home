@@ -33,7 +33,7 @@ layout: default
 {% endif %}
 
 <div id="about-wrapper">
-    <div id="about-toc-wrapper">
+    <div id="about-toc-wrapper" class="about-shell__toc">
         {% unless page.toc == false %}
         <div id="about-toc">
             <div id="about-toc-title">
@@ -50,11 +50,11 @@ layout: default
         </div>
         {% endunless %}
     </div>
-    <div id="about-contents-wrapper">
+    <div id="about-contents-wrapper" class="about-shell__content rte-content">
         {{ content }}
     </div>
     {% if page.credits == true %}
-    <div id="credits-contents-wrapper">
+    <div id="credits-contents-wrapper" class="about-shell__credits">
         {% include cb/credits.html %}
     </div>
     {% endif %}

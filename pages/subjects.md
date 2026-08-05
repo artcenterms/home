@@ -6,8 +6,4 @@ permalink: /subjects.html
 # leave cloud-fields as "site.data.theme.subjects-fields"
 cloud-fields: site.data.theme.subjects-fields
 ---
-
-## Browse Subjects
-
-Use this word cloud visualization to browse terms and subjects.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Browse recurring topics and subject language across the collection. Larger terms appear more frequently, and every term links directly into a filtered browse view.

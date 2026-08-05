@@ -6,8 +6,4 @@ permalink: /locations.html
 # leave cloud-fields as "site.data.theme.locations-fields"
 cloud-fields: site.data.theme.locations-fields
 ---
-
-## Browse Locations
-
-Use this word cloud visualization to browse locations.
-Word size is determined by frequency and all words link to a corresponding collection search.
+Explore places connected to the archive. Larger location names appear more often, and every location term opens a filtered browse view.

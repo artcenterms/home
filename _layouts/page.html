@@ -2,6 +2,14 @@
 # generic page layout
 layout: default
 ---
-<div class="container my-4">
-  {{ content }}
-</div>
+<section class="page-shell">
+  <div class="page-shell__intro">
+    {% if page.title and page.title != 'Home' %}
+    <p class="page-shell__eyebrow">{{ site.organization-name | default: site.title }}</p>
+    <h1 class="page-shell__title">{{ page.title }}</h1>
+    {% endif %}
+  </div>
+  <div class="page-shell__body rte-content">
+    {{ content }}
+  </div>
+</section>
