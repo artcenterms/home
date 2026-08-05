@@ -2,29 +2,34 @@
 # Default home page with boxes providing collection stats
 layout: page
 ---
-<div class="row">
-
-  <div class="col-md-8">
-
-    {% include index/description.html %}
-    {% include index/carousel.html title="Sample Items" %}
-    
+<section class="home-editorial">
+  <div class="home-editorial__lead row g-4 align-items-stretch">
+    <div class="col-xl-7">
+      <div class="home-editorial__feature">
+        {% include index/carousel.html title="Featured Selections" %}
+      </div>
+    </div>
+    <div class="col-xl-5">
+      <div class="home-editorial__stack">
+        {% include index/description.html %}
+        {% include index/content.html %}
+      </div>
+    </div>
   </div>
-  <div class="col-md-4">  
 
-    {% include index/time.html %}
-
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
-
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
-    
-    {% include index/content.html %}
-
+  <div class="home-editorial__secondary row g-4">
+    <div class="col-lg-4">
+      {% include index/time.html %}
+    </div>
+    <div class="col-lg-4">
+      {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
+    </div>
+    <div class="col-lg-4">
+      {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
+    </div>
   </div>
-  <div class="col-md-12">
 
+  <div class="home-editorial__data">
     {% include index/data-download.html %}
-
   </div>
-
-</div>
+</section>

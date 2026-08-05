@@ -59,9 +59,13 @@
 <section class="site-banner">
     <div class="container site-banner__inner">
         <div class="site-banner__copy">
-            <p class="site-banner__eyebrow">{{ site.organization-name | default: site.title }}</p>
+            <p class="site-banner__eyebrow">{{ page.title | default: site.title }}</p>
             <h1 class="site-banner__title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-            {% if site.tagline %}<p class="site-banner__dek">{{ site.tagline }}</p>{% endif %}
+            {% if page.title and page.title != 'Home' %}
+            <p class="site-banner__dek">{{ page.title }} / {{ site.tagline }}</p>
+            {% elsif site.tagline %}
+            <p class="site-banner__dek">{{ site.tagline }}</p>
+            {% endif %}
         </div>
         {% if site.organization-logo-banner %}
         <div class="site-banner__mark">
