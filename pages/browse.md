@@ -3,4 +3,4 @@ title: Browse
 layout: browse
 permalink: /browse.html
 ---
-Move through the collection visually, search across descriptive fields, and narrow results by subject, format, creator, location, or date.
+Browse Arts Center of Mississippi records visually and move through exhibitions, programs, and archival material by subject, format, creator, location, or date.

@@ -11,41 +11,43 @@ position: center
 # major heading to display over featured image
 heading: About the Arts Center
 # paragraph text below heading in featured image
-sub-heading: A visual identity rooted in Mississippi culture, reimagined for digital discovery
+sub-heading: A downtown Jackson cultural hub with a growing digital collection for exhibitions, programs, and institutional memory
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
 padding: 10em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## A Branded Digital Home
+## The Arts Center Today
 
-This site is designed as a clean, modern digital home for the Arts Center of Mississippi. The visual language follows the brand direction you provided: confident Futura-inspired typography, dramatic letter spacing, a sharp black-and-white foundation, and a bold red accent that carries the identity across every page.
+The Arts Center of Mississippi is part of the City of Jackson's cultural services network and serves as a downtown space for visual arts, exhibitions, creative programs, and multidisciplinary arts activity. This site supports that public mission with a digital collection designed to document exhibitions, artists, programs, and institutional history.
 
-The goal of the redesign is to make the collections feel editorial, intentional, and institutionally grounded while still keeping the experience easy to browse, search, and expand over time.
+Located at `201 E. Pascagoula St., Jackson, MS 39201`, the Arts Center is presented publicly as a cultural hub and event venue in the heart of downtown Jackson.
 
 {% include feature/button.html text="Browse the Collection" link="/browse.html" color="primary" %}
+{% include feature/button.html text="Official Arts Center Page" link="https://jacksonms.gov/government/city-departments/human-and-cultural-services/cultural-services/arts-center-of-mississippi/" color="outline-secondary" %}
 
-## Designed for Discovery
+## Visit and Connect
 
-The site structure supports multiple ways of moving through material:
+Public-facing contact information currently listed by the City of Jackson and Visit Jackson includes:
 
-- `Browse` for visual scanning
-- `Subjects` and `Locations` for thematic entry points
-- `Map` and `Timeline` for spatial and historical context
-- `Data` for deeper research access
+- `201 E. Pascagoula St., Jackson, Mississippi 39201`
+- `(601) 960-1500`
+- Arts Center operations, administration, and rental inquiries through `Turner Martin, Arts Center Manager`
 
-This creates a digital experience that feels curated without becoming rigid, allowing the identity of the Arts Center to lead while the metadata does the structural work beneath it.
+Visit Jackson also describes the venue as offering `3,800` square feet of event space with public-facing amenities including wheelchair access, on-site parking, WiFi, and tables and chairs for rentals.
 
-## Visual Direction
+## About the Digital Collection
 
-The design system is intentionally restrained:
+This digital collection is focused on the Arts Center itself: its exhibitions, resident arts activity, programs, events, and evolving institutional record. Rather than functioning like a general-purpose demo archive, the site is being shaped as a dedicated platform for Arts Center material only.
 
-- red as the primary accent for action and emphasis
-- black for structure, navigation, and typography
-- warm white surfaces to keep the site feeling gallery-like rather than sterile
-- strong uppercase headings with spacious tracking to echo the brand mark
+As records are added, the site will support:
 
-## Built to Grow
+- visual browsing across collection objects
+- subject and location-based discovery
+- map and timeline views for contextual research
+- downloadable metadata for scholars, staff, and the public
 
-Because this site is powered by CollectionBuilder, the presentation can evolve with new exhibitions, collections, and archival records without rebuilding the visual foundation from scratch. The result is a branded framework that can expand as the Arts Center's digital presence grows.
+## Public Mission
+
+The public-facing goal is straightforward: highlight the Arts Center of Mississippi, make its cultural work easier to discover online, and provide a cleaner digital foundation for future archival and exhibition content.

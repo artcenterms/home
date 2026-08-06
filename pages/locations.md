@@ -6,4 +6,4 @@ permalink: /locations.html
 # leave cloud-fields as "site.data.theme.locations-fields"
 cloud-fields: site.data.theme.locations-fields
 ---
-Explore places connected to the archive. Larger location names appear more often, and every location term opens a filtered browse view.
+Explore the places connected to Arts Center exhibitions, programs, and collection records. Larger location names appear more often, and every term opens a filtered browse view.

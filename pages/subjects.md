@@ -6,4 +6,4 @@ permalink: /subjects.html
 # leave cloud-fields as "site.data.theme.subjects-fields"
 cloud-fields: site.data.theme.subjects-fields
 ---
-Browse recurring topics and subject language across the collection. Larger terms appear more frequently, and every term links directly into a filtered browse view.
+Browse recurring topics across Arts Center records. Larger terms appear more frequently, and every subject links directly into a filtered browse view.
