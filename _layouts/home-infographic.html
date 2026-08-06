@@ -3,6 +3,25 @@
 layout: default
 ---
 <section class="home-editorial">
+  <div class="home-masthead">
+    <div class="home-masthead__grid">
+      <div class="home-masthead__copy">
+        <p class="home-masthead__eyebrow">{{ site.organization-name }}</p>
+        <h1 class="home-masthead__title">{{ site.title }}</h1>
+        <p class="home-masthead__dek">{{ site.tagline }}</p>
+        <div class="home-masthead__actions">
+          <a class="btn btn-primary" href="{{ '/browse.html' | relative_url }}">Browse Collection</a>
+          <a class="btn btn-outline-secondary" href="{{ '/about.html' | relative_url }}">About the Project</a>
+        </div>
+      </div>
+      {% if site.organization-logo-nav %}
+      <div class="home-masthead__brand">
+        <img class="home-masthead__logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} logo">
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
   <div class="home-editorial__lead row g-4 align-items-stretch">
     <div class="col-xl-5">
       <section class="home-editorial__intro">

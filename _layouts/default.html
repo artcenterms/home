@@ -5,7 +5,9 @@
   </head>
   <body class="d-flex flex-column h-100 page-{{ page.layout | default: 'default' | slugify }}{% if page.url == '/' %} page-home{% endif %}">
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
+    {% unless page.url == '/' %}
     {% include collection-banner.html %}
+    {% endunless %}
     {% include collection-nav.html %}
     <main id="maincontent" role="main" class="flex-shrink-0">
       {{ content }}
