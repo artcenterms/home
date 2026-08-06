@@ -40,7 +40,7 @@ body::before {
     inset: 0;
     pointer-events: none;
     background:
-        linear-gradient(90deg, transparent 0, transparent calc(100% - min(7vw, 5rem)), rgba(223, 32, 39, 0.08) calc(100% - min(7vw, 5rem)), rgba(223, 32, 39, 0.08) 100%);
+        linear-gradient(90deg, transparent 0, transparent 94%, rgba(223, 32, 39, 0.08) 94%, rgba(223, 32, 39, 0.08) 100%);
     mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), transparent 78%);
     z-index: 0;
 }
@@ -1479,7 +1479,7 @@ body {
 
 body::before {
     background:
-        linear-gradient(90deg, transparent 0, transparent calc(100% - 4rem), rgba(223, 32, 39, 0.14) calc(100% - 4rem), rgba(223, 32, 39, 0.14) 100%);
+        linear-gradient(90deg, transparent 0, transparent 96%, rgba(223, 32, 39, 0.14) 96%, rgba(223, 32, 39, 0.14) 100%);
     mask-image: none;
     opacity: 0.65;
 }
