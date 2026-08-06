@@ -1,7 +1,12 @@
 field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date Created
+medium,Medium,,,
+dimensions,Dimensions,,true,
+collection,Collection,,true,,Collection
+style_period,Style or Period,,true,,Style or Period
 description,,,true,
 creator,Creator,,,
 subject,,true
 location,,true,,,Location Depicted
+accession_number,Accession Number,,true,Accession Number
 identifier,,,true,Identifier

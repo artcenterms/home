@@ -2,6 +2,15 @@ field,index,display
 title,true,true
 date,true,true
 creator,true,false
+medium,true,true
+materials,true,false
+support,true,false
+dimensions,true,false
+credit_line,true,false
+collection,true,false
+accession_number,true,false
+culture,true,false
+style_period,true,false
 description,true,true
 subject,true,true
 location,true,false

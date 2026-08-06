@@ -1,5 +1,10 @@
 field,display_name
 title,Title
+creator,Artist
+medium,Medium
 date,Date
+dimensions,Dimensions
+collection,Collection
+accession_number,Accession Number
 description,Description
 subject,Subjects
