@@ -1,6 +1,5 @@
 ---
-layout: home-infographic
+layout: home-custom
 title: Home
 permalink: /
 ---
-
