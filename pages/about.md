@@ -24,7 +24,6 @@ The Arts Center of Mississippi is part of Jackson's cultural services network an
 
 Located at `201 E. Pascagoula St., Jackson, MS 39201`, the Arts Center sits in the heart of downtown Jackson and functions both as a public-facing cultural venue and as a home base for arts activity.
 
-{% include feature/button.html text="About the Digital Collection" link="/browse.html" color="primary" %}
 {% include feature/button.html text="Official Arts Center Page" link="https://jacksonms.gov/government/city-departments/human-and-cultural-services/cultural-services/arts-center-of-mississippi/" color="outline-secondary" %}
 
 ## Visit and Connect
