@@ -69,7 +69,10 @@ main > .container,
 .data-shell,
 .cloud-shell,
 .map-shell {
+    width: 100%;
     max-width: var(--acm-content-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1,
