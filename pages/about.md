@@ -11,20 +11,20 @@ position: center
 # major heading to display over featured image
 heading: About the Arts Center
 # paragraph text below heading in featured image
-sub-heading: A downtown Jackson cultural hub with a growing digital collection for exhibitions, programs, and institutional memory
+sub-heading: A downtown Jackson cultural hub for exhibitions, creative programs, and public cultural life
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
 padding: 10em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## The Arts Center Today
+## Welcome to the Arts Center
 
-The Arts Center of Mississippi is part of the City of Jackson's cultural services network and serves as a downtown space for visual arts, exhibitions, creative programs, and multidisciplinary arts activity. This site supports that public mission with a digital collection designed to document exhibitions, artists, programs, and institutional history.
+The Arts Center of Mississippi is part of the City of Jackson's cultural services network and serves as a downtown space for visual arts, exhibitions, creative programs, and multidisciplinary arts activity. It is presented publicly as a cultural hub that contributes to Jackson's creative life and community engagement.
 
-Located at `201 E. Pascagoula St., Jackson, MS 39201`, the Arts Center is presented publicly as a cultural hub and event venue in the heart of downtown Jackson.
+Located at `201 E. Pascagoula St., Jackson, MS 39201`, the Arts Center sits in the heart of downtown Jackson and functions both as a public-facing cultural venue and as a home base for arts activity.
 
-{% include feature/button.html text="Browse the Collection" link="/browse.html" color="primary" %}
+{% include feature/button.html text="About the Digital Collection" link="/browse.html" color="primary" %}
 {% include feature/button.html text="Official Arts Center Page" link="https://jacksonms.gov/government/city-departments/human-and-cultural-services/cultural-services/arts-center-of-mississippi/" color="outline-secondary" %}
 
 ## Visit and Connect
@@ -37,9 +37,13 @@ Public-facing contact information currently listed by the City of Jackson and Vi
 
 Visit Jackson also describes the venue as offering `3,800` square feet of event space with public-facing amenities including wheelchair access, on-site parking, WiFi, and tables and chairs for rentals.
 
+## Resident Arts Activity
+
+The City of Jackson describes the Arts Center as home to multiple local arts organizations, including Ballet Mississippi, Opera Mississippi, Mississippi Symphony Orchestra, International Museum of Muslim Cultures, International Ballet Competition, and Arts for All. That makes the Arts Center not just a building, but part of a wider civic arts ecosystem.
+
 ## About the Digital Collection
 
-This digital collection is focused on the Arts Center itself: its exhibitions, resident arts activity, programs, events, and evolving institutional record. Rather than functioning like a general-purpose demo archive, the site is being shaped as a dedicated platform for Arts Center material only.
+This website extends that public role online. The digital collection is intended to focus on the Arts Center itself: exhibitions, programs, artists, partnerships, and institutional history connected to the site and its cultural work.
 
 As records are added, the site will support:
 
@@ -48,6 +52,6 @@ As records are added, the site will support:
 - map and timeline views for contextual research
 - downloadable metadata for scholars, staff, and the public
 
-## Public Mission
+## Why This Site Exists
 
-The public-facing goal is straightforward: highlight the Arts Center of Mississippi, make its cultural work easier to discover online, and provide a cleaner digital foundation for future archival and exhibition content.
+The goal is to make the Arts Center of Mississippi easier to understand, visit, and study online while building a stronger long-term record of its public-facing cultural work.

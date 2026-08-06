@@ -9,10 +9,10 @@ layout: default
       <p class="home-rebuild__eyebrow">{{ site.organization-name }}</p>
       <h1 class="home-rebuild__title">{{ site.title }}</h1>
       <p class="home-rebuild__dek">{{ site.tagline }}</p>
-      <p class="home-rebuild__summary">{{ site.description }}</p>
+      <p class="home-rebuild__summary">A downtown Jackson destination for exhibitions, performances, creative programs, and civic cultural life, with a growing digital collection dedicated to the Arts Center's history and public work.</p>
       <div class="home-rebuild__actions">
-        <a class="btn btn-primary" href="{{ '/browse.html' | relative_url }}">Browse Collection</a>
-        <a class="btn btn-outline-secondary" href="{{ '/about.html' | relative_url }}">About the Project</a>
+        <a class="btn btn-primary" href="{{ '/about.html' | relative_url }}">About the Arts Center</a>
+        <a class="btn btn-outline-secondary" href="{{ '/browse.html' | relative_url }}">Explore the Collection</a>
         <a class="btn btn-outline-secondary" href="https://jacksonms.gov/government/city-departments/human-and-cultural-services/cultural-services/arts-center-of-mississippi/">Official Arts Center Page</a>
       </div>
     </div>
@@ -25,7 +25,7 @@ layout: default
 
   <div class="home-rebuild__lead">
     <div class="home-rebuild__feature">
-      <p class="home-rebuild__section-label">{% if home_items.size > 0 %}Featured Record{% else %}Collection Status{% endif %}</p>
+      <p class="home-rebuild__section-label">{% if home_items.size > 0 %}Featured Record{% else %}Digital Collection{% endif %}</p>
       {% if home_items.size > 0 %}
         {% for item in home_items limit: 1 %}
         <article class="home-rebuild__feature-card">
@@ -42,9 +42,9 @@ layout: default
       {% else %}
       <article class="home-rebuild__feature-card home-rebuild__feature-card--empty">
         <div class="home-rebuild__feature-body">
-          <p class="home-rebuild__meta">Preparing the archive</p>
-          <h2 class="home-rebuild__feature-title">The public collection shell is live and ready for your records.</h2>
-          <p class="home-rebuild__feature-text">Demo materials have been removed so the site can now be populated with Arts Center content, exhibitions, and archival objects.</p>
+          <p class="home-rebuild__meta">In development</p>
+          <h2 class="home-rebuild__feature-title">The digital collection is being prepared with Arts Center material only.</h2>
+          <p class="home-rebuild__feature-text">As records are added, this site will highlight exhibitions, programs, artists, and institutional history connected to the Arts Center of Mississippi.</p>
         </div>
       </article>
       {% endif %}
@@ -52,18 +52,18 @@ layout: default
 
     <div class="home-rebuild__notes">
       <div class="home-rebuild__note">
-        <p class="home-rebuild__section-label">Arts Center</p>
+        <p class="home-rebuild__section-label">What It Is</p>
         <p>The Arts Center of Mississippi is presented publicly by the City of Jackson as a downtown cultural hub for visual arts, exhibitions, creative programs, and multidisciplinary arts activity.</p>
       </div>
       <div class="home-rebuild__note">
-        <p class="home-rebuild__section-label">Visit</p>
-        <p>`201 E. Pascagoula St., Jackson, MS 39201`<br>`(601) 960-1500`</p>
+        <p class="home-rebuild__section-label">Plan a Visit</p>
+        <p>201 E. Pascagoula St., Jackson, MS 39201<br>(601) 960-1500<br>Venue rental and operations inquiries are handled through the Arts Center office.</p>
       </div>
     </div>
   </div>
 
   <div class="home-rebuild__rail">
-    <p class="home-rebuild__section-label">{% if home_items.size > 1 %}Selected Records{% else %}Next Steps{% endif %}</p>
+    <p class="home-rebuild__section-label">{% if home_items.size > 1 %}Selected Records{% else %}What You'll Find Here{% endif %}</p>
     {% if home_items.size > 1 %}
     <div class="home-rebuild__cards">
       {% for item in home_items offset: 1 limit: 3 %}
@@ -84,20 +84,20 @@ layout: default
     <div class="home-rebuild__cards home-rebuild__cards--empty">
       <article class="home-rebuild__card">
         <div class="home-rebuild__card-body">
-          <p class="home-rebuild__meta">Upload</p>
-          <h3 class="home-rebuild__card-title">Add collection metadata and objects.</h3>
+          <p class="home-rebuild__meta">Exhibitions</p>
+          <h3 class="home-rebuild__card-title">Documentation of exhibitions and public programs.</h3>
         </div>
       </article>
       <article class="home-rebuild__card">
         <div class="home-rebuild__card-body">
-          <p class="home-rebuild__meta">Curate</p>
-          <h3 class="home-rebuild__card-title">Shape browse, search, and exhibit pathways.</h3>
+          <p class="home-rebuild__meta">Artists</p>
+          <h3 class="home-rebuild__card-title">Records connected to artists, collaborators, and cultural partners.</h3>
         </div>
       </article>
       <article class="home-rebuild__card">
         <div class="home-rebuild__card-body">
-          <p class="home-rebuild__meta">Publish</p>
-          <h3 class="home-rebuild__card-title">Launch the archive with Arts Center materials only.</h3>
+          <p class="home-rebuild__meta">History</p>
+          <h3 class="home-rebuild__card-title">Institutional memory, archival materials, and place-based cultural context.</h3>
         </div>
       </article>
     </div>
