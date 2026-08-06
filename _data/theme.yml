@@ -111,7 +111,7 @@ bootswatch: # leave blank or comment out for plain bootstrap
 base-font-size: 1.05em
 text-color: "#111111"
 link-color: "#df2027"
-base-font-family: '"Futura", "Trebuchet MS", "Arial", sans-serif'
+base-font-family: '"Futura PT", "Futura", "Trebuchet MS", "Arial", sans-serif'
 font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 # THEME ICONS [optional!]

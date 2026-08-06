@@ -33,21 +33,28 @@
 <section
     id="home-banner"
     class="site-hero site-hero--home"
-    style="--site-hero-image: url('{{ jumboSrc }}'); --site-hero-position: {{ page.banner-image-position | default: site.data.theme.home-banner-image-position | default: 'center' }}; --site-hero-padding-top: {{ page.banner-padding | default: site.data.theme.home-title-y-padding | default: '8em' }};"
 >
     <div class="container site-hero__inner">
-        <div id="home-title-box" class="site-hero__content">
+        <div class="site-hero__frame">
+            <div id="home-title-box" class="site-hero__content">
+                {% if site.organization-name %}
+                <p class="site-hero__eyebrow">{{ site.organization-name }}</p>
+                {% endif %}
+                <h1 class="site-hero__title">{{ page.banner-heading | default: site.title }}</h1>
+                {% if page.banner-sub-heading != false and page.banner-sub-heading or site.tagline %}
+                <p class="site-hero__dek">{{ page.banner-sub-heading | default: site.tagline }}</p>
+                {% endif %}
+                <div class="site-hero__actions">
+                    <a class="btn btn-primary" href="{{ '/browse.html' | relative_url }}">Browse Collection</a>
+                    <a class="btn btn-outline-secondary" href="{{ '/about.html' | relative_url }}">About</a>
+                </div>
+            </div>
             {% if site.organization-logo-nav %}
-            <a class="site-hero__logo-link" href="{{ site.organization-link }}">
-                <img id="home-banner-logo" class="site-hero__logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
-            </a>
-            {% endif %}
-            {% if site.organization-name %}
-            <p class="site-hero__eyebrow">{{ site.organization-name }}</p>
-            {% endif %}
-            <h1 class="site-hero__title">{{ page.banner-heading | default: site.title }}</h1>
-            {% if page.banner-sub-heading != false and page.banner-sub-heading or site.tagline %}
-            <p class="site-hero__dek">{{ page.banner-sub-heading | default: site.tagline }}</p>
+            <div class="site-hero__mark">
+                <a class="site-hero__logo-link" href="{{ site.organization-link }}">
+                    <img id="home-banner-logo" class="site-hero__logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
+                </a>
+            </div>
             {% endif %}
         </div>
     </div>
