@@ -20,7 +20,7 @@ padding: 10em
 
 ## Welcome to the Arts Center
 
-The Arts Center of Mississippi is part of the City of Jackson's cultural services network and serves as a downtown space for visual arts, exhibitions, creative programs, and multidisciplinary arts activity. It is presented publicly as a cultural hub that contributes to Jackson's creative life and community engagement.
+The Arts Center of Mississippi is part of Jackson's cultural services network and serves as a downtown space for visual arts, exhibitions, creative programs, and multidisciplinary arts activity. It contributes to the city's creative life and public cultural landscape.
 
 Located at `201 E. Pascagoula St., Jackson, MS 39201`, the Arts Center sits in the heart of downtown Jackson and functions both as a public-facing cultural venue and as a home base for arts activity.
 
@@ -29,17 +29,15 @@ Located at `201 E. Pascagoula St., Jackson, MS 39201`, the Arts Center sits in t
 
 ## Visit and Connect
 
-Public-facing contact information currently listed by the City of Jackson and Visit Jackson includes:
-
 - `201 E. Pascagoula St., Jackson, Mississippi 39201`
 - `(601) 960-1500`
 - Arts Center operations, administration, and rental inquiries through `Turner Martin, Arts Center Manager`
 
-Visit Jackson also describes the venue as offering `3,800` square feet of event space with public-facing amenities including wheelchair access, on-site parking, WiFi, and tables and chairs for rentals.
+The venue includes `3,800` square feet of event space and public-facing amenities including wheelchair access, on-site parking, WiFi, and tables and chairs for rentals.
 
 ## Resident Arts Activity
 
-The City of Jackson describes the Arts Center as home to multiple local arts organizations, including Ballet Mississippi, Opera Mississippi, Mississippi Symphony Orchestra, International Museum of Muslim Cultures, International Ballet Competition, and Arts for All. That makes the Arts Center not just a building, but part of a wider civic arts ecosystem.
+The Arts Center is home to multiple local arts organizations, including Ballet Mississippi, Opera Mississippi, Mississippi Symphony Orchestra, International Museum of Muslim Cultures, International Ballet Competition, and Arts for All. It functions not just as a building, but as part of a wider civic arts ecosystem.
 
 ## About the Digital Collection
 

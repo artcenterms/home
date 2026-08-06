@@ -3,37 +3,45 @@
         <div class="site-footer__intro">
             <p class="site-footer__eyebrow">Arts Center of Mississippi</p>
             <h2 class="site-footer__title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
-            <p class="site-footer__description">{{ site.description }}</p>
+            <p class="site-footer__description">A downtown cultural destination for exhibitions, programs, and a growing digital collection rooted in the Arts Center's public work.</p>
             <div class="site-footer__actions">
                 <a class="btn btn-primary" href="{{ '/about.html' | relative_url }}">About the Arts Center</a>
-                <a class="btn btn-outline-secondary" href="https://jacksonms.gov/government/city-departments/human-and-cultural-services/cultural-services/arts-center-of-mississippi/">Official Arts Center Page</a>
+                <a class="btn btn-outline-secondary" href="{{ '/browse.html' | relative_url }}">Explore the Collection</a>
             </div>
         </div>
         <div class="site-footer__brand">
-           {% if site.organization-logo-nav %}<p class="site-footer__mark">
+            <div class="site-footer__visit">
+                <p class="site-footer__section-title">Visit</p>
+                <p>201 E. Pascagoula St.<br>Jackson, MS 39201<br>(601) 960-1500</p>
+            </div>
+            <div class="site-footer__links">
+                <p class="site-footer__section-title">Navigate</p>
+                <nav>
+                    <ul id="footer-nav" class="nav site-footer__nav">
+                        {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
+                        {% for nav in navItems %}
+                        <li class="nav-item">
+                        {% if nav.stub %}
+                            <a class="nav-link{% if page.url == nav.stub %} active{% endif %}" {% if page.url == nav.stub %}aria-current="page" {% endif %}href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
+                        {%- else -%}
+                        {% assign childStub = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' | first %}
+                            <a class="nav-link{% if page.url == childStub.stub %} active{% endif %}" {% if page.url == childStub.stub %}aria-current="page" {% endif %}href="{{ childStub.stub | relative_url }}">{{ nav.display_name }}</a>
+                        {% endif %}
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </nav>
+            </div>
+            {% if site.organization-logo-nav %}
+            <p class="site-footer__mark">
                 <a href="{{ site.organization-link }}">
                     <img id="footer-logo" class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home">
                 </a>
             </p>
             {% endif %}
-            <nav>
-                <ul id="footer-nav" class="nav site-footer__nav">
-                    {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
-                    {% for nav in navItems %}
-                    <li class="nav-item">
-                    {% if nav.stub %}
-                        <a class="nav-link{% if page.url == nav.stub %} active{% endif %}" {% if page.url == nav.stub %}aria-current="page" {% endif %}href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
-                    {%- else -%}
-                    {% assign childStub = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' | first %}
-                        <a class="nav-link{% if page.url == childStub.stub %} active{% endif %}" {% if page.url == childStub.stub %}aria-current="page" {% endif %}href="{{ childStub.stub | relative_url }}">{{ nav.display_name }}</a>
-                    {% endif %}
-                    </li>
-                    {%- endfor -%}
-                </ul>
-            </nav>
         </div>
     </div>
     <div class="site-footer__meta">
-        <p>Public digital collection for the Arts Center of Mississippi. Last updated {{ site.time | date: '%Y' }}.</p>
+        <p>Arts Center of Mississippi digital collection. Last updated {{ site.time | date: '%Y' }}.</p>
     </div>
 </footer>

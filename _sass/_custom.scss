@@ -1907,11 +1907,17 @@ button,
 .site-footer {
     background: #ffffff !important;
     border-top: 1px solid var(--acm-rule-strong);
-    padding-top: 2.5rem;
+    margin-top: 3rem;
+    padding: 1.5rem 1rem 1rem;
 }
 
 .site-footer__inner {
-    gap: 3rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 0.9fr);
+    gap: 2rem;
+    align-items: start;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--acm-rule);
 }
 
 .site-footer,
@@ -1923,11 +1929,80 @@ button,
 .site-footer__title {
     font-size: clamp(1.6rem, 3vw, 2.5rem);
     letter-spacing: 0.08em;
+    margin-bottom: 0.5rem;
 }
 
 .site-footer__description {
     color: var(--acm-text-soft);
-    line-height: 1.8;
+    line-height: 1.75;
+    max-width: 34rem;
+}
+
+.site-footer__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.1rem;
+}
+
+.site-footer__brand {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.site-footer__section-title {
+    margin-bottom: 0.55rem;
+    color: var(--acm-text-soft);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.site-footer__visit p:last-child,
+.site-footer__links p:last-child {
+    margin-bottom: 0;
+}
+
+.site-footer__nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, auto));
+    gap: 0.1rem 0.75rem;
+}
+
+.site-footer__nav .nav-link {
+    padding: 0.15rem 0;
+    color: var(--acm-text-soft) !important;
+    text-decoration: none;
+}
+
+.site-footer__nav .nav-link.active,
+.site-footer__nav .nav-link:hover,
+.site-footer__nav .nav-link:focus {
+    color: var(--acm-red) !important;
+    text-decoration: none;
+}
+
+.site-footer__mark {
+    margin: 0;
+}
+
+#footer-logo {
+    background: transparent;
+    padding: 0;
+    max-width: 5.5rem;
+}
+
+.site-footer__meta {
+    padding-top: 0.9rem;
+    text-align: left;
+}
+
+.site-footer__meta p {
+    margin: 0;
+    color: var(--acm-text-soft);
+    font-size: 0.92rem;
 }
 
 @media (max-width: 991.98px) {
@@ -1955,6 +2030,16 @@ button,
 
     .home-masthead__logo {
         max-width: 12rem;
+    }
+
+    .site-footer__inner,
+    .site-footer__brand,
+    .site-footer__nav {
+        grid-template-columns: 1fr;
+    }
+
+    .site-footer__mark {
+        order: -1;
     }
 }
 
