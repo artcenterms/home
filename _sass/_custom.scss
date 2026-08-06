@@ -1457,13 +1457,13 @@ thead th {
 }
 
 :root {
-    --acm-bg: #f8f5ef;
-    --acm-surface: #fffdf8;
-    --acm-surface-2: #f2ede4;
+    --acm-bg: #ffffff;
+    --acm-surface: #ffffff;
+    --acm-surface-2: #fafafa;
     --acm-text: #171717;
-    --acm-text-soft: #67625d;
-    --acm-rule: rgba(23, 23, 23, 0.12);
-    --acm-rule-strong: rgba(23, 23, 23, 0.22);
+    --acm-text-soft: #5f5f5f;
+    --acm-rule: rgba(23, 23, 23, 0.1);
+    --acm-rule-strong: rgba(23, 23, 23, 0.18);
 }
 
 html,
@@ -1478,10 +1478,7 @@ body {
 }
 
 body::before {
-    background:
-        linear-gradient(90deg, transparent 0, transparent 96%, rgba(223, 32, 39, 0.14) 96%, rgba(223, 32, 39, 0.14) 100%);
-    mask-image: none;
-    opacity: 0.65;
+    display: none;
 }
 
 h1,
@@ -1550,8 +1547,8 @@ button,
 }
 
 .site-nav {
-    background: rgba(248, 245, 239, 0.92) !important;
-    border-top: 12px solid var(--acm-red);
+    background: rgba(255, 255, 255, 0.98) !important;
+    border-top: 4px solid var(--acm-red);
     border-bottom: 1px solid var(--acm-rule);
     box-shadow: none;
 }
@@ -1908,13 +1905,19 @@ button,
 }
 
 .site-footer {
-    background: #111 !important;
-    border-top: 12px solid var(--acm-red);
+    background: #ffffff !important;
+    border-top: 1px solid var(--acm-rule-strong);
     padding-top: 2.5rem;
 }
 
 .site-footer__inner {
     gap: 3rem;
+}
+
+.site-footer,
+.site-footer a,
+.site-footer p {
+    color: var(--acm-text);
 }
 
 .site-footer__title {
@@ -1923,7 +1926,7 @@ button,
 }
 
 .site-footer__description {
-    color: rgba(255, 255, 255, 0.74);
+    color: var(--acm-text-soft);
     line-height: 1.8;
 }
 
@@ -2065,6 +2068,10 @@ button,
     overflow: hidden;
 }
 
+.home-rebuild__feature-card--empty {
+    grid-template-columns: 1fr;
+}
+
 .home-rebuild__feature-media img,
 .home-rebuild__card-media img {
     display: block;
@@ -2127,6 +2134,10 @@ button,
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 1rem;
+}
+
+.home-rebuild__cards--empty .home-rebuild__card {
+    min-height: 12rem;
 }
 
 .home-rebuild__card-media {

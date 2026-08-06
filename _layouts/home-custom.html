@@ -24,19 +24,29 @@ layout: default
 
   <div class="home-rebuild__lead">
     <div class="home-rebuild__feature">
-      <p class="home-rebuild__section-label">Featured Record</p>
-      {% for item in home_items limit: 1 %}
-      <article class="home-rebuild__feature-card">
-        <a class="home-rebuild__feature-media" href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">
-          <img src="{{ item.image_small | default: item.image_thumb | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
-        </a>
+      <p class="home-rebuild__section-label">{% if home_items.size > 0 %}Featured Record{% else %}Collection Status{% endif %}</p>
+      {% if home_items.size > 0 %}
+        {% for item in home_items limit: 1 %}
+        <article class="home-rebuild__feature-card">
+          <a class="home-rebuild__feature-media" href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">
+            <img src="{{ item.image_small | default: item.image_thumb | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
+          </a>
+          <div class="home-rebuild__feature-body">
+            {% if item.date %}<p class="home-rebuild__meta">{{ item.date }}</p>{% endif %}
+            <h2 class="home-rebuild__feature-title"><a href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">{{ item.title }}</a></h2>
+            {% if item.description %}<p class="home-rebuild__feature-text">{{ item.description | truncatewords: 28 }}</p>{% endif %}
+          </div>
+        </article>
+        {% endfor %}
+      {% else %}
+      <article class="home-rebuild__feature-card home-rebuild__feature-card--empty">
         <div class="home-rebuild__feature-body">
-          {% if item.date %}<p class="home-rebuild__meta">{{ item.date }}</p>{% endif %}
-          <h2 class="home-rebuild__feature-title"><a href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">{{ item.title }}</a></h2>
-          {% if item.description %}<p class="home-rebuild__feature-text">{{ item.description | truncatewords: 28 }}</p>{% endif %}
+          <p class="home-rebuild__meta">Preparing the archive</p>
+          <h2 class="home-rebuild__feature-title">The public collection shell is live and ready for your records.</h2>
+          <p class="home-rebuild__feature-text">Demo materials have been removed so the site can now be populated with Arts Center content, exhibitions, and archival objects.</p>
         </div>
       </article>
-      {% endfor %}
+      {% endif %}
     </div>
 
     <div class="home-rebuild__notes">
@@ -57,7 +67,8 @@ layout: default
   </div>
 
   <div class="home-rebuild__rail">
-    <p class="home-rebuild__section-label">Selected Records</p>
+    <p class="home-rebuild__section-label">{% if home_items.size > 1 %}Selected Records{% else %}Next Steps{% endif %}</p>
+    {% if home_items.size > 1 %}
     <div class="home-rebuild__cards">
       {% for item in home_items offset: 1 limit: 3 %}
       <article class="home-rebuild__card">
@@ -73,5 +84,27 @@ layout: default
       </article>
       {% endfor %}
     </div>
+    {% else %}
+    <div class="home-rebuild__cards home-rebuild__cards--empty">
+      <article class="home-rebuild__card">
+        <div class="home-rebuild__card-body">
+          <p class="home-rebuild__meta">Upload</p>
+          <h3 class="home-rebuild__card-title">Add collection metadata and objects.</h3>
+        </div>
+      </article>
+      <article class="home-rebuild__card">
+        <div class="home-rebuild__card-body">
+          <p class="home-rebuild__meta">Curate</p>
+          <h3 class="home-rebuild__card-title">Shape browse, search, and exhibit pathways.</h3>
+        </div>
+      </article>
+      <article class="home-rebuild__card">
+        <div class="home-rebuild__card-body">
+          <p class="home-rebuild__meta">Publish</p>
+          <h3 class="home-rebuild__card-title">Launch the archive with Arts Center materials only.</h3>
+        </div>
+      </article>
+    </div>
+    {% endif %}
   </div>
 </section>
