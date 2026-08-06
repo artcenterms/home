@@ -492,11 +492,11 @@ a:focus {
 }
 
 .browse-shell {
-    padding: 2.5rem 1rem 3.5rem;
+    padding: 1.75rem 1rem 2.5rem;
 }
 
 .browse-shell__intro {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .browse-shell__intro h1,
@@ -521,10 +521,10 @@ a:focus {
 .home-editorial__title,
 .page-shell__title,
 .search-shell__title {
-    font-size: clamp(2.2rem, 5vw, 4.4rem);
-    line-height: 0.95;
-    margin-bottom: 1rem;
-    max-width: 13ch;
+    font-size: clamp(2rem, 4.6vw, 3.8rem);
+    line-height: 0.98;
+    margin-bottom: 0.8rem;
+    max-width: 16ch;
 }
 
 .page-shell,
@@ -533,7 +533,7 @@ a:focus {
 .data-shell,
 .cloud-shell,
 .map-shell {
-    padding: 2.25rem 1rem 3.5rem;
+    padding: 1.75rem 1rem 2.5rem;
 }
 
 .page-shell__intro,
@@ -541,7 +541,7 @@ a:focus {
 .timeline-shell__header,
 .data-shell__header,
 .map-shell > .page-shell__intro {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .page-shell__body,
@@ -564,7 +564,7 @@ a:focus {
 .cloud-shell__panel,
 .about-shell__content,
 .about-shell__credits {
-    padding: 1.5rem;
+    padding: 1.25rem;
 }
 
 .rte-content {
@@ -691,13 +691,13 @@ a:focus {
 .browse-shell__lead {
     max-width: 48rem;
     color: var(--acm-ink);
-    font-size: 1.04rem;
-    line-height: 1.75;
+    font-size: 1rem;
+    line-height: 1.7;
 }
 
 .browse-shell__aside {
     height: 100%;
-    padding: 1.4rem 1.5rem;
+    padding: 1.15rem 1.25rem;
     border: 1px solid var(--acm-line);
     background: rgba(255, 255, 255, 0.72);
     box-shadow: var(--acm-shadow-card);
@@ -711,8 +711,8 @@ a:focus {
     background: rgba(255, 255, 255, 0.85);
     border: 1px solid var(--acm-line);
     box-shadow: var(--acm-shadow-soft);
-    padding: 1.25rem;
-    margin-bottom: 2rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
     position: relative;
 }
 
