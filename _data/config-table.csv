@@ -1,10 +1,11 @@
 field,display_name
 title,Title
 creator,Artist
-medium,Medium
+Medium,Medium
 date,Date
 dimensions,Dimensions
 collection,Collection
-accession_number,Accession Number
+identifier,Accession Number
 description,Description
+artist quote,Artist Quote
 subject,Subjects

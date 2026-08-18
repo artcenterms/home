@@ -1,311 +1,492 @@
-objectid,parentid,title,creator,date,date-is-approximate?,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement,display_template,object_location,image_small,image_thumb,image_alt_text,object_transcript,medium,materials,support,dimensions,credit_line,collection,accession_number,culture,style_period
-acm-hc-andrew-bucci-spring,,Spring,Andrew Bucci,1980,false,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-andrew-bucci-spring,artwork,,English,,,record,,,,,,,,,36.5 x 48.5 in.,,Highlights of the Collection,,,
-acm-hc-andrew-cary-young-not-gemini,,Not Gemini,Andrew Cary Young,2023,false,,Arts Center of Mississippi;Highlights of the Collection;Mixed Media on wood panel,,,,Arts Center of Mississippi,acm-hc-andrew-cary-young-not-gemini,artwork,Mixed Media on wood panel,English,,,record,,,,,,Mixed Media on wood panel,Mixed Media,wood panel,7 x 13 in.,,Highlights of the Collection,,,
-acm-hc-anne-enochs-january-daffodils,,January Daffodils,Anne Enochs,,,,Arts Center of Mississippi;Highlights of the Collection;Pastel,,,,Arts Center of Mississippi,acm-hc-anne-enochs-january-daffodils,artwork,Pastel,English,,,record,,,,,,Pastel,,,19.25 x 25.25 in.,,Highlights of the Collection,,,
-acm-hc-b-dawson-untitled,,Untitled,B. Dawson,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-b-dawson-untitled,artwork,,English,,,record,,,,,,,,,18 x 22 in.,,Highlights of the Collection,,,
-acm-hc-brenden-davis-and-h-i-gr-call-on-me,,Call on Me,Brenden Davis & H.I. Green,2023,false,,"Arts Center of Mississippi;Highlights of the Collection;Acrylic paint, paint pen, wax candles, yarn, collard greens, cinnamon sticks, pecan shells, van van oil",,,,Arts Center of Mississippi,acm-hc-brenden-davis-and-h-i-gr-call-on-me,artwork,"Acrylic paint, paint pen, wax candles, yarn, collard greens, cinnamon sticks, pecan shells, van van oil",English,,,record,,,,,,"Acrylic paint, paint pen, wax candles, yarn, collard greens, cinnamon sticks, pecan shells, van van oil",,,34.25 x 23.5 in.,,Highlights of the Collection,,,
-acm-hc-clo-ann-rabb-autumn,,Autumn,Clo Ann Rabb,,,,Arts Center of Mississippi;Highlights of the Collection;Oil on rice paper,,,,Arts Center of Mississippi,acm-hc-clo-ann-rabb-autumn,artwork,Oil on rice paper,English,,,record,,,,,,Oil on rice paper,Oil,rice paper,39.75 x 30.5 in.,,Highlights of the Collection,,,
-acm-hc-cs-cangston-untitled,,Untitled,CS Cangston,2006,false,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-cs-cangston-untitled,artwork,,English,,,record,,,,,,,,,24.75 x 20.75 in.,,Highlights of the Collection,,,
-acm-hc-e-wolfe-untitled,,Untitled,E. Wolfe,1962,false,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-e-wolfe-untitled,artwork,,English,,,record,,,,,,,,,26 x 33.75 in.,,Highlights of the Collection,,,
-acm-hc-g-a-mccullough-the-woman-who-fell-to-earth,,The Woman who Fell to Earth,G.A. McCullough,2000,false,,Arts Center of Mississippi;Highlights of the Collection;Monotype,,,,Arts Center of Mississippi,acm-hc-g-a-mccullough-the-woman-who-fell-to-earth,artwork,Monotype,English,,,record,,,,,,Monotype,,,19.5 x 21.5 in.,,Highlights of the Collection,,,
-acm-hc-george-berry-catfish,,Catfish,George Berry,,,,Arts Center of Mississippi;Highlights of the Collection;Wood carving,,,,Arts Center of Mississippi,acm-hc-george-berry-catfish,artwork,Wood carving,English,,,record,,,,,,Wood carving,,,,,Highlights of the Collection,,,
-acm-hc-gray-layton-two-egyptian-dancers,,Two Egyptian Dancers,Gray Layton,,,,Arts Center of Mississippi;Highlights of the Collection;Watercolor on paper,,,,Arts Center of Mississippi,acm-hc-gray-layton-two-egyptian-dancers,artwork,Watercolor on paper,English,,,record,,,,,,Watercolor on paper,Watercolor,paper,21.5 x 29.5 in.,,Highlights of the Collection,,,
-acm-hc-h-radcliffe-ligon-gale-home,,Ligon-Gale Home,H. Radcliffe,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-h-radcliffe-ligon-gale-home,artwork,,English,,,record,,,,,,,,,18.125 x 15 in.,,Highlights of the Collection,,,
-acm-hc-h-c-wood-untitled,,Untitled,H.C. Wood,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-h-c-wood-untitled,artwork,,English,,,record,,,,,,,,,39 x 40.25 in.,,Highlights of the Collection,,,
-acm-hc-janice-hughes-eclipse,,Eclipse,Janice Hughes,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-janice-hughes-eclipse,artwork,,English,,,record,,,,,,,,,36 x 30 in.,,Highlights of the Collection,,,
-acm-hc-jean-oliver-sunflower-river,,Sunflower River,Jean Oliver,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-jean-oliver-sunflower-river,artwork,,English,,,record,,,,,,,,,18.125 x 22.125 in.,,Highlights of the Collection,,,
-acm-hc-karl-wolfe-untitled,,Untitled,Karl Wolfe,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-karl-wolfe-untitled,artwork,,English,,,record,,,,,,,,,23 x 29 in.,,Highlights of the Collection,,,
-acm-hc-la-rita-untitled,,Untitled,La RIta?,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-la-rita-untitled,artwork,,English,,,record,,,,,,,,,32.75 x 41 in.,,Highlights of the Collection,,,
-acm-hc-lin-paris-untitled,,Untitled,Lin Paris,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-lin-paris-untitled,artwork,,English,,,record,,,,,,,,,22 x 20 in.,,Highlights of the Collection,,,
-acm-hc-marie-hull-untitled,,Untitled,Marie Hull,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-marie-hull-untitled,artwork,,English,,,record,,,,,,,,,27.125 x 23.125 in.,,Highlights of the Collection,,,
-acm-hc-marshall-bouldin-iii-ronald-e-mcnair,,Ronald E. McNair,Marshall Bouldin III,1986,false,,Arts Center of Mississippi;Highlights of the Collection;oil on canvas,,,,Arts Center of Mississippi,acm-hc-marshall-bouldin-iii-ronald-e-mcnair,artwork,oil on canvas,English,,,record,,,,,,oil on canvas,oil,canvas,66.25 x 66.25 in.,,Highlights of the Collection,,,
-acm-hc-nate-theisen-progenation,,Progenation,Nate Theisen,2025,false,,"Arts Center of Mississippi;Highlights of the Collection;Plexiglass, LED spotlight",,,,Arts Center of Mississippi,acm-hc-nate-theisen-progenation,artwork,"Plexiglass, LED spotlight",English,,,record,,,,,,"Plexiglass, LED spotlight",,,,,Highlights of the Collection,,,
-acm-hc-paul-campbell-river-bluff-at-vicksburg,,River Bluff at Vicksburg,Paul Campbell,May 1994,true,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-paul-campbell-river-bluff-at-vicksburg,artwork,,English,,,record,,,,,,,,,33.25 x 18.25 in.,,Highlights of the Collection,,,
-acm-hc-pickenpaugh-pottery-untitled,,untitled,Pickenpaugh Pottery,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-pickenpaugh-pottery-untitled,artwork,,English,,,record,,,,,,,,,,,Highlights of the Collection,,,
-acm-hc-r-lee-untitled,,Untitled,R. Lee,1985,false,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-r-lee-untitled,artwork,,English,,,record,,,,,,,,,30.5 x 24.5 in.,,Highlights of the Collection,,,
-acm-hc-rick-anderson-untitled,,Untitled,Rick Anderson,1989,false,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-rick-anderson-untitled,artwork,,English,,,record,,,,,,,,,32.25 x 19.25 in.,,Highlights of the Collection,,,
-acm-hc-robert-o-webber-untitled,,Untitled,Robert O. Webber,1982,false,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-robert-o-webber-untitled,artwork,,English,,,record,,,,,,,,,35.25 x 29 in.,,Highlights of the Collection,,,
-acm-hc-robin-martea-there-s-always-hope-for-tomo,,There's Always Hope for Tomorrow Poster Design,Robin Martéa,2023,false,,"Arts Center of Mississippi;Highlights of the Collection;Gouache, watercolor, ink, and mixed media on paper",,,,Arts Center of Mississippi,acm-hc-robin-martea-there-s-always-hope-for-tomo,artwork,"Gouache, watercolor, ink, and mixed media on paper",English,,,record,,,,,,"Gouache, watercolor, ink, and mixed media on paper","Gouache, watercolor, ink, and mixed media",paper,17 x 21 in.,,Highlights of the Collection,,,
-acm-hc-schoolar-untitled,,Untitled,Schoolar,,,,Arts Center of Mississippi;Highlights of the Collection;2011,,,,Arts Center of Mississippi,acm-hc-schoolar-untitled,artwork,2011,English,,,record,,,,,,2011,,,40 x 30 in.,,Highlights of the Collection,,,
-acm-hc-shor-untitled,,Untitled,Shor,1967,false,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-shor-untitled,artwork,,English,,,record,,,,,,,,,17.25 x 21.25 in.,,Highlights of the Collection,,,
-acm-hc-snave-the-answer-is,,The Answer Is...,SNAVÉ,2020,false,,Arts Center of Mississippi;Highlights of the Collection;Digital Photography,,,,Arts Center of Mississippi,acm-hc-snave-the-answer-is,artwork,Digital Photography,English,,,record,,,,,,Digital Photography,,,18 x 22 in.,,Highlights of the Collection,,,
-acm-hc-stephen-butler-jxn-comic-captain-jackson-character-de,,Captain Jackson Character Design,Stephen Butler (JXN Comics),2022,false,,Arts Center of Mississippi;Highlights of the Collection;Ink on Paper,,,,Arts Center of Mississippi,acm-hc-stephen-butler-jxn-comic-captain-jackson-character-de,artwork,Ink on Paper,English,,,record,,,,,,Ink on Paper,Ink,Paper,8.5 x 11 in.,,Highlights of the Collection,,,
-acm-hc-vadah-cochran-the-empty-house,,The Empty House,Vadah Cochran,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-vadah-cochran-the-empty-house,artwork,,English,,,record,,,,,,,,,27 x 32.5 in.,,Highlights of the Collection,,,
-acm-hc-yentz-untitled,,Untitled,Yentz,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,acm-hc-yentz-untitled,artwork,,English,,,record,,,,,,,,,33.25 x 27.75 in.,,Highlights of the Collection,,,
-acm-ra-adrienne-domnick-king-remembered-in-time,,King Remembered in Time,Adrienne Domnick,2017,false,"""It represents my art style and where I'm from""
+﻿objectid,title,creator,date,date-is-approximate?,Medium,description,identifier,dimensions,artist bio,artist quote,subject,location,latitude,longitude,source,type,language,rights,rightsstatement,display_template,object_location,image_small,image_thumb,image_alt_text,object_transcript,credit_line,Nationality,Period,parentid
+acm_001,Untitled (Example Painting),Elizabeth Hilton,Possibly 2009,TRUE,Oil pastel on paper,,ACM.2009.001,12 x 8.5 in.,,,,Jackson,,,Arts Center of Mississippi,image,English,In copyright,https://rightsstatements.org/vocab/InC/1.0/,image,/objects/acm_001.jpg,/objects/small/acm_001_small.jpg,/objects/thumbs/acm_001_thumb.jpg,Portrait painting with a dark background and a seated figure.,,City of Jackson Permanent Collection,American,Contemporary,
+acm_002,Portrait,Unknown,,TRUE,Oil on canvas board,,ACM.2022.002,17.5 x 21.5 in.,,,,Mississippi,,,Arts Center of Mississippi,image,English,In copyright,https://rightsstatements.org/vocab/InC/1.0/,image,/objects/acm_002.jpg,/objects/small/acm_002_small.jpg,/objects/thumbs/acm_002_thumb.jpg,Small landscape painting showing a river and low horizon.,,City of Jackson Permanent Collection,American,Modern,city of jackson 44998
+acm_003,Winter Scene,Elizabeth Piazza,1982,FALSE,Watercolor on Paper,,ACM.2022.003,14 x 10.5 in.,,,,Mississippi,,,Arts Center of Mississippi,image,English,In copyright,https://rightsstatements.org/vocab/InC/1.0/,image,/objects/acm_002.jpg,/objects/small/acm_002_small.jpg,/objects/thumbs/acm_002_thumb.jpg,Small landscape painting showing a river and low horizon.,,City of Jackson Permanent Collection,American,Modern,city of jackson 44903
+acm_004,Tulips,Not listed,,,Acrylic on wood,,ACM.2022.004,24 x 16 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
+acm_005,Apples,Not listed,,,Acrylic on wood,,ACM.2022.005,25 x 16 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
+acm_006,Clothes on the Line,Sarah Beaugez,2000,FALSE,Photograph,,ACM.2000.001,17 x 12 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
+acm_007,"Small ""Brim"" at Reservoir",Hazel Bush,,,Acrylic on canvas,,ACM.2022.006,16 x 11.5 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
+acm_008,Calm Waters,Carl Johnson,2017,FALSE,Digital Photograph,,ACM.2017.001,8.5 x 10 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
+acm_009,Untitled,,,,Pencil on Paper,Sketch of a guitar player,ACM.2022.007,5.5 x 8.5 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
+acm_010,Untitled,Miller,,,Watercolor on Paper,Apple and water glass,ACM.2022.008,6 x 4 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
+acm_011,Untitled,Sharon Richardson,,,Oil on canvas,,ACM.2022.009,15 x 16 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,city of Jackson 44965
+acm_012,Let the Sunshine In,Francine L Greenlee,,,Watercolor on Paper,,ACM.2022.010,8.5 x 14 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
+acm_013,Tulips in the Light,Sarah Beaugez,2000,FALSE,Photography,,ACM.2000.002,9.5 x 13 in.,,,,,,,,,,,,,,,,,,,,,
+acm_014,Purple Cape,Eleanor Graves,,,Oil on Canvas,,ACM.2022.011,13.5 x 13. 5 in.,,,,,,,,,,,,,,,,,,,,,city of jackson 44971
+acm_015,Mushrooms,Lindsey,,,Watercolor and acylic on paper,,ACM.2022.012,8 x 11 in.,,,,,,,,,,,,,,,,,,,,,
+acm_016,"Ligon-Gale Home, Municipal Art Gallery",H Radcliffe,,,Ink pen on paper,,ACM.2022.013,12.5 x 10 in.,,,,,,,,,,,,,,,,,,,,,
+acm_017,Untitled,C S Langston,2007,FALSE,Watercolor on Paper,,ACM.2007.001,8 x 11 in.,,,,,,,,,,,,,,,,,,,,,
+acm_018,Untitled,Stanley Robinson,,,Oil on canvas,,ACM.2022.014,11 x 15 in.,,,,,,,,,,,,,,,,,,,,,city of jackson 44904
+acm_019,Man with head wrap,John Derby,,,Oil pastel on paper,,ACM.2022.015,11 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_020,Two Onions and One Tomato,Robert Burns,1987,FALSE,Oil on canvas,,ACM.1987.001,11.5 x 9 in.,,,,,,,,,,,,,,,,,,,,,
+acm_021,Untitled,Tommy Smith Vaniz,,,Watercolor and acylic on paper,,ACM.2022.016,6 x 9 in.,,,,,,,,,,,,,,,,,,,,,
+acm_022,Untitled,,,,Oil pastel on paper,Portrait,ACM.2022.017,15 x 19 in.,,,,,,,,,,,,,,,,,,,,,
+acm_023,Untitled,,,,Oil on canvas,Landscape and castle,ACM.2022.018,19 x 10.5 in.,,,,,,,,,,,,,,,,,,,,,
+acm_024,Untitled,Jack Olson,1986,FALSE,Watercolor on Paper,Log pile,ACM.1986.001,21 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_025,Geranium,Yvette Sturgis,,,Print,,ACM.2022.019,19 x 22 in.,,,,,,,,,,,,,,,,,,,,,
+acm_026,"The Old Door, Natchez",Henry Gurley,1978,FALSE,Photographic print on canvas,,ACM.1978.001,11 x 14 in.,,,,,,,,,,,,,,,,,,,,,44910
+acm_027,Untitled,C S Langston,2000,FALSE,oil on canvas,,ACM.2000.003,24 x 18 on.,,,,,,,,,,,,,,,,,,,,,
+acm_028,Untitled,Yvette Sturgis,1985,FALSE,oil on canvas,,ACM.1985.001,20 x 10 in.,,,,,,,,,,,,,,,,,,,,,
+acm_029,Flowers in Blue Vase,Bewey Bowden,,,Oil on canvas,,ACM.2022.020,12 x 24 in.,,,,,,,,,,,,,,,,,,,,,44972
+acm_030,Harvest,Landrough Miller,2007,FALSE,Watercolor on paper,,ACM.2007.002,9.5 x 7.5 in.,,,,,,,,,,,,,,,,,,,,,
+acm_031,Rosalie,Doris. B. Nunn,1963,FALSE,Watercolor on paper,,ACM.1963.001,20 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_032,7/25,Susan Habeeb,1979,FALSE,Photographic print on canvas,,ACM.1979.001,19 x 15 in.,,,,,,,,,,,,,,,,,,,,,1987
+acm_033,Jack Dison,,,,Water color on paper,,ACM.2022.021,21 x 14 in.,,,,,,,,,,,,,,,,,,,,,44979
+acm_034,Untitled,,,,acrylic on canvas,landscape,ACM.2022.022,4 x 6 in.,,,,,,,,,,,,,,,,,,,,,
+acm_035,Untitled,,,,acrylic on canvas,watermelon,ACM.2022.023,8 x 10 in.,,,,,,,,,,,,,,,,,,,,,
+acm_036,Untitled,,2007,FALSE,watercolor on paper,,ACM.2007.003,4 x 6 in.,,,,,,,,,,,,,,,,,,,,,
+acm_037,Thrashers,Harry Maddox,1984,FALSE,watercolor on paper,,ACM.1984.001,12 x 17 in.,,,,,,,,,,,,,,,,,,,,,44926
+acm_038,Under Glass,Gerald Marley,,,watercolor on paper,,ACM.2022.024,16 x 18 in.,,,,,,,,,,,,,,,,,,,,,
+acm_039,Falling Colors,,,,Acrylic and shellac on Paper,,ACM.2022.025,11 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_040,Untitled,Laurel Schoolar,,,Oil pastel on paper,,ACM.2017.003,8 x 10 in.,,,,,,,,,,,,,,,,,,,,,
+acm_041,"Gymnasts for Peace, Kyoto, Japan",Susan Brumfiled,1981,FALSE,Photograph,,ACM.1981.001,8 x 10.5 in.,,,,,,,,,,,,,,,,,,,,,
+acm_042,Untitled,N P Mauldin,,,Acrylic on canvas,,ACM.2022.027,15 x 11 in.,,,,,,,,,,,,,,,,,,,,,44946
+acm_043,Fruit Good and Bad,Landrough Miller,2007,FALSE,Watercolor on paper,,ACM.2007.003,9.5 x 8 in.,,,,,,,,,,,,,,,,,,,,,
+acm_044,Untitled,Mildred Nungester Wolfe,1955,FALSE,Oil on canvas,,ACM.1955.001,12 x 16 in.,,,,,,,,,,,,,,,,,,,,,44911
+acm_045,Beholder's Beauty,Jeffrey Yentz,,,Pen on paper,,ACM.2022.028,23 x 18 in.,,,,,,,,,,,,,,,,,,,,,
+acm_046,Lost Jackson,Jeffrey Yentz,,,Pen on paper,,ACM.2022.029,23 x 18in.,,,,,,,,,,,,,,,,,,,,,
+acm_047,Houses not homes,Jeffrey Yentz,,,Pen on paper,,ACM.2022.030,18 x 23 in.,,,,,,,,,,,,,,,,,,,,,
+acm_048,Untitled,R T Clerk,2008,FALSE,Pencil on paper,,ACM.2008.001,24 x 19 in.,,,,,,,,,,,,,,,,,,,,,
+acm_049,Untitled,Laurel Schoolar,1997 reword 2009,TRUE,OIl on canvas,,ACM.2017.001,22 x 28 in.,,,,,,,,,,,,,,,,,,,,,
+acm_050,Untitled,C Bennett,2008,FALSE,Pencil on paper,,ACM.2008.002,17 x 20 in.,,,,,,,,,,,,,,,,,,,,,
+acm_051,Untitled,Laurel Schoolar,,,Watercolor on paper,,ACM.2017.002,17 x 21 in.,,,,,,,,,,,,,,,,,,,,,
+acm_052,Untitled,Benton,1988,FALSE,Acrylic on paper,,ACM.1988.001,15 x 22 in.,,,,,,,,,,,,,,,,,,,,,
+acm_053,Untitled,Ann Walker,,,Watercolor on paper,,ACM.2022.031,23 x 16 in.,,,,,,,,,,,,,,,,,,,,,
+acm_054,Magnolia,Laurel Schoolar,,,Watercolor on Paper,,ACM.2017.004,24 x 19 in.,,,,,,,,,,,,,,,,,,,,,
+acm_055,Untitled,,,,Watercolor on paper,,ACM.2022.032,15 x 23 in.,,,,,,,,,,,,,,,,,,,,,
+acm_056,Untitled,MM,2008,FALSE,Oil pastel on paper,,ACM.2022.033,23 x 18 in.,,,,,,,,,,,,,,,,,,,,,
+acm_057,Bull Moose Sax,Jeffrey Yentz,,,Pen on Paper,,ACM.2022.034,18 x 23 in.,,,,,,,,,,,,,,,,,,,,,
+acm_058,Guineas 30 / 100,Ann Bidenbarn Jones,,,Screen print on paper,,ACM.2022.035,36 x 25 in.,,,,,,,,,,,,,,,,,,,,,
+acm_059,Municipal Art Gallery,Barbard Lee,,,Watercolor and acrylic on paper,,ACM.2022.036,15 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_060,Untitled,Rose,,,Watercolor on paper,,ACM.2022.037,7 x 10 in.,,,,,,,,,,,,,,,,,,,,,
+acm_061,Festival,Peggy Ederington,,,Acrylic on paper,,ACM.2022.038,17 x 15 in.,,,,,,,,,,,,,,,,,,,,,
+acm_062,Flamingo Cover,D Vick,,,Watercolor and glitter on paper,,ACM.2022.039,17 x 24 in.,,,,,,,,,,,,,,,,,,,,,
+acm_063,No Serving,Jeffrey Yentz,,,Pen on paper,,ACM.2022.040,23 x 18 in.,,,,,,,,,,,,,,,,,,,,,
+acm_064,Reservoir Meet,Kenneth M Quinn,1966,FALSE,Watercolor on paper,,ACM.1966.001,"28 x 20 """,,,,,,,,,,,,,,,,,,,,,
+acm_065,Deep Country,Mildred Nungester Wolfe,1923,FALSE,Watercolor on paper,,ACM.1923.001,23 x 17 in.,,,,,,,,,,,,,,,,,,,,,
+acm_066,Work of Your Hands,Iris Paris,,,Oil on Canvas,,ACM.2022.041,20 x 16 in.,,,,,,,,,,,,,,,,,,,,,
+acm_067,Portait of Carol Waller,Karl Wolfe,,,Oil on Canvas,Sketch for Large Portait of Carol Waller in the Governor's Mansion,ACM.2022.042,13 x 15 in.,,,,,,,,,,,,,,,,,,,,,
+acm_068,Untitled,Bush,,,Acrylic on Canvas,,ACM.2022.043,17 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_069,Untitled,Susan Wellington,,,Watercolor on paper,,ACM.2022.044,12 x 15 in.,,,,,,,,,,,,,,,,,,,,,
+acm_070,Untitled,Laurel Schoolar,,,Watercolor and Pen on Paper,,ACM.2017.005,20.5 x 15 in.,,,,,,,,,,,,,,,,,,,,,
+acm_071,Untitled,Doris Nunn,1963,FALSE,Watercolor on paper,,ACM.1963.002,18.5 x 14.5 in.,,,,,,,,,,,,,,,,,,,,,
+acm_072,Untitled,Gary Walters,,,Watercolor on paper,House,ACM.2022.045,28 x 21 in.,,,,,,,,,,,,,,,,,,,,,
+acm_073,"Ray Scott, Exhibit Chairman MS Art Association",Kenne Ellis,,,Photograph,,ACM.2022.046,13 x 21 in.,,,,,,,,,,,,,,,,,,,,,
+acm_074,Untitled,W Jackson,,,Oil on canvas,,ACM.2022.047,17 x 23 in.,,,,,,,,,,,,,,,,,,,,,
+acm_075,Mrs. W H Waddell,Karl Wolfe,1937,FALSE,Oil on Canvas,,ACM.1937.001,20 x 24 in.,,,,,,,,,,,,,,,,,,,,,
+acm_076,Untitled,J Thigpen,,,Oil on canvas,,ACM.2022.048,23 x 19 in.,,,,,,,,,,,,,,,,,,,,,
+acm_077,Untitled,Mark Jon,1983,FALSE,Oil on canvas,,ACM.1983.001,20 x 16 in.,,,,,,,,,,,,,,,,,,,,,
+acm_078,Untitled,C S Langston,2007,FALSE,Oil on canvas,,ACM.2007.004,18 x 24 in.,,,,,,,,,,,,,,,,,,,,,
+acm_079,Springtime,Billy Bacon,1988,FALSE,Oil on Canvas,,ACM.1988.002,20 x 16 in.,,,,,,,,,,,,,,,,,,,,,
+acm_080,Untitled,Charles Guess,,,Oil on Canvas,,ACM.2022.049,24 x 30 in.,,,,,,,,,,,,,,,,,,,,,
+acm_081,Untitled,Julia Scales,1985,FALSE,Oil on Canvas,,ACM.1985.002,24 x 30in.,,,,,,,,,,,,,,,,,,,,,
+acm_082,Untitled,Norman,1982,FALSE,Oil on Canvas,,ACM.1982.001,24 X 20 in.,,,,,,,,,,,,,,,,,,,,,
+acm_083,Untitled,Sam McCain,,,Oil on Canvas,,ACM.2022.050,23 x 35 in.,,,,,,,,,,,,,,,,,,,,,
+acm_084,Josh Halbert Gardens,Alfred Nichols,,,Oil on Canvas,,ACM.2022.051,38 x 40 in.,,,,,,,,,,,,,,,,,,,,,
+acm_085,Untitled,Eyd Kazert,,,Photograph,,ACM.2022.052,11 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_086,Potrait of Andew Jackson,Karl Wolfe,1965,FALSE,Oil on Canvas,,ACM.1965.001,41 x 65 in.,,,,,,,,,,,,,,,,,,,,,
+acm_087,Boats,Mildred Nungester Wolfe,1942,FALSE,Watercolor on Paper,,ACM.1942.001,22 x 18 in.,,,,,,,,,,,,,,,,,,,,,
+acm_088,Untitled,John Gaddis,c. 1970s,TRUE,Watercolor on Paper,,ACM.2022.053,23 x 17 in.,,,,,,,,,,,,,,,,,,,,,
+acm_089,Untitled,C S Langston,2007,FALSE,Watercolor on satin paper,,ACM.2017.006,64.5 x 29 in.,,,,,,,,,,,,,,,,,,,,,
+acm_090,Untitled,Qasim,,,,,ACM.2022.054,12 x 9 in.,,,,,,,,,,,,,,,,,,,,,
+acm_091,Italian Church,Yvette Sturgis,,,Oil on canvas,,ACM.2022.055,11 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_092,Untitled,S Dennis,,,Watercolor on Paper/ Maybe a print,,ACM.2022.056,12 x 9 in.,,,,,,,,,,,,,,,,,,,,,
+acm_093,Untitled,C S Langston,2005,FALSE,Watercolor on Paper,,ACM.2005.001,15 x 12 in.,,,,,,,,,,,,,,,,,,,,,
+acm_094,Stokeisa,Nancy Looper Gilbert,,,Photograph,,ACM.2022.057,15 x 17 in.,,,,,,,,,,,,,,,,,,,,,
+acm_095,Untitled,,1986,FALSE,Watercolor on Paper,Church,ACM.1986.002,8 x 11 in.,,,,,,,,,,,,,,,,,,,,,
+acm_096,Fanfare,Lil Brock Alan,,,Watercolor on Paper,,ACM.2022.058,20 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_097,Gloxenia and Apple,Julia Steadham,,,Watercolor on Paper,,ACM.2022.059,14 x 18 in.,,,,,,,,,,,,,,,,,,,,,
+acm_098,Untitled,Cathy Crockell,,,Oil pastel on paper,,ACM.2022.060,11 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_099,Red Yellow Blue,John Derby,,,Acrylic on canvas board,,ACM.2022.061,18 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_100,Blank Walls,John Derby,,,Oil on canvas board,,ACM.2022.062,20 x 16 in.,,,,,,,,,,,,,,,,,,,,,
+acm_101,Potrait,,,,Oil on canvas board,,ACM.2022.063,18 x 24 in.,,,,,,,,,,,,,,,,,,,,,
+acm_102,Potrait,,,,Oil on canvas board,,ACM.2022.064,16 x 20 in.,,,,,,,,,,,,,,,,,,,,,
+acm_103,Potrait,,,,Acrylic on wood board,,ACM.2022.065,18 x 22 in.,,,,,,,,,,,,,,,,,,,,,
+acm_104,Potrait,,,,Oil on wood board,,ACM.2022.066,20 x 24 in.,,,,,,,,,,,,,,,,,,,,,
+acm_105,Blond in Lavender,John Derby Kohl,,,Oil on wood board,,ACM.2022.067,21 x 24 in.,,,,,,,,,,,,,,,,,,,,,
+acm_106,Untitled,John Derby Kohl,,,Watercolor on paper,,ACM.2022.068,18 x 22 in.,,,,,,,,,,,,,,,,,,,,,
+acm_107,Pat Fordyce,B A Dudley,1993,FALSE,Oil on canvas,,ACM.1993.001,48 x 40 in.,,,,,,,,,,,,,,,,,,,,,
+acm_108,Thomas Gayle,,1926,FALSE,Oil on canvas,,ACM.1926.001,16 x 20 in.,,,,,,,,,,,,,,,,,,,,,
+acm_109,Yvette Sturgis,,,,Oil on canvas,,ACM.2022.069,24 x 30 in.,,,,,,,,,,,,,,,,,,,,,
+acm_110,Still Life with Brass Bowl,Doric Hakes,,,Oil on canvas,,ACM.2022.070,12 x 12 in.,,,,,,,,,,,,,,,,,,,,,
+acm_111,Untitled,Effiar?,,,Oil on canvas,,ACM.2022.071,24 x 22 in.,,,,,,,,,,,,,,,,,,,,,
+acm_112,Untitled,A. Seak,,,Watercolor on Paper,,ACM.2022.072,18 x 16 in.,,,,,,,,,,,,,,,,,,,,,
+acm_113,Italian Church II,Yvette Sturgis,,,Oil on canvas,,ACM.2022.073,11 x 14 in.,,,,,,,,,,,,,,,,,,,,,
+acm_114,Abstract,Lisa Paris,,,Oil on Canvas,,ACM.2022.074,24 x 18 in.,,,,,,,,,,,,,,,,,,,,,
+acm-hc-andrew-bucci-spring,Spring,Andrew Bucci,1980,FALSE,,,ACM.1980/075,36.5 x 48.5 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-andrew-cary-young-not-gemini,Not Gemini,Andrew Cary Young,2023,FALSE,Mixed Media on wood panel,,ACM.2023/076,7 x 13 in.,,,Arts Center of Mississippi;Highlights of the Collection;Mixed Media on wood panel,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-anne-enochs-january-daffodils,January Daffodils,Anne Enochs,,,Pastel,,ACM.undated/077,19.25 x 25.25 in.,,,Arts Center of Mississippi;Highlights of the Collection;Pastel,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-b-dawson-untitled,Untitled,B. Dawson,,,,,ACM.undated/078,18 x 22 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-brenden-davis-and-h-i-gr-call-on-me,Call on Me,Brenden Davis & H.I. Green,2023,FALSE,"Acrylic paint, paint pen, wax candles, yarn, collard greens, cinnamon sticks, pecan shells, van van oil",,ACM.2023/079,34.25 x 23.5 in.,,,"Arts Center of Mississippi;Highlights of the Collection;Acrylic paint, paint pen, wax candles, yarn, collard greens, cinnamon sticks, pecan shells, van van oil",,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-clo-ann-rabb-autumn,Autumn,Clo Ann Rabb,,,Oil on rice paper,,ACM.undated/080,39.75 x 30.5 in.,,,Arts Center of Mississippi;Highlights of the Collection;Oil on rice paper,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-cs-cangston-untitled,Untitled,CS Cangston,2006,FALSE,,,ACM.2006/081,24.75 x 20.75 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-e-wolfe-untitled,Untitled,E. Wolfe,1962,FALSE,,,ACM.1962/082,26 x 33.75 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-g-a-mccullough-the-woman-who-fell-to-earth,The Woman who Fell to Earth,G.A. McCullough,2000,FALSE,Monotype,,ACM.2000/083,19.5 x 21.5 in.,,,Arts Center of Mississippi;Highlights of the Collection;Monotype,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-george-berry-catfish,Catfish,George Berry,,,Wood carving,,ACM.undated/084,,,,Arts Center of Mississippi;Highlights of the Collection;Wood carving,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-gray-layton-two-egyptian-dancers,Two Egyptian Dancers,Gray Layton,,,Watercolor on paper,,ACM.undated/085,21.5 x 29.5 in.,,,Arts Center of Mississippi;Highlights of the Collection;Watercolor on paper,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-h-radcliffe-ligon-gale-home,Ligon-Gale Home,H. Radcliffe,,,,,ACM.undated/086,18.125 x 15 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-h-c-wood-untitled,Untitled,H.C. Wood,,,,,ACM.undated/087,39 x 40.25 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-janice-hughes-eclipse,Eclipse,Janice Hughes,,,,,ACM.undated/088,36 x 30 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-jean-oliver-sunflower-river,Sunflower River,Jean Oliver,,,,,ACM.undated/089,18.125 x 22.125 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-karl-wolfe-untitled,Untitled,Karl Wolfe,,,,,ACM.undated/090,23 x 29 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-la-rita-untitled,Untitled,La RIta?,,,,,ACM.undated/091,32.75 x 41 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-lin-paris-untitled,Untitled,Lin Paris,,,,,ACM.undated/092,22 x 20 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-marie-hull-untitled,Untitled,Marie Hull,,,,,ACM.undated/093,27.125 x 23.125 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-marshall-bouldin-iii-ronald-e-mcnair,Ronald E. McNair,Marshall Bouldin III,1986,FALSE,oil on canvas,,ACM.1986/094,66.25 x 66.25 in.,,,Arts Center of Mississippi;Highlights of the Collection;oil on canvas,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-nate-theisen-progenation,Progenation,Nate Theisen,2025,FALSE,"Plexiglass, LED spotlight",,ACM.2025/095,,,,"Arts Center of Mississippi;Highlights of the Collection;Plexiglass, LED spotlight",,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-paul-campbell-river-bluff-at-vicksburg,River Bluff at Vicksburg,Paul Campbell,May 1994,TRUE,,,ACM.1994/096,33.25 x 18.25 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-pickenpaugh-pottery-untitled,untitled,Pickenpaugh Pottery,,,,,ACM.undated/097,,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-r-lee-untitled,Untitled,R. Lee,1985,FALSE,,,ACM.1985/098,30.5 x 24.5 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-rick-anderson-untitled,Untitled,Rick Anderson,1989,FALSE,,,ACM.1989/099,32.25 x 19.25 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-robert-o-webber-untitled,Untitled,Robert O. Webber,1982,FALSE,,,ACM.1982/100,35.25 x 29 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-robin-martea-there-s-always-hope-for-tomo,There's Always Hope for Tomorrow Poster Design,Robin Martéa,2023,FALSE,"Gouache, watercolor, ink, and mixed media on paper",,ACM.2023/101,17 x 21 in.,,,"Arts Center of Mississippi;Highlights of the Collection;Gouache, watercolor, ink, and mixed media on paper",,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-schoolar-untitled,Untitled,Laurel Schoolar,,,,,ACM.undated/102,40 x 30 in.,,,Arts Center of Mississippi;Highlights of the Collection;2011,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-shor-untitled,Untitled,Shor,1967,FALSE,,,ACM.1967/103,17.25 x 21.25 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-snave-the-answer-is,The Answer Is...,SNAVÉ,2020,FALSE,Digital Photography,,ACM.2020/104,18 x 22 in.,,,Arts Center of Mississippi;Highlights of the Collection;Digital Photography,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-stephen-butler-jxn-comic-captain-jackson-character-de,Captain Jackson Character Design,Stephen Butler (JXN Comics),2022,FALSE,Ink on Paper,,ACM.2022/105,8.5 x 11 in.,,,Arts Center of Mississippi;Highlights of the Collection;Ink on Paper,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-vadah-cochran-the-empty-house,The Empty House,Vadah Cochran,,,,,ACM.undated/106,27 x 32.5 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-hc-yentz-untitled,Untitled,Yentz,,,,,ACM.undated/107,33.25 x 27.75 in.,,,Arts Center of Mississippi;Highlights of the Collection,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-ra-adrienne-domnick-king-remembered-in-time,King Remembered in Time,Adrienne Domnick,2017,FALSE,Acrylic on Canvas,,ACM.2017/108,30 x 40 in.,"""It represents my art style and where I'm from""
+ 
 
-""My work highlights significant points in black culture. I use portraiture as a way to identify our black heroes in music, art, and advocacy. Revealing themes of vulnerability, raw emotions, and identity. My work is an exploration of high contrast imagery and hard edge shapes on various surfaces. Redefining blank spaces by manipulating light and darkness with bold colors within my composition. """,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Acrylic on Canvas,,,,Arts Center of Mississippi,acm-ra-adrienne-domnick-king-remembered-in-time,artwork,Acrylic on Canvas,English,,,record,,,,,"Artist Bio:
-Adrienne Domnick is a multidisciplinary artist from Mississippi whose work is an exploration of celebrating black culture. She is best known for her large-scale hard-edge portraits. Her creative path weaves narratives that honor the resilience and creativity of black heroes, aiming to inspire and deepen society’s understanding of their impact.
+ ""My work highlights significant points in black culture. I use portraiture as a way to identify our black heroes in music, art, and advocacy. Revealing themes of vulnerability, raw emotions, and identity. My work is an exploration of high contrast imagery and hard edge shapes on various surfaces. Redefining blank spaces by manipulating light and darkness with bold colors within my composition. """,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Acrylic on Canvas,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Adrienne Domnick is a multidisciplinary artist from Mississippi whose work is an exploration of celebrating black culture. She is best known for her large-scale hard-edge portraits. Her creative path weaves narratives that honor the resilience and creativity of black heroes, aiming to inspire and deepen society’s understanding of their impact.
+ 
 
-Social / Website:
-Website: www.adriennedomnick.art 
+ Social / Website:
+ Website: www.adriennedomnick.art 
+ 
 
  Instagram: adriennedomnick
-
-Exhibition Text:
-Since 2011, Adrienne Domnick has developed her artistic craft through a variety of mediums. As a multidisciplinary artist, Domnick creates work that responds to the social environment she grew up and lives in today. Inspired by the idea of the less focused “b-side” of records, this exhibition explores an ongoing journey and creative project that Domnick has worked on since the beginning of her artistic career. B SIDES serves as a cultural archive and music catalog delivered through a dynamic and bold series of paintings. This exhibition visually delivers a story of growth; growth of the artist and of the cultural impact of the musical artists featured. Domnick’s large scale paintings elevate her subjects to a larger than life status, lifting up the subject and memorializing these artists’ legacy and influence on the world around them. As a self described archivist, Domnick draws from an extensive record of music, books, and fashion when creating her art; striving to document and preserve Black culture in all of her work.",Acrylic on Canvas,Acrylic,Canvas,30 x 40 in.,,Recent Acquisitions 2024,,,
-acm-ra-emma-lorenz-self-censorship,,Self Censorship,Emma Lorenz,2023,false,"""This work contains several aspects of my practice, including the use of printmaking, repurposed thrifted objects, and the use of self portraiture to comment on expectations about personal expression and body."" 
-
-The woodblock prints in Self Censorship were made using model poses and photographs from Vogue Magazine as the source material. Three images were selected, and then by superimposing my own plus size body onto the models, I created new drawings, which were then carved into the MDF woodblock prints. 
-
-Traditionally, these models are considered the height of beauty and desirability by society, and by appropriating the forms their bodies take with my own non conventional body, I am making myself the object of desire. 
-
-The prints and forms are obscured and “censored” however, by the use of screenprinting inks. In this, I am grappling with my own feelings of shame and discomfort, in expressing that sexuality or desirability to a wider audience.","Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Thrifted tablecloth, MDF woodblock carvings, screenprinting ink",,,,Arts Center of Mississippi,acm-ra-emma-lorenz-self-censorship,artwork,"Thrifted tablecloth, MDF woodblock carvings, screenprinting ink",English,,,record,,,,,"Artist Bio:
-Emma Lorenz describes herself as a found object/mixed media artist, utilizing processes such as printmaking, bookmaking, papermaking and object fabrication to create artwork that discusses body image and identity. Originally from Dallas Texas, Lorenz is currently living and making art in Jackson Mississippi. She teaches studio classes on the weekend at the Mississippi Museum of Art and works full time at the Mississippi Museum of Natural Science. Her work has been featured in local exhibitions such as The Mash-Up: Home is Where the Art is, at the Arts Center of Mississippi, as well as work in the permanent collection of the Ohio University Printmaking Archives, the Fat Print Archives and . She graduated from Millsaps College in 2024, with a Bachelor's Degree in Studio Art, and a Minor in Psychology.
-
-Social / Website:
-Instagram: @a_stitch_to_press
-Website: emmalorenz.weebly.com
-
-Exhibition Text:
-In this exhibition, A Retrospective of Self, Emma Lorenz offers a voice to often underrepresented and judged groups and vulnerably invites the viewer into her internal discourse and process of self discovery. The physical nature of Lorenz’s work and the use of materials such as embroidery, cyanotypes, and papercraft provides a more tangible connection to the viewer. Secondhand objects are important to Lorenz’s practice as they bring into question the lives of these objects and furniture before they are found by her. In her work Lorenz employs three methods of creating: repurposing, mimicry and fabrication, and deconstruction. The contrast between the familiarity of everyday objects and the exploration of traditionally “taboo” subjects such as weight, gender, and sexuality allow Lorenz to deconstruct societal expectations and challenge the viewer’s preconceived notions of these issues. This idea of the home and personal identity begins with the open suitcase, bringing to mind the idea of “unpacking” both the physical work in this exhibition as well as the artist’s internal thoughts and creative practice.","Thrifted tablecloth, MDF woodblock carvings, screenprinting ink",,,26 x 36 in.,,Recent Acquisitions 2024,,,
-acm-ra-fooly-fvlling,,FVLLING,Fooly,2023,false,"VLLING examines the themes of chaos and control, disorientation, and the human instinct to grasp for stability. The subject is captured in mid-fall, surrounded by a swirling vortex of sharp, jagged patterns that evoke a sense of spiraling descent. The grayscale subject, dressed in casual contemporary attire, reaches out against the oppressive black and white maelstrom, providing a stark contrast to the tumultuous backdrop.
-
-The feeling of movement is palpable, drawing the viewer into the unsettling experience of losing one's footing. The artwork is a masterful depiction of the sudden shifts that can occur in life's trajectory, the unpredictable moments that upend balance and certainty. Goliday's use of perspective and the illusion of depth creates a realistic sensation of falling, inviting empathy and reflection on the viewer's own experiences with upheaval and the fight for composure amidst life's challenges.",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Acrylic on canvas,,,,Arts Center of Mississippi,acm-ra-fooly-fvlling,artwork,Acrylic on canvas,English,,,record,,,,,"Artist Bio:
-Tyler Goliday is an artist from Starkville, Mississippi, known for his portraits in acrylic paint. His mastery of grisaille brings his subjects to the forefront, commanding attention against the vibrantly colored or intricately patterned backgrounds that define his pieces. Goliday's talent has been recognized in several prestigious venues. His debut was marked by his participation in the Municipal Art Gallery's (Re)mediation show, in Jackson, Mississippi. Further establishing his place in the art community, Goliday's work was featured on the cover of Jackson State University's Journal of Art and Theatre, and he has also been a notable participant in The Mashup, a platform for young, Black creatives in Mississippi. Additionally, his art was selected for exhibition at the Mississippi Museum of Art in Jackosn, showasing his growing influence and broad appeal of his work.
-
-Social / Website:
-Insta: fooly.444
-
-Exhibition Text:
-Original Label:
-FVLLING is a dynamic and evocative painting that delves into the themes of chaos and control, disorientation, and the human instinct to grasp for stability. The subject is captured in mid-fall, surrounded by a swirling vortext of sharp, jagged patterns that evoke a sense of spiraling descent. The grayscale sujet, dressed in casual contemporary attire, reaches out against the oppressive black and white maelstrom, providing a stark contrast to the tumultuous backdrop. The feeling of movement is palpable, drawing the viewer into the unsettling experience of losing one's footing. The artwork is a masterful depiction of the sudden shifts that can occur in life's trajectory. The unpredictable moments that upend balance and certainty. Fooly's use of perspective and the illusion of depth that creates a realistic sensation of falling, inviting empathy and reflection on the viewer's own experiences with upheaval and the fight for composure amidst life's challenges.",Acrylic on canvas,Acrylic,canvas,48 x 30 in.,,Recent Acquisitions 2024,,,
-acm-ra-jbuck-dist-rti-n2,,distørtiøn2,JBUCK,2023,false,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Acrylic and tempera on canvas,,,,Arts Center of Mississippi,acm-ra-jbuck-dist-rti-n2,artwork,Acrylic and tempera on canvas,English,,,record,,,,,"Social / Website:
-Insta: jbuck.the.artist",Acrylic and tempera on canvas,Acrylic and tempera,canvas,20 x 20 in.,,Recent Acquisitions 2024,,,
-acm-ra-jxn-comics-stephen-butle-captain-jackson-character-de,,Captain Jackson Character Design,JXN Comics (Stephen Butler),2022,false,"JXN Comics Editor Notes: ""This is a character that represents Jackson and was created to celebrate the 200th anniversary of the city - so there's no better place for it to be! The character's name is Captain Jackson and he was created by Blake Barnes and illustrated by Steven Butler for the first issue of 'Jackson Comics.'""",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Ink on Paper,,,,Arts Center of Mississippi,acm-ra-jxn-comics-stephen-butle-captain-jackson-character-de,artwork,Ink on Paper,English,,,record,,,,,"Social / Website:
-Website: https://www.jacksoncomics.com/
-
-Exhibition Text:
-Jackson Comics issued its first volume during the bicentennial of the City, highlighting local artists and illustrators to tell the story of Jackson’s “collective history and how we got here.”After its initial success Jackson Comics created a second volume and is continuing to create additional entries into the anthology. Jackson Comics is organized and edited by Blake Barnes, a Delta State Graduate with a BFA in Media Arts. 
-
-The Municipal Art Gallery is excited to showcase the talent of local artists who are bringing an intangible dream to life through this comic book. Barnes is dedicated to bringing in Mississippi artists of all ages and backgrounds including students, practicing artists, and graphic artists of all ages.",Ink on Paper,Ink,Paper,8.5 x 11 in.,,Recent Acquisitions 2024,,,
-acm-ra-lucie-wren-cooper-wind-over-water,,Wind over Water,Lucie Wren Cooper,2024,false,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Ink pen on paper,,,,Arts Center of Mississippi,acm-ra-lucie-wren-cooper-wind-over-water,artwork,Ink pen on paper,English,,,record,,,,,"Artist Bio:
-Lucie Wren Cooper is a Jackson, MS native seeking solace in the beauty of her surroundings. After attending the MS School of the Arts in 2019, she began diving into solo studio work and pursuing a life dedicated to storytelling through imagery and music as well as learning the intricate craft of stained glass. Her practice revolves around the admiration of simple beauty, nature, the mundane, dreams, and nostalgia. Lucie’s paintings manifest in a fairly nonobjective way, but are always tied to memories of places, people, and light through use of acrylic on water soaked raw canvas and oil paints.
-
-Social / Website:
-Insta: luciewrencooper",Ink pen on paper,Ink pen,paper,12 x 10 in.,,Recent Acquisitions 2024,,,
-acm-ra-victoria-meek-crepe-myrtle-laurel-st-park,,"Crepe Myrtle, Laurel St Park (Summer 2024)",Victoria Meek,2024,false,"""It's a tree from a lovely park in the city.""",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Oil on canvas,,,,Arts Center of Mississippi,acm-ra-victoria-meek-crepe-myrtle-laurel-st-park,artwork,Oil on canvas,English,,,record,,,,,"Artist Bio:
-Victoria Meek was raised in Meridian, Mississippi and has been based in Jackson since 2017. She received a B.F.A. in Painting & Drawing from the University of Southern Mississippi. And an M.A. in Museum Studies from New York University. Victoria has been in group exhibitions at Peter Freeman, Inc, New York; Pearl River Glass Studio; and Millsaps College. “Trees” is her first solo show. This Municipal Art Gallery exhibition focuses on drawings & paintings of trees or things in relationship with them. Much of the work was made between 2023-24, a period Victoria dedicated to observing and imagining trees in Jackson.
-
-Social / Website:
-instagram: v.r.meek
-
-Exhibition Text:
-Trees is a focused exploration of the natural environment of central Mississippi through the eyes of Victoria Meek. Finding peace and restoration in nature is key to Meek’s practice; working in Jackson, Mississippi, Meek observes her surrounding environment with a keen interest in the accessibility of trees and their reliable presence as subjects for her work. When selecting a model Meek considers details such as the sway and movement of the tree, seeing them as dancers with their own sense of identity and drama. In addition to the natural world Meek is inspired by tradition defying artists such as Edouard Manet and Pierre Bonnard and like them Meek works en plein air observing her environment. Meek also finds inspiration in contemporary artists such as Jennifer Packer whose intentional incompleteness in her work aligns with Meek’s priority of creative process over the finished product in her artistic practice. In this exhibition Meek presents a collection of recent oil paintings, watercolors, and pencil drawings which despite the traditional medium explore her natural surroundings through a uniquely personal viewpoint.",Oil on canvas,Oil,canvas,11.5 x 14.5 in.,,Recent Acquisitions 2024,,,
-acm-ra-brenden-davis-channel-3-graphics-on-tv,,Channel 3 (graphics on tv),Brenden Davis,2023,false,"This piece was created during my time working as a graphic artist at WLBT 3 News, one of central Mississippi's most iconic media institutions. Channel 3 (graphics on tv) captures a moment of lived experience shaped by the unique intersections of creative labor, media production, and Southern identity. It also contributes to the preservation of local narratives and honors the creative workers behind the scenes of Mississippi’s creative media landscape.
-
-Created during my time as a graphic artist for WLBT 3 News, Channel 3 (graphics on tv) is a layered meditation on media labor, digital overload, and representation. A hunched figure stretches toward a laptop, surrounded by fragments of broadcast graphics, color marks, and overlapping forms. Elements of television production, such as the “title safe” overlay used to frame on-screen content, are repurposed as visual motifs that underscore the tension between clarity and constraint. The piece reflects on the often-invisible labor behind what becomes visible.","Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;mixed media, acrylic, oil pastel, and graphite on wood board",,,,Arts Center of Mississippi,acm-ra-brenden-davis-channel-3-graphics-on-tv,artwork,"mixed media, acrylic, oil pastel, and graphite on wood board",English,,,record,,,,,"Artist Bio:
-Brenden Davis (b. 1997) is a multidisciplinary artist based in Jackson, Mississippi, working across painting, graphic design, and animation. Davis explores surrealism, abstraction, and interpersonal experience, focusing on self-perception and social dynamics. Drawing from personal history and cultural influences, they create abstract figures and dreamlike landscapes that challenge societal narratives and invite viewers into alternate realities. Through their work, Davis seeks to captivate, provoke reflection, and foster meaningful dialogue.
-
-Social / Website:
-brendendavis.com
-
-Exhibition Text:
-Memory Corrupted: An Exploration of Time and Perception offers a carefully curated time capsule representing snapshots of artist Brenden Davis’ life experiences. Inspired by the way memories blur and reshape as time moves forward, Davis challenges expectation and creates complex visual narratives that breathe new life into traditional surrealist motifs. In these works Davis studies time and how his perception of the world around him has changed over the past eight years of his life. As an artist working with many mediums–including paint, clay, paper, and digital media–Davis is able to literally cut up and rearrange these visual representations of his memories and experiences to create a new, distorted interpretation of his journey through life. The vivid colors, chaotic style, and surreal nature of Davis’ work creates an opportunity for the viewer to find personal connections within the imagery despite the deeply personal nature of this archive.","mixed media, acrylic, oil pastel, and graphite on wood board","mixed media, acrylic, oil pastel, and graphite",wood board,24 x 36.5 in.,,Recent Acquisitions 2025,,,
-acm-ra-bro-shambe-jones-pretty-eyes,,Pretty Eyes,Bro. Shambé Jones,2025,false,"As an artist, Shambé creates art because he sees art as life. He feel that everything has a
-design and purpose. He also creates art based on history that he has studied, nature, and
-some of the materials that are used. His aim is to tap into the viewers subconscious and bring
-forth healing visually.
-He work in a variety of mediums but mostly in pyrography which is the burning of an image
-onto a surface ( mostly wood and sometimes leather) with a hot metal tip. Many times he has
-ideas that he wants to do , but he also lets the markings in the wood guide him in what image
-he’s going to create. For Shambé , every mark is intentional. Wood selection is also important to
-him. To help the environment he often use recycled materials donated from other artists and
-craftspeople. With this medium one of his biggest challenges is adding color to the wood without
-taking away from the sight of the wood grain itself. He doesn't want it to look like it has been
-painted. He overcame this problem by using wood stains.
-While using wood stain another problem occurred. He had to figure out a way to keep the
-stain from running and going into places where it’s not wanted. Painters tape works but he has
-trained himself to have more control of the stain along with a steady hand",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;baby onesie and acrylic paint,,,,Arts Center of Mississippi,acm-ra-bro-shambe-jones-pretty-eyes,artwork,baby onesie and acrylic paint,English,,,record,,,,,"Artist Bio:
-Shambé Jones was born in the Midwest region. Champaign-Urbana Illinois where he started his creative journey at the age of 5. He grew up in a family full of artists, musicians, seamstresses, carpenters, photographers, farmers etc. There were also family friends who influenced his growth as an artist. He has always been inspired by music and nature and uses both of these muses to guide his process of creating. Visual art was the way in which he expressed not only how he interpreted the world, but it allowed him to vision the world the way he wanted to see it. 
-
-By the time he reached high school, he began entering illustration contests and the arts is how he spent much of his time. Working to perfect his skills and find which platform would be his focus, he attended Jackson State University, where he earned a B.A. in Fine Arts. 
-
-During his matriculation, he participated in the Jackson State University study abroad program in Côte D’Ivorie, Africa, where he spent the summer studying various forms of craftwork like sculpting, ceramics, brass casting, batik dying among other crafts. By way of Drew University this experience tremendously influenced his creativity and kinship to pyrography. He taught himself this art form in the year 2000 after being drawn to the handcraft skills he learned from the people of Coté D’Ivorie and natural elements (wood) that could be turned into art while being easily accessible. While pyrography is the visual art form that he is most drawn to, he continues to further his skills in painting, sculpture, ceramics, and mixed media. 
  
-His process of creating work depends on what medium he’s using. It usually starts with ideas that are formed in his mind. Once there is a blueprint of what's to be done, additional study, planning and or research is next to guide and influence the work. The next step is to gather all material that is needed to create the piece visualized. After gathering the materials his next process is to prepare the surface to be burned, painted, drawn on or created with. This could be anything from sanding, priming, or putting a basic sketch on a canvas or paper. During this process he gets his atmosphere together so that he has a good positive environment to work in, which usually involves nice music and incense.
 
-Exhibition Text:
-As an artist, Shambé creates art because he sees art as life. He feel that everything has a
-design and purpose. He also creates art based on history that he has studied, nature, and
-some of the materials that are used. His aim is to tap into the viewers subconscious and bring
-forth healing visually.
-He work in a variety of mediums but mostly in pyrography which is the burning of an image
-onto a surface ( mostly wood and sometimes leather) with a hot metal tip. Many times he has
-ideas that he wants to do , but he also lets the markings in the wood guide him in what image
-he’s going to create. For Shambé , every mark is intentional. Wood selection is also important to
-him. To help the environment he often use recycled materials donated from other artists and
-craftspeople. With this medium one of his biggest challenges is adding color to the wood without
-taking away from the sight of the wood grain itself. He doesn't want it to look like it has been
-painted. He overcame this problem by using wood stains.
-While using wood stain another problem occurred. He had to figure out a way to keep the
-stain from running and going into places where it’s not wanted. Painters tape works but he has
-trained himself to have more control of the stain along with a steady hand",baby onesie and acrylic paint,,,17 x 20.75 in.,,Recent Acquisitions 2025,,,
-acm-ra-george-sky-miles-light-of-the-soul,,Light of the Soul,George Sky Miles,,,"Multiple piece - smallery framed photograph. Larger empty frame, and table with jars and items. Needs further documentation.",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;edited photography,,,,Arts Center of Mississippi,acm-ra-george-sky-miles-light-of-the-soul,artwork,edited photography,English,,,record,,,,,"Artist Bio:
-Art has been a part of George Miles Jr.’s life since he was in third grade. The artist, who creates art as Sky Miles, works in mediums such as photography, ceramics, watercolors, mixed media and more.
+ Exhibition Text:
+ Since 2011, Adrienne Domnick has developed her artistic craft through a variety of mediums. As a multidisciplinary artist, Domnick creates work that responds to the social environment she grew up and lives in today. Inspired by the idea of the less focused “b-side” of records, this exhibition explores an ongoing journey and creative project that Domnick has worked on since the beginning of her artistic career. B SIDES serves as a cultural archive and music catalog delivered through a dynamic and bold series of paintings. This exhibition visually delivers a story of growth; growth of the artist and of the cultural impact of the musical artists featured. Domnick’s large scale paintings elevate her subjects to a larger than life status, lifting up the subject and memorializing these artists’ legacy and influence on the world around them. As a self described archivist, Domnick draws from an extensive record of music, books, and fashion when creating her art; striving to document and preserve Black culture in all of her work.",City of Jackson Permanent Collection,,,
+acm-ra-emma-lorenz-self-censorship,Self Censorship,Emma Lorenz,2023,FALSE,"Thrifted tablecloth, MDF woodblock carvings, screenprinting ink",,ACM.2023/109,26 x 36 in.,"""This work contains several aspects of my practice, including the use of printmaking, repurposed thrifted objects, and the use of self portraiture to comment on expectations about personal expression and body."" 
+ 
 
-“I got into (art) because of my community and my parents,” Miles says. “It was an artist who came in and did a workshop and gave us guidelines, and the teacher was amazed at the project I did based on the tips, so I got the spark early on.”
+ The woodblock prints in Self Censorship were made using model poses and photographs from Vogue Magazine as the source material. Three images were selected, and then by superimposing my own plus size body onto the models, I created new drawings, which were then carved into the MDF woodblock prints. 
+ 
 
-Miles, a Starkville, Miss., native, received his associate’s degree in photojournalism from Hinds Community College in 2000, and went on to attend Jackson State University, where he graduated with a bachelor’s degree in liberal arts in 2002.“I formed a group of artists (that included ones such as Tony Davenport and Josh Hailey), and we started doing shows around the city. That’s when things started to take off; it became like a movement,” he says.Miles has worked for Ask For More Arts, which is a program of Ask For More Jackson (formerly known as Parents for Public Schools of Jackson) for the past seven years and has been its art director for three. The group’s goal is to build a creative foundation for students by incorporating art into the classrooms. He works with all students, from elementary to high school",edited photography,,,17.5 x 14 in.,,Recent Acquisitions 2025,,,
-acm-ra-greta-koshenina-memory-s-garden,,Memory's Garden,Greta Koshenina,2023,false,"This artwork was one of the first pieces I created in the series that became ""Warping Southern Myths,"" which I exhibited at the Arts Center. The digital collage combines photos of me as a child with a contemporary photograph of my friend Macon's backyard, located across the street from my parents' house, where I grew up, in Water Valley. As I ran across the street to hang out with him and my boyfriend, I reflected on the symbolism of remaining in the same place through different stages of life and the importance of play and joy. The top print includes photograms of flowers from my mom's garden and Macon's yard.
+ Traditionally, these models are considered the height of beauty and desirability by society, and by appropriating the forms their bodies take with my own non conventional body, I am making myself the object of desire. 
+ 
 
-I'm deeply inspired by place, and when I created this piece, I was meditating on the meaning of home and how it shifts over time. I have called many places home over the years, but Water Valley's streets and woods hold childhood memories that are at once vivid and surreal like mythological tales. I look at the images of myself from years past, and I feel a tenderness for my younger self. This piece was inspired by a dream I had years ago, where I met my 5-year-old self in a field of wildflowers. This was a healing and transformative experience and dream, and since then, I have felt that version of Little Greta at peace.",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;cyanotype digital collage and photogram on archival paper,,,,Arts Center of Mississippi,acm-ra-greta-koshenina-memory-s-garden,artwork,cyanotype digital collage and photogram on archival paper,English,,,record,,,,,"Artist Bio:
-Greta Koshenina is a multidisciplinary artist, documentarian, and curator from Water Valley, Mississippi. Koshenina earned a BA in Classics, an MA in Southern Studies, and an MFA in Documentary Expression from the University of Mississippi. Now based in Cleveland, MS, Koshenina is an adjunct professor at Delta State University. Along with Ben Powell and Graham Hamaker, Greta runs ALLUVIAL, a production company dedicated to telling Mississippi stories. Koshenina has received a Mississippi Arts Commission (MAC) Individual Project Grant, a MAC Mini-Grant, and Southern Studies' Sue Hart Award and Lucille and Motee Daniels Award. In July 2025, she showed her work in a solo exhibition at the Arts Center of Mississippi in Jackson, MS. Koshenina’s recent group exhibitions include ‘Heirloom’ at Dogwater Gallery, New Orleans, LA; ‘One Night Stand Motel Art Show,’ Oxford, MS; and ‘Miniatures’ at Bozarts Gallery, Water Valley, MS.
+ The prints and forms are obscured and “censored” however, by the use of screenprinting inks. In this, I am grappling with my own feelings of shame and discomfort, in expressing that sexuality or desirability to a wider audience.",,"Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Thrifted tablecloth, MDF woodblock carvings, screenprinting ink",,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Emma Lorenz describes herself as a found object/mixed media artist, utilizing processes such as printmaking, bookmaking, papermaking and object fabrication to create artwork that discusses body image and identity. Originally from Dallas Texas, Lorenz is currently living and making art in Jackson Mississippi. She teaches studio classes on the weekend at the Mississippi Museum of Art and works full time at the Mississippi Museum of Natural Science. Her work has been featured in local exhibitions such as The Mash-Up: Home is Where the Art is, at the Arts Center of Mississippi, as well as work in the permanent collection of the Ohio University Printmaking Archives, the Fat Print Archives and . She graduated from Millsaps College in 2024, with a Bachelor's Degree in Studio Art, and a Minor in Psychology.
+ 
 
-Social / Website:
-www.gretakoshenina.com
+ Social / Website:
+ Instagram: @a_stitch_to_press
+ Website: emmalorenz.weebly.com
+ 
 
-insta: gretakoshenina
+ Exhibition Text:
+ In this exhibition, A Retrospective of Self, Emma Lorenz offers a voice to often underrepresented and judged groups and vulnerably invites the viewer into her internal discourse and process of self discovery. The physical nature of Lorenz’s work and the use of materials such as embroidery, cyanotypes, and papercraft provides a more tangible connection to the viewer. Secondhand objects are important to Lorenz’s practice as they bring into question the lives of these objects and furniture before they are found by her. In her work Lorenz employs three methods of creating: repurposing, mimicry and fabrication, and deconstruction. The contrast between the familiarity of everyday objects and the exploration of traditionally “taboo” subjects such as weight, gender, and sexuality allow Lorenz to deconstruct societal expectations and challenge the viewer’s preconceived notions of these issues. This idea of the home and personal identity begins with the open suitcase, bringing to mind the idea of “unpacking” both the physical work in this exhibition as well as the artist’s internal thoughts and creative practice.",City of Jackson Permanent Collection,,,
+acm-ra-fooly-fvlling,FVLLING,Fooly,2023,FALSE,Acrylic on canvas,,ACM.2023/110,48 x 30 in.,"VLLING examines the themes of chaos and control, disorientation, and the human instinct to grasp for stability. The subject is captured in mid-fall, surrounded by a swirling vortex of sharp, jagged patterns that evoke a sense of spiraling descent. The grayscale subject, dressed in casual contemporary attire, reaches out against the oppressive black and white maelstrom, providing a stark contrast to the tumultuous backdrop.
+ 
 
-Exhibition Text:
-Details fade upon waking from a dream; the mind forgets years of existence. As a multimedia installation artist, my work holds a moment and strips away the details, reminding us that what may seem concrete and captured is liminal and ephemeral. I combine cyanotype, film, and poetry in my installations, creating an immersive experience that guides the audience through a meditation on the soft underbelly of family mythology.
+ The feeling of movement is palpable, drawing the viewer into the unsettling experience of losing one's footing. The artwork is a masterful depiction of the sudden shifts that can occur in life's trajectory, the unpredictable moments that upend balance and certainty. Goliday's use of perspective and the illusion of depth creates a realistic sensation of falling, inviting empathy and reflection on the viewer's own experiences with upheaval and the fight for composure amidst life's challenges.",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Acrylic on canvas,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Tyler Goliday is an artist from Starkville, Mississippi, known for his portraits in acrylic paint. His mastery of grisaille brings his subjects to the forefront, commanding attention against the vibrantly colored or intricately patterned backgrounds that define his pieces. Goliday's talent has been recognized in several prestigious venues. His debut was marked by his participation in the Municipal Art Gallery's (Re)mediation show, in Jackson, Mississippi. Further establishing his place in the art community, Goliday's work was featured on the cover of Jackson State University's Journal of Art and Theatre, and he has also been a notable participant in The Mashup, a platform for young, Black creatives in Mississippi. Additionally, his art was selected for exhibition at the Mississippi Museum of Art in Jackosn, showasing his growing influence and broad appeal of his work.
+ 
 
-I stitch together cyanotypes printed on antique linens and archival paper to form cyanotype collages. My clumsy red stitches stand out, symbolizing the loss of a traditional, generational craft in my family.
+ Social / Website:
+ Insta: fooly.444
+ 
 
-My work explores the connection between spirit and the subconscious, as well as the personal and the universal. My art represents a journey to understand religion and spirituality from my perspective rather than a rigid viewpoint. I remain in Mississippi and retrace my past. I weave my narrative with collective symbolism: dream iconography, Madonna motifs, plant materials, and family photographs. My artistic practice is rooted in rituals that deepen my connections with family, friends, and community. As an archaeologist of memories and dreams, I examine culture and my family’s story through a spiritual lens.",cyanotype digital collage and photogram on archival paper,cyanotype digital collage and photogram,archival paper,15.25 x 21.5 in.,,Recent Acquisitions 2025,,,
-acm-ra-h-i-green-in-spite-of-my-devotion,,In Spite of My Devotion,H.I. Green,2024,false,"Because it was one of the first works made in this exhibition and my graduate thesis body of work.
+ Exhibition Text:
+ Original Label:
+ FVLLING is a dynamic and evocative painting that delves into the themes of chaos and control, disorientation, and the human instinct to grasp for stability. The subject is captured in mid-fall, surrounded by a swirling vortext of sharp, jagged patterns that evoke a sense of spiraling descent. The grayscale sujet, dressed in casual contemporary attire, reaches out against the oppressive black and white maelstrom, providing a stark contrast to the tumultuous backdrop. The feeling of movement is palpable, drawing the viewer into the unsettling experience of losing one's footing. The artwork is a masterful depiction of the sudden shifts that can occur in life's trajectory. The unpredictable moments that upend balance and certainty. Fooly's use of perspective and the illusion of depth that creates a realistic sensation of falling, inviting empathy and reflection on the viewer's own experiences with upheaval and the fight for composure amidst life's challenges.",City of Jackson Permanent Collection,,,
+acm-ra-jbuck-dist-rti-n2,distørtiøn2,JBUCK,2023,FALSE,Acrylic and tempera on canvas,,ACM.2023/111,20 x 20 in.,,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Acrylic and tempera on canvas,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Social / Website:
+ Insta: jbuck.the.artist",City of Jackson Permanent Collection,,,
+acm-ra-jxn-comics-stephen-butle-captain-jackson-character-de,Captain Jackson Character Design,JXN Comics (Stephen Butler),2022,FALSE,Ink on Paper,,ACM.2022/112,8.5 x 11 in.,"JXN Comics Editor Notes: ""This is a character that represents Jackson and was created to celebrate the 200th anniversary of the city - so there's no better place for it to be! The character's name is Captain Jackson and he was created by Blake Barnes and illustrated by Steven Butler for the first issue of 'Jackson Comics.'""",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Ink on Paper,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Social / Website:
+ Website: https://www.jacksoncomics.com/
+ 
 
-This work was created in response to thinking of the familiar land in which my parents have grown up on, and the land where my paternal grandmothers house used to be. Well, also, considering my southern Baptist upbringing in the way it's influence haunts my being and actions today. The rapture like visuals give old to not only the effects of religious fears, but the ever existence of change and transitions.",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;acrylic paint and dirt from MS on wood panel,,,,Arts Center of Mississippi,acm-ra-h-i-green-in-spite-of-my-devotion,artwork,acrylic paint and dirt from MS on wood panel,English,,,record,,,,,"Artist Bio:
-H. I. Green (1999) is a multidisciplinary artist from Madison, Mississippi. They obtained a bachelor of arts at Millsaps College in 2021 and have recently completed Mount Royal school of Art Multidisciplinary Program at the 
-Maryland Institute College of the Arts (MICA) in Baltimore, MD, earning their MFA.
+ Exhibition Text:
+ Jackson Comics issued its first volume during the bicentennial of the City, highlighting local artists and illustrators to tell the story of Jackson’s “collective history and how we got here.”After its initial success Jackson Comics created a second volume and is continuing to create additional entries into the anthology. Jackson Comics is organized and edited by Blake Barnes, a Delta State Graduate with a BFA in Media Arts. 
+ 
 
-Having started as a painter, using mostly acrylic paint and oil pastels, Green has 
-expanded their practice through a multitude of medioms including printmaking, 
-bookmaking, fiber, wood, and sculptural forms. Throughout their time in grad school Green explored themes of familial origins, displaced longing, and systematically aroused confusion, and the antics of being raised in the black religious south.
+ The Municipal Art Gallery is excited to showcase the talent of local artists who are bringing an intangible dream to life through this comic book. Barnes is dedicated to bringing in Mississippi artists of all ages and backgrounds including students, practicing artists, and graphic artists of all ages.",City of Jackson Permanent Collection,,,
+acm-ra-lucie-wren-cooper-wind-over-water,Wind over Water,Lucie Wren Cooper,2024,FALSE,Ink pen on paper,,ACM.2024/113,12 x 10 in.,,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Ink pen on paper,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Lucie Wren Cooper is a Jackson, MS native seeking solace in the beauty of her surroundings. After attending the MS School of the Arts in 2019, she began diving into solo studio work and pursuing a life dedicated to storytelling through imagery and music as well as learning the intricate craft of stained glass. Her practice revolves around the admiration of simple beauty, nature, the mundane, dreams, and nostalgia. Lucie’s paintings manifest in a fairly nonobjective way, but are always tied to memories of places, people, and light through use of acrylic on water soaked raw canvas and oil paints.
+ 
 
-Social / Website:
-insta: h.i.green_
+ Social / Website:
+ Insta: luciewrencooper",City of Jackson Permanent Collection,,,
+acm-ra-victoria-meek-crepe-myrtle-laurel-st-park,"Crepe Myrtle, Laurel St Park (Summer 2024)",Victoria Meek,2024,FALSE,Oil on canvas,,ACM.2024/114,11.5 x 14.5 in.,"""It's a tree from a lovely park in the city.""",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2024;Oil on canvas,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Victoria Meek was raised in Meridian, Mississippi and has been based in Jackson since 2017. She received a B.F.A. in Painting & Drawing from the University of Southern Mississippi. And an M.A. in Museum Studies from New York University. Victoria has been in group exhibitions at Peter Freeman, Inc, New York; Pearl River Glass Studio; and Millsaps College. “Trees” is her first solo show. This Municipal Art Gallery exhibition focuses on drawings & paintings of trees or things in relationship with them. Much of the work was made between 2023-24, a period Victoria dedicated to observing and imagining trees in Jackson.
+ 
 
-Exhibition Text:
-Drawn to the religious and spiritual patterns of the past, H.I. Green uses these motifs to to understand those of the potential patterns of the future as a tool to understand themself and those around them more deeply. In their cyanotype work they recall memories of their own and call on the memories and experiences of their parents, grandparents, and ancestral family. The negative collages for the cyanotype exposures are made using personal imagery from family archives, and then layered with symbolism found in contemporary imagery–both candid and staged–to create exaggerated scenes of traditions and to document the transitions from past to present, looking to the future. Through the use of cyanotype, familial archives, and animated media the artist reflects on the lives, spaces, and places that have surrounded them and others throughout their life in Mississippi. Americana themes perpetuate Green’s work, both in imagery and color choices. This deep connection with Mississippi and its complicated history within our country drives the artist’s exploration of the Black, southern religious aesthetics and rituals that have begged to be expressed through their artistic mind.",acrylic paint and dirt from MS on wood panel,acrylic paint and dirt from MS,wood panel,36 x 72 in.,,Recent Acquisitions 2025,,,
-acm-ra-joe-character-formation,,Character Formation,Joe,2025,false,"""I thought it was one of the strongest pieces from my solo exhibition, ""Twilight of the Heenka-Bo"", and a good showcase of my spontaneous approach to artmaking. This piece draws on my keen interest language, handwriting, ancient history, and automatism in art.""",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;Acrylic on watercolor canvas,,,,Arts Center of Mississippi,acm-ra-joe-character-formation,artwork,Acrylic on watercolor canvas,English,,,record,,,,,"Artist Bio:
-Joe Smiley (born September 10, 1988 in Mobile, AL)) is an artist based in Jackson, MS,
-specializing in contemporary drawing. Working primarily on paper with ink and acrylic
-paint markers, Smiley is best known for a distinctive calligraphic visual language
-composed of abstract symbols, shapes, and characters reminiscent of ancient writing.
-Exploring the magic and mystery of esoteric symbols and texts, Smiley investigates
-their ability to convey ideas and emotions through their graphic nature alone. Characterized by intricate compositions and rhythmic patterns, the work reflects a deep engagement with the expressive potential of abstract mark-making. Through various projects and series, Smiley bridges the gap between language and visual art, evoking a sense of universality and timelessness.
+ Social / Website:
+ instagram: v.r.meek
+ 
 
-Social / Website:
-Instagram: zonderbar
+ Exhibition Text:
+ Trees is a focused exploration of the natural environment of central Mississippi through the eyes of Victoria Meek. Finding peace and restoration in nature is key to Meek’s practice; working in Jackson, Mississippi, Meek observes her surrounding environment with a keen interest in the accessibility of trees and their reliable presence as subjects for her work. When selecting a model Meek considers details such as the sway and movement of the tree, seeing them as dancers with their own sense of identity and drama. In addition to the natural world Meek is inspired by tradition defying artists such as Edouard Manet and Pierre Bonnard and like them Meek works en plein air observing her environment. Meek also finds inspiration in contemporary artists such as Jennifer Packer whose intentional incompleteness in her work aligns with Meek’s priority of creative process over the finished product in her artistic practice. In this exhibition Meek presents a collection of recent oil paintings, watercolors, and pencil drawings which despite the traditional medium explore her natural surroundings through a uniquely personal viewpoint.",City of Jackson Permanent Collection,,,
+acm-ra-brenden-davis-channel-3-graphics-on-tv,Channel 3 (graphics on tv),Brenden Davis,2023,FALSE,"mixed media, acrylic, oil pastel, and graphite on wood board",,ACM.2023/115,24 x 36.5 in.,"This piece was created during my time working as a graphic artist at WLBT 3 News, one of central Mississippi's most iconic media institutions. Channel 3 (graphics on tv) captures a moment of lived experience shaped by the unique intersections of creative labor, media production, and Southern identity. It also contributes to the preservation of local narratives and honors the creative workers behind the scenes of Mississippi’s creative media landscape.
+ 
 
-Exhibition Text:
-Sacred Writings from an Unknown Era is the debut exhibition of writer and artist, Joe Smiley. This exhibition marks the nearly five year anniversary since the Covid-19 pandemic uprooted so many lives and started Joe’s journey with his visual arts career. In this exhibition Joe explores the graphic nature of language and writing through an imagined codex of symbols and alphabet-esque shapes that bring to mind ancient and forgotten languages. These abstract paintings on paper evoke a sense of age as they reference early cave drawings and hieroglyphic calligraphy while still feeling familiar to a modern audience with their bright colors and expressive brush strokes. Inspired not only by ancient languages, but also by more contemporary references such as 90s cartoons and Kieth Haring, Joe hopes to bring the viewer on a journey through time as you view this series of paintings.",Acrylic on watercolor canvas,Acrylic,watercolor canvas,31 x 41.25 in.,,Recent Acquisitions 2025,,,
-acm-ra-kira-cummings-sam-cooke,,Sam Cooke,Kira Cummings,2025,false,"I chose to donate this piece because it was one of the standout works in the exhibition, and since many people are familiar with Sam Cooke, I felt it would resonate widely","Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;pyrography pens, pencil, charcoal, on wood panel",,,,Arts Center of Mississippi,acm-ra-kira-cummings-sam-cooke,artwork,"pyrography pens, pencil, charcoal, on wood panel",English,,,record,,,,,"Artist Bio:
-Kira Cummings is a multi-medium artist adept in an array of disciplines; painting, pyrography, photography, videography, graphic design, and animation. A Fine Art graduate of Jackson State University with a Minor in Graphic Design, Cummings holds a membership in the Craftsmen’s Guild of Mississippi for pyrography and the Louisiana Crafts Guild . Cummings is the Creative Director for The Works where she creates video and animation for musicians, interview programs, and corporate promotions as well as producing live events.
+ Created during my time as a graphic artist for WLBT 3 News, Channel 3 (graphics on tv) is a layered meditation on media labor, digital overload, and representation. A hunched figure stretches toward a laptop, surrounded by fragments of broadcast graphics, color marks, and overlapping forms. Elements of television production, such as the “title safe” overlay used to frame on-screen content, are repurposed as visual motifs that underscore the tension between clarity and constraint. The piece reflects on the often-invisible labor behind what becomes visible.",,"Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;mixed media, acrylic, oil pastel, and graphite on wood board",,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Brenden Davis (b. 1997) is a multidisciplinary artist based in Jackson, Mississippi, working across painting, graphic design, and animation. Davis explores surrealism, abstraction, and interpersonal experience, focusing on self-perception and social dynamics. Drawing from personal history and cultural influences, they create abstract figures and dreamlike landscapes that challenge societal narratives and invite viewers into alternate realities. Through their work, Davis seeks to captivate, provoke reflection, and foster meaningful dialogue.
+ 
 
-Social / Website:
-kiracummingsstudio.com
+ Social / Website:
+ brendendavis.com
+ 
 
-insta: kiracummings_studio
+ Exhibition Text:
+ Memory Corrupted: An Exploration of Time and Perception offers a carefully curated time capsule representing snapshots of artist Brenden Davis’ life experiences. Inspired by the way memories blur and reshape as time moves forward, Davis challenges expectation and creates complex visual narratives that breathe new life into traditional surrealist motifs. In these works Davis studies time and how his perception of the world around him has changed over the past eight years of his life. As an artist working with many mediums–including paint, clay, paper, and digital media–Davis is able to literally cut up and rearrange these visual representations of his memories and experiences to create a new, distorted interpretation of his journey through life. The vivid colors, chaotic style, and surreal nature of Davis’ work creates an opportunity for the viewer to find personal connections within the imagery despite the deeply personal nature of this archive.",City of Jackson Permanent Collection,,,
+acm-ra-bro-shambe-jones-pretty-eyes,Pretty Eyes,Bro. Shambé Jones,2025,FALSE,baby onesie and acrylic paint,,ACM.2025/116,17 x 20.75 in.,"As an artist, Shambé creates art because he sees art as life. He feel that everything has a
+ design and purpose. He also creates art based on history that he has studied, nature, and
+ some of the materials that are used. His aim is to tap into the viewers subconscious and bring
+ forth healing visually.
+ He work in a variety of mediums but mostly in pyrography which is the burning of an image
+ onto a surface ( mostly wood and sometimes leather) with a hot metal tip. Many times he has
+ ideas that he wants to do , but he also lets the markings in the wood guide him in what image
+ he’s going to create. For Shambé , every mark is intentional. Wood selection is also important to
+ him. To help the environment he often use recycled materials donated from other artists and
+ craftspeople. With this medium one of his biggest challenges is adding color to the wood without
+ taking away from the sight of the wood grain itself. He doesn't want it to look like it has been
+ painted. He overcame this problem by using wood stains.
+ While using wood stain another problem occurred. He had to figure out a way to keep the
+ stain from running and going into places where it’s not wanted. Painters tape works but he has
+ trained himself to have more control of the stain along with a steady hand",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;baby onesie and acrylic paint,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Shambé Jones was born in the Midwest region. Champaign-Urbana Illinois where he started his creative journey at the age of 5. He grew up in a family full of artists, musicians, seamstresses, carpenters, photographers, farmers etc. There were also family friends who influenced his growth as an artist. He has always been inspired by music and nature and uses both of these muses to guide his process of creating. Visual art was the way in which he expressed not only how he interpreted the world, but it allowed him to vision the world the way he wanted to see it. 
+ 
 
-facebook: KiraCummingsStudio
+ By the time he reached high school, he began entering illustration contests and the arts is how he spent much of his time. Working to perfect his skills and find which platform would be his focus, he attended Jackson State University, where he earned a B.A. in Fine Arts. 
+ 
 
-Exhibition Text:
-Inspired by the remarkable talent that has influenced Mississippi’s history and culture, artist Kira Cummings highlights the accomplishments and contributions of notable Mississippians in Mississippi Icons. Using pyrography, Cummings carefully details the portraits of nineteen individuals who have either grown up or made an impact on the history of our state. 
+ During his matriculation, he participated in the Jackson State University study abroad program in Côte D’Ivorie, Africa, where he spent the summer studying various forms of craftwork like sculpting, ceramics, brass casting, batik dying among other crafts. By way of Drew University this experience tremendously influenced his creativity and kinship to pyrography. He taught himself this art form in the year 2000 after being drawn to the handcraft skills he learned from the people of Coté D’Ivorie and natural elements (wood) that could be turned into art while being easily accessible. While pyrography is the visual art form that he is most drawn to, he continues to further his skills in painting, sculpture, ceramics, and mixed media. 
+ 
+ His process of creating work depends on what medium he’s using. It usually starts with ideas that are formed in his mind. Once there is a blueprint of what's to be done, additional study, planning and or research is next to guide and influence the work. The next step is to gather all material that is needed to create the piece visualized. After gathering the materials his next process is to prepare the surface to be burned, painted, drawn on or created with. This could be anything from sanding, priming, or putting a basic sketch on a canvas or paper. During this process he gets his atmosphere together so that he has a good positive environment to work in, which usually involves nice music and incense.
+ 
 
-“My work explores the intersection of history, fame, and craftsmanship through the medium of woodburning. By creating portraits of famous individuals, I aim to capture not only their likeness but also the deeper essence of their public 
-personas—immortalizing their impact in a way that is both tactile and timeless.
+ Exhibition Text:
+ As an artist, Shambé creates art because he sees art as life. He feel that everything has a
+ design and purpose. He also creates art based on history that he has studied, nature, and
+ some of the materials that are used. His aim is to tap into the viewers subconscious and bring
+ forth healing visually.
+ He work in a variety of mediums but mostly in pyrography which is the burning of an image
+ onto a surface ( mostly wood and sometimes leather) with a hot metal tip. Many times he has
+ ideas that he wants to do , but he also lets the markings in the wood guide him in what image
+ he’s going to create. For Shambé , every mark is intentional. Wood selection is also important to
+ him. To help the environment he often use recycled materials donated from other artists and
+ craftspeople. With this medium one of his biggest challenges is adding color to the wood without
+ taking away from the sight of the wood grain itself. He doesn't want it to look like it has been
+ painted. He overcame this problem by using wood stains.
+ While using wood stain another problem occurred. He had to figure out a way to keep the
+ stain from running and going into places where it’s not wanted. Painters tape works but he has
+ trained himself to have more control of the stain along with a steady hand",City of Jackson Permanent Collection,,,
+acm-ra-george-sky-miles-light-of-the-soul,Light of the Soul,George Sky Miles,,,edited photography,,ACM.undated/117,17.5 x 14 in.,"Multiple piece - smallery framed photograph. Larger empty frame, and table with jars and items. Needs further documentation.",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;edited photography,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Art has been a part of George Miles Jr.’s life since he was in third grade. The artist, who creates art as Sky Miles, works in mediums such as photography, ceramics, watercolors, mixed media and more.
+ 
 
-Woodburning, or pyrography, allows me to engage with the subject in a deliberate and thoughtful process. The slow, methodical application of heat to wood contrasts with the often fleeting nature of celebrity, grounding these figures in a raw, organic material that evokes permanence. The grain of the wood interacts with each stroke of heat, adding a unique texture that mirrors the complexity of the human experience, suggesting that behind the polished images of fame are nuanced, multifaceted lives.
+ “I got into (art) because of my community and my parents,” Miles says. “It was an artist who came in and did a workshop and gave us guidelines, and the teacher was amazed at the project I did based on the tips, so I got the spark early on.”
+ 
 
-By rendering these figures in wood, I invite the viewer to reflect on the enduring influence of cultural icons, while also questioning the nature of fame itself. What do we preserve? What is lost? Through these portraits, I aim to offer a moment of stillness, where the viewer can engage not just with the surface of celebrity, but with the lasting impact of those who shape our collective imagination.” - Kira Cummings","pyrography pens, pencil, charcoal, on wood panel","pyrography pens, pencil, charcoal",wood panel,10 x 10 in.,,Recent Acquisitions 2025,,,
-acm-ra-kristen-clark-library-series-welty,,Library Series: Welty,Kristen Clark,2025,false,This was created as part of a series of Author portraits.,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;Ink drawing,,,,Arts Center of Mississippi,acm-ra-kristen-clark-library-series-welty,artwork,Ink drawing,English,,,record,,,,,"Artist Bio:
-Kristen Brandt is a self-taught portraitist and embroidery artist living in the Jackson-Metro area. She began her artistic practice with ink-drawn portraits, exploring techniques for achieving value that developed into a more illustrative than photorealistic style. After the passing of her maternal grandmother, Kristen inherited her grandmother’s sewing tools and materials, which prompted her to go entirely in a new direction. While she had learned the basics of embroidery from her paternal grandmother in her youth, she had not applied the skills in many years. Armed with supplies, instruction, and encouragement from these two important women, Kristen began creating hand embroidered patches with designs heavily inspired by animation from films, anime, and video games. Each patch provided an opportunity to learn a new technique or stitch.
+ Miles, a Starkville, Miss., native, received his associate’s degree in photojournalism from Hinds Community College in 2000, and went on to attend Jackson State University, where he graduated with a bachelor’s degree in liberal arts in 2002.“I formed a group of artists (that included ones such as Tony Davenport and Josh Hailey), and we started doing shows around the city. That’s when things started to take off; it became like a movement,” he says.Miles has worked for Ask For More Arts, which is a program of Ask For More Jackson (formerly known as Parents for Public Schools of Jackson) for the past seven years and has been its art director for three. The group’s goal is to build a creative foundation for students by incorporating art into the classrooms. He works with all students, from elementary to high school",City of Jackson Permanent Collection,,,
+acm-ra-greta-koshenina-memory-s-garden,Memory's Garden,Greta Koshenina,2023,FALSE,cyanotype digital collage and photogram on archival paper,,ACM.2023/118,15.25 x 21.5 in.,"This artwork was one of the first pieces I created in the series that became ""Warping Southern Myths,"" which I exhibited at the Arts Center. The digital collage combines photos of me as a child with a contemporary photograph of my friend Macon's backyard, located across the street from my parents' house, where I grew up, in Water Valley. As I ran across the street to hang out with him and my boyfriend, I reflected on the symbolism of remaining in the same place through different stages of life and the importance of play and joy. The top print includes photograms of flowers from my mom's garden and Macon's yard.
+ 
 
-She became more confident with a needle in hand and returned to the inked portraits, deciding to re-create them using fabric and thread. The different pieces of fabric are joined together into a single figure and stitched to quilted backgrounds, representing the culmination of a multi-year journey of learning two completely different skills that intertwine seamlessly.
+ I'm deeply inspired by place, and when I created this piece, I was meditating on the meaning of home and how it shifts over time. I have called many places home over the years, but Water Valley's streets and woods hold childhood memories that are at once vivid and surreal like mythological tales. I look at the images of myself from years past, and I feel a tenderness for my younger self. This piece was inspired by a dream I had years ago, where I met my 5-year-old self in a field of wildflowers. This was a healing and transformative experience and dream, and since then, I have felt that version of Little Greta at peace.",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;cyanotype digital collage and photogram on archival paper,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Greta Koshenina is a multidisciplinary artist, documentarian, and curator from Water Valley, Mississippi. Koshenina earned a BA in Classics, an MA in Southern Studies, and an MFA in Documentary Expression from the University of Mississippi. Now based in Cleveland, MS, Koshenina is an adjunct professor at Delta State University. Along with Ben Powell and Graham Hamaker, Greta runs ALLUVIAL, a production company dedicated to telling Mississippi stories. Koshenina has received a Mississippi Arts Commission (MAC) Individual Project Grant, a MAC Mini-Grant, and Southern Studies' Sue Hart Award and Lucille and Motee Daniels Award. In July 2025, she showed her work in a solo exhibition at the Arts Center of Mississippi in Jackson, MS. Koshenina’s recent group exhibitions include ‘Heirloom’ at Dogwater Gallery, New Orleans, LA; ‘One Night Stand Motel Art Show,’ Oxford, MS; and ‘Miniatures’ at Bozarts Gallery, Water Valley, MS.
+ 
 
-The exhibition’s name, Held Together by Thread, challenges the phrase “holding on by a thread,” indicating that something is precariously positioned due to the frailty of thread as a medium. This exhibition explores the ways in which people are connected to each other through common interests and personal experiences, reinforcing those connections using a medium that shows stitching with even a single strand can forge ironclad bonds. Through engaging with this creative process, she formed a deeper appreciation for each of her grandmothers who led her to this medium and forged meaningful connections with other artists represented in this collection.
+ Social / Website:
+ www.gretakoshenina.com
+ 
+
+ insta: gretakoshenina
+ 
+
+ Exhibition Text:
+ Details fade upon waking from a dream; the mind forgets years of existence. As a multimedia installation artist, my work holds a moment and strips away the details, reminding us that what may seem concrete and captured is liminal and ephemeral. I combine cyanotype, film, and poetry in my installations, creating an immersive experience that guides the audience through a meditation on the soft underbelly of family mythology.
+ 
+
+ I stitch together cyanotypes printed on antique linens and archival paper to form cyanotype collages. My clumsy red stitches stand out, symbolizing the loss of a traditional, generational craft in my family.
+ 
+
+ My work explores the connection between spirit and the subconscious, as well as the personal and the universal. My art represents a journey to understand religion and spirituality from my perspective rather than a rigid viewpoint. I remain in Mississippi and retrace my past. I weave my narrative with collective symbolism: dream iconography, Madonna motifs, plant materials, and family photographs. My artistic practice is rooted in rituals that deepen my connections with family, friends, and community. As an archaeologist of memories and dreams, I examine culture and my family’s story through a spiritual lens.",City of Jackson Permanent Collection,,,
+acm-ra-h-i-green-in-spite-of-my-devotion,In Spite of My Devotion,H.I. Green,2024,FALSE,acrylic paint and dirt from MS on wood panel,,ACM.2024/119,36 x 72 in.,"Because it was one of the first works made in this exhibition and my graduate thesis body of work.
+ 
+
+ This work was created in response to thinking of the familiar land in which my parents have grown up on, and the land where my paternal grandmothers house used to be. Well, also, considering my southern Baptist upbringing in the way it's influence haunts my being and actions today. The rapture like visuals give old to not only the effects of religious fears, but the ever existence of change and transitions.",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;acrylic paint and dirt from MS on wood panel,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ H. I. Green (1999) is a multidisciplinary artist from Madison, Mississippi. They obtained a bachelor of arts at Millsaps College in 2021 and have recently completed Mount Royal school of Art Multidisciplinary Program at the 
+ Maryland Institute College of the Arts (MICA) in Baltimore, MD, earning their MFA.
+ 
+
+ Having started as a painter, using mostly acrylic paint and oil pastels, Green has 
+ expanded their practice through a multitude of medioms including printmaking, 
+ bookmaking, fiber, wood, and sculptural forms. Throughout their time in grad school Green explored themes of familial origins, displaced longing, and systematically aroused confusion, and the antics of being raised in the black religious south.
+ 
+
+ Social / Website:
+ insta: h.i.green_
+ 
+
+ Exhibition Text:
+ Drawn to the religious and spiritual patterns of the past, H.I. Green uses these motifs to to understand those of the potential patterns of the future as a tool to understand themself and those around them more deeply. In their cyanotype work they recall memories of their own and call on the memories and experiences of their parents, grandparents, and ancestral family. The negative collages for the cyanotype exposures are made using personal imagery from family archives, and then layered with symbolism found in contemporary imagery–both candid and staged–to create exaggerated scenes of traditions and to document the transitions from past to present, looking to the future. Through the use of cyanotype, familial archives, and animated media the artist reflects on the lives, spaces, and places that have surrounded them and others throughout their life in Mississippi. Americana themes perpetuate Green’s work, both in imagery and color choices. This deep connection with Mississippi and its complicated history within our country drives the artist’s exploration of the Black, southern religious aesthetics and rituals that have begged to be expressed through their artistic mind.",City of Jackson Permanent Collection,,,
+acm-ra-joe-character-formation,Character Formation,Joe,2025,FALSE,Acrylic on watercolor canvas,,ACM.2025/120,31 x 41.25 in.,"""I thought it was one of the strongest pieces from my solo exhibition, ""Twilight of the Heenka-Bo"", and a good showcase of my spontaneous approach to artmaking. This piece draws on my keen interest language, handwriting, ancient history, and automatism in art.""",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;Acrylic on watercolor canvas,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Joe Smiley (born September 10, 1988 in Mobile, AL)) is an artist based in Jackson, MS,
+ specializing in contemporary drawing. Working primarily on paper with ink and acrylic
+ paint markers, Smiley is best known for a distinctive calligraphic visual language
+ composed of abstract symbols, shapes, and characters reminiscent of ancient writing.
+ Exploring the magic and mystery of esoteric symbols and texts, Smiley investigates
+ their ability to convey ideas and emotions through their graphic nature alone. Characterized by intricate compositions and rhythmic patterns, the work reflects a deep engagement with the expressive potential of abstract mark-making. Through various projects and series, Smiley bridges the gap between language and visual art, evoking a sense of universality and timelessness.
+ 
+
+ Social / Website:
+ Instagram: zonderbar
+ 
+
+ Exhibition Text:
+ Sacred Writings from an Unknown Era is the debut exhibition of writer and artist, Joe Smiley. This exhibition marks the nearly five year anniversary since the Covid-19 pandemic uprooted so many lives and started Joe’s journey with his visual arts career. In this exhibition Joe explores the graphic nature of language and writing through an imagined codex of symbols and alphabet-esque shapes that bring to mind ancient and forgotten languages. These abstract paintings on paper evoke a sense of age as they reference early cave drawings and hieroglyphic calligraphy while still feeling familiar to a modern audience with their bright colors and expressive brush strokes. Inspired not only by ancient languages, but also by more contemporary references such as 90s cartoons and Kieth Haring, Joe hopes to bring the viewer on a journey through time as you view this series of paintings.",City of Jackson Permanent Collection,,,
+acm-ra-kira-cummings-sam-cooke,Sam Cooke,Kira Cummings,2025,FALSE,"pyrography pens, pencil, charcoal, on wood panel",,ACM.2025/121,10 x 10 in.,"I chose to donate this piece because it was one of the standout works in the exhibition, and since many people are familiar with Sam Cooke, I felt it would resonate widely",,"Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;pyrography pens, pencil, charcoal, on wood panel",,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Kira Cummings is a multi-medium artist adept in an array of disciplines; painting, pyrography, photography, videography, graphic design, and animation. A Fine Art graduate of Jackson State University with a Minor in Graphic Design, Cummings holds a membership in the Craftsmen’s Guild of Mississippi for pyrography and the Louisiana Crafts Guild . Cummings is the Creative Director for The Works where she creates video and animation for musicians, interview programs, and corporate promotions as well as producing live events.
+ 
+
+ Social / Website:
+ kiracummingsstudio.com
+ 
+
+ insta: kiracummings_studio
+ 
+
+ facebook: KiraCummingsStudio
+ 
+
+ Exhibition Text:
+ Inspired by the remarkable talent that has influenced Mississippi’s history and culture, artist Kira Cummings highlights the accomplishments and contributions of notable Mississippians in Mississippi Icons. Using pyrography, Cummings carefully details the portraits of nineteen individuals who have either grown up or made an impact on the history of our state. 
+ 
+
+ “My work explores the intersection of history, fame, and craftsmanship through the medium of woodburning. By creating portraits of famous individuals, I aim to capture not only their likeness but also the deeper essence of their public 
+ personas—immortalizing their impact in a way that is both tactile and timeless.
+ 
+
+ Woodburning, or pyrography, allows me to engage with the subject in a deliberate and thoughtful process. The slow, methodical application of heat to wood contrasts with the often fleeting nature of celebrity, grounding these figures in a raw, organic material that evokes permanence. The grain of the wood interacts with each stroke of heat, adding a unique texture that mirrors the complexity of the human experience, suggesting that behind the polished images of fame are nuanced, multifaceted lives.
+ 
+
+ By rendering these figures in wood, I invite the viewer to reflect on the enduring influence of cultural icons, while also questioning the nature of fame itself. What do we preserve? What is lost? Through these portraits, I aim to offer a moment of stillness, where the viewer can engage not just with the surface of celebrity, but with the lasting impact of those who shape our collective imagination.” - Kira Cummings",City of Jackson Permanent Collection,,,
+acm-ra-kristen-clark-library-series-welty,Library Series: Welty,Kristen Clark,2025,FALSE,Ink drawing,,ACM.2025/122,9 x 11 in.,This was created as part of a series of Author portraits.,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;Ink drawing,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Kristen Brandt is a self-taught portraitist and embroidery artist living in the Jackson-Metro area. She began her artistic practice with ink-drawn portraits, exploring techniques for achieving value that developed into a more illustrative than photorealistic style. After the passing of her maternal grandmother, Kristen inherited her grandmother’s sewing tools and materials, which prompted her to go entirely in a new direction. While she had learned the basics of embroidery from her paternal grandmother in her youth, she had not applied the skills in many years. Armed with supplies, instruction, and encouragement from these two important women, Kristen began creating hand embroidered patches with designs heavily inspired by animation from films, anime, and video games. Each patch provided an opportunity to learn a new technique or stitch.
+ 
+
+ She became more confident with a needle in hand and returned to the inked portraits, deciding to re-create them using fabric and thread. The different pieces of fabric are joined together into a single figure and stitched to quilted backgrounds, representing the culmination of a multi-year journey of learning two completely different skills that intertwine seamlessly.
+ 
+
+ The exhibition’s name, Held Together by Thread, challenges the phrase “holding on by a thread,” indicating that something is precariously positioned due to the frailty of thread as a medium. This exhibition explores the ways in which people are connected to each other through common interests and personal experiences, reinforcing those connections using a medium that shows stitching with even a single strand can forge ironclad bonds. Through engaging with this creative process, she formed a deeper appreciation for each of her grandmothers who led her to this medium and forged meaningful connections with other artists represented in this collection.
+ 
 
  Kristen completed a Masters in Folk Studies at Western Kentucky University in 2016 before starting a job at the Mississippi Arts Commission where she is now the Arts Industry Director. “Held Together by Thread” is the first exhibition of her work.
-
-Social / Website:
-insta: @everydaypsyche",Ink drawing,,,9 x 11 in.,,Recent Acquisitions 2025,,,
-acm-ra-lucia-duque-nebulous,,Nebulous,Lucia Duque,2021,false,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;Acrylic on canvas,,,,Arts Center of Mississippi,acm-ra-lucia-duque-nebulous,artwork,Acrylic on canvas,English,,,record,,,,,"Artist Bio:
-Born in 1984 in Colombia, Lucia Duque is a Spanish artist currently based in Clinton, Mississippi. 
-At the age of four, her family moved to Spain, fleeing the violence that affected Colombia in the 1980s. Her artistic style is a fusion of Latin American and European influences, blending vibrant colors, expressive forms, and deep symbolism.
-She specialized in mural painting at La Palma School of Art in Madrid and completed her studies at the Sevilla School of Art. Throughout her career, she has explored various techniques, focusing on acrylic and watercolor to adapt her approach to different themes. Migration, identity, and human resilience are central to her work, allowing her to tell both personal and collective stories through art. With decades of experience in painting, teaching, and community engagement, Lucia is passionate about collaborative art. She has led large-scale murals with the NGO Haciendo Barrio in Malasaña, Madrid, encouraging community participation through public art. Additionally, she has taught painting in schools, after-school programs, and workshops for underprivileged children, believing in the power of art as a tool for education and empowerment.Her paintings have been exhibited in Spain and the U.S, including solo exhibitions from her Saastah collection at the Osuna Museum in Seville, the Diputación de Málaga, and Espacio Pozas in Madrid, Exhibition “Making Neighborhood” at Conde Duque Center, Madrid Spain, as well as in California, Indianapolis and Pacesetter Gallery in MS. Her work ""Leap of faith"" Was exhibited in 2021 at the Art Party in the Mississippi Museum of art. Her most recent mural, located at 201 Clinton Boulevard, MS.
-Beyond her personal practice, she has coordinated cultural initiatives such as Welcome Donostia in San Sebastián, Spain, along with various art events and community projects. Through her work, she continues to explore universal themes, using art to bridge cultures, foster dialogue, and inspire meaningful connections.
-
-Social / Website:
-Insta: luciaduqueart
-
-Website: luciaduque.com",Acrylic on canvas,Acrylic,canvas,18 x 24 in.,,Recent Acquisitions 2025,,,
-acm-ra-michael-montgomery-sera-and-phina,,Sera & Phina,Michael Montgomery,2025,false,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;translucent woven sculpture and cellophane on a wood fram,,,,Arts Center of Mississippi,acm-ra-michael-montgomery-sera-and-phina,artwork,translucent woven sculpture and cellophane on a wood fram,English,,,record,,,,,,translucent woven sculpture and cellophane on a wood fram,translucent woven sculpture and cellophane,a wood fram,,,Recent Acquisitions 2025,,,
-acm-ra-nate-thiesen-progenation,,Progenation,Nate Thiesen,2025,false,"This piece was made using laser cut and engraved acrylic. 
-
-Least Delicate, least specific requirements for set up. Has its own light, so can be displayed anywhere","Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;Plexiglass, LED spotlight",,,,Arts Center of Mississippi,acm-ra-nate-thiesen-progenation,artwork,"Plexiglass, LED spotlight",English,,,record,,,,,"Artist Bio:
-Nate Theisen is a sculptor, painter, and co-Chair of Art at Belhaven University, where he has been since 2002. He received a M.F.A. in painting and sculpture from Wichita State University and a B.F.A. in painting from the University of South Dakota. He served briefly as an apprentice for Anatol Herzfeld in Neuss County, Germany.
-His works have been featured in numerous exhibits across the South and Midwest including the Mississippi Invitational. He has received many awards including two Artist Fellowship grants from the Mississippi Arts Commission, and several best of shows and first place awards.
-Nate Theisen is a sculptor, painter, and co-Chair of Art at Belhaven University, where he has been since 2002. He received a M.F.A. in painting and sculpture from Wichita State University and a B.F.A. in painting from the University of South Dakota. He served briefly as an apprentice for Anatol Herzfeld in Neuss County, Germany.
-His works have been featured in numerous exhibits across the South and Midwest including the Mississippi Invitational. He has received many awards including two Artist Fellowship grants from the Mississippi Arts Commission, and several best of shows and first place awards.
-
-Social / Website:
-https://ntheisen.myportfolio.com/ 
-
-https://www.instagram.com/natetheisenart/
-
-Exhibition Text:
-Pale: Seem less impressive or important. Deficient in color or intensity of color.
  
-Ontology: The branch of philosophy that investigates the nature of existence.
+
+ Social / Website:
+ insta: @everydaypsyche",City of Jackson Permanent Collection,,,
+acm-ra-lucia-duque-nebulous,Nebulous,Lucia Duque,2021,FALSE,Acrylic on canvas,,ACM.2021/123,18 x 24 in.,,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;Acrylic on canvas,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Born in 1984 in Colombia, Lucia Duque is a Spanish artist currently based in Clinton, Mississippi. 
+ At the age of four, her family moved to Spain, fleeing the violence that affected Colombia in the 1980s. Her artistic style is a fusion of Latin American and European influences, blending vibrant colors, expressive forms, and deep symbolism.
+ She specialized in mural painting at La Palma School of Art in Madrid and completed her studies at the Sevilla School of Art. Throughout her career, she has explored various techniques, focusing on acrylic and watercolor to adapt her approach to different themes. Migration, identity, and human resilience are central to her work, allowing her to tell both personal and collective stories through art. With decades of experience in painting, teaching, and community engagement, Lucia is passionate about collaborative art. She has led large-scale murals with the NGO Haciendo Barrio in Malasaña, Madrid, encouraging community participation through public art. Additionally, she has taught painting in schools, after-school programs, and workshops for underprivileged children, believing in the power of art as a tool for education and empowerment.Her paintings have been exhibited in Spain and the U.S, including solo exhibitions from her Saastah collection at the Osuna Museum in Seville, the Diputación de Málaga, and Espacio Pozas in Madrid, Exhibition “Making Neighborhood” at Conde Duque Center, Madrid Spain, as well as in California, Indianapolis and Pacesetter Gallery in MS. Her work ""Leap of faith"" Was exhibited in 2021 at the Art Party in the Mississippi Museum of art. Her most recent mural, located at 201 Clinton Boulevard, MS.
+ Beyond her personal practice, she has coordinated cultural initiatives such as Welcome Donostia in San Sebastián, Spain, along with various art events and community projects. Through her work, she continues to explore universal themes, using art to bridge cultures, foster dialogue, and inspire meaningful connections.
  
-The work in this series suggests living forms while verging on abstraction. The life depicted is delicate: the forms move, increase in mass, and threaten non-existence relative to the spectator.
+
+ Social / Website:
+ Insta: luciaduqueart
  
-The systematic and quasi-scientific construction and display methods used in this series are an attempt to recapture the wonder I had as a child visiting natural science museums. The skeletons and fossils on display suggested various aspects and actions of once living things. This prompted me to fill in the blanks of their existence with my limited understanding of the world. The voids and trace elements were active zones filled with muscle, sinew and skin. The poses and traces of movement recorded their intelligence and behavior.
+
+ Website: luciaduque.com",City of Jackson Permanent Collection,,,
+acm-ra-michael-montgomery-sera-and-phina,Sera & Phina,Michael Montgomery,2025,FALSE,translucent woven sculpture and cellophane on a wood fram,,ACM.2025/124,,,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;translucent woven sculpture and cellophane on a wood fram,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,
+acm-ra-nate-thiesen-progenation,Progenation,Nate Thiesen,2025,FALSE,"Plexiglass, LED spotlight",,ACM.2025/125,,"This piece was made using laser cut and engraved acrylic. 
  
-I like the idea of memory blending with myth and using research that incorporates speculation. The imaginative reconstruction of beings hopefully can serve as a metaphor for how we generate our own sense of being. 
-– Nate Theisen","Plexiglass, LED spotlight",,,,,Recent Acquisitions 2025,,,
-acm-ra-rahleecoh-j-verderosa-is-open-joy,,Open Joy,RahLeeCoh J. Verderosa-Ishakarah,2023,false,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;Oil paint on paper,,,,Arts Center of Mississippi,acm-ra-rahleecoh-j-verderosa-is-open-joy,artwork,Oil paint on paper,English,,,record,,,,,"Artist Bio:
-RahLeeCoh J. Verderosa-Ishakarah is a multi-talented artist constantly challenging himself through his artistic practices. He was born and raised in Jackson, MS, to an artistic family and a culturally expressive community. Though initially homeschooled by his parents, he went on to experience public education at specialized art programs in JPS like APAC that funded summer programs such as Kaleidoscope and Idyllwild Arts in CA. He moved out of state to receive his BFA in Design Arts with a Concentration in Sequential Narrative through Memphis College of Art and took teacher courses at Belhaven University while teaching high school art in Memphis. He continued to embrace art and education as he implemented the practice into his community engagement projects. He continues to engage in public art as he takes on new ventures, while maintaining private conceptual interests.",Oil paint on paper,Oil paint,paper,20 x 26 in.,,Recent Acquisitions 2025,,,
-acm-ra-anna-lyons-sitting-with-myself-in-the-d,,Sitting with Myself in the Dark,Anna Lyons,2025,false,"Anna Lyons created this body of work over the past several years as she moved through life in a journey of self discovery and artistic growth. This series of paintings, drawings, ceramics, and found objects represents a curiosity and exploration of identity. The title, Portraits & Other Objects, references both the literal subject of the art in this body of work, as well as Lyons’ fascination with inverting the typical portrait and instead imagining what if objects served as portraits of people, and if people could be represented as objects? Inspired by the legacy of Surrealist painters such as Frida Kahlo, Leonora Carrington, and Hilma af Klint, this series of portraits takes the subject and creates a new world of representation. Each piece begins with nothing more than a thought or even a dream that ignites a creative fire that Lyons harnesses into new work. The resulting dreamlike art opens up an otherworldly environment for the viewer to explore. As you examine the work in this gallery, we invite you to reflect on your own dreams and thoughts and how they could exist in this world.",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;oil on canvas,,,,Arts Center of Mississippi,acm-ra-anna-lyons-sitting-with-myself-in-the-d,artwork,oil on canvas,English,,,record,,,,,"Artist Bio:
-Anna Lyons is an artist raised in southern Louisiana now living in Jackson, MS. She is a BFA graduate of The School of the Art Institute of Chicago with a concentration in Painting, Drawing, and Ceramics. 
+
+ Least Delicate, least specific requirements for set up. Has its own light, so can be displayed anywhere",,"Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;Plexiglass, LED spotlight",,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Nate Theisen is a sculptor, painter, and co-Chair of Art at Belhaven University, where he has been since 2002. He received a M.F.A. in painting and sculpture from Wichita State University and a B.F.A. in painting from the University of South Dakota. He served briefly as an apprentice for Anatol Herzfeld in Neuss County, Germany.
+ His works have been featured in numerous exhibits across the South and Midwest including the Mississippi Invitational. He has received many awards including two Artist Fellowship grants from the Mississippi Arts Commission, and several best of shows and first place awards.
+ Nate Theisen is a sculptor, painter, and co-Chair of Art at Belhaven University, where he has been since 2002. He received a M.F.A. in painting and sculpture from Wichita State University and a B.F.A. in painting from the University of South Dakota. He served briefly as an apprentice for Anatol Herzfeld in Neuss County, Germany.
+ His works have been featured in numerous exhibits across the South and Midwest including the Mississippi Invitational. He has received many awards including two Artist Fellowship grants from the Mississippi Arts Commission, and several best of shows and first place awards.
+ 
+
+ Social / Website:
+ https://ntheisen.myportfolio.com/ 
+ 
+
+ https://www.instagram.com/natetheisenart/
+ 
+
+ Exhibition Text:
+ Pale: Seem less impressive or important. Deficient in color or intensity of color.
+ 
+ Ontology: The branch of philosophy that investigates the nature of existence.
+ 
+ The work in this series suggests living forms while verging on abstraction. The life depicted is delicate: the forms move, increase in mass, and threaten non-existence relative to the spectator.
+ 
+ The systematic and quasi-scientific construction and display methods used in this series are an attempt to recapture the wonder I had as a child visiting natural science museums. The skeletons and fossils on display suggested various aspects and actions of once living things. This prompted me to fill in the blanks of their existence with my limited understanding of the world. The voids and trace elements were active zones filled with muscle, sinew and skin. The poses and traces of movement recorded their intelligence and behavior.
+ 
+ I like the idea of memory blending with myth and using research that incorporates speculation. The imaginative reconstruction of beings hopefully can serve as a metaphor for how we generate our own sense of being. 
+ – Nate Theisen",City of Jackson Permanent Collection,,,
+acm-ra-rahleecoh-j-verderosa-is-open-joy,Open Joy,RahLeeCoh J. Verderosa-Ishakarah,2023,FALSE,Oil paint on paper,,ACM.2023/126,20 x 26 in.,,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2025;Oil paint on paper,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ RahLeeCoh J. Verderosa-Ishakarah is a multi-talented artist constantly challenging himself through his artistic practices. He was born and raised in Jackson, MS, to an artistic family and a culturally expressive community. Though initially homeschooled by his parents, he went on to experience public education at specialized art programs in JPS like APAC that funded summer programs such as Kaleidoscope and Idyllwild Arts in CA. He moved out of state to receive his BFA in Design Arts with a Concentration in Sequential Narrative through Memphis College of Art and took teacher courses at Belhaven University while teaching high school art in Memphis. He continued to embrace art and education as he implemented the practice into his community engagement projects. He continues to engage in public art as he takes on new ventures, while maintaining private conceptual interests.",City of Jackson Permanent Collection,,,
+acm-ra-anna-lyons-sitting-with-myself-in-the-d,Sitting with Myself in the Dark,Anna Lyons,2025,FALSE,oil on canvas,,ACM.2025/127,12.75 x 15.75 in.,"Anna Lyons created this body of work over the past several years as she moved through life in a journey of self discovery and artistic growth. This series of paintings, drawings, ceramics, and found objects represents a curiosity and exploration of identity. The title, Portraits & Other Objects, references both the literal subject of the art in this body of work, as well as Lyons’ fascination with inverting the typical portrait and instead imagining what if objects served as portraits of people, and if people could be represented as objects? Inspired by the legacy of Surrealist painters such as Frida Kahlo, Leonora Carrington, and Hilma af Klint, this series of portraits takes the subject and creates a new world of representation. Each piece begins with nothing more than a thought or even a dream that ignites a creative fire that Lyons harnesses into new work. The resulting dreamlike art opens up an otherworldly environment for the viewer to explore. As you examine the work in this gallery, we invite you to reflect on your own dreams and thoughts and how they could exist in this world.",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;oil on canvas,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Anna Lyons is an artist raised in southern Louisiana now living in Jackson, MS. She is a BFA graduate of The School of the Art Institute of Chicago with a concentration in Painting, Drawing, and Ceramics. 
  Now walking the path of art education she teaches a diverse range of classes at the Mississippi Museum of Art and is the Director of the after-school art program at The Privette School. Her approach to teaching art starts with introducing her students to fundamental techniques that give them confidence in making art, developing their own style, and then encourage them to break the “rules” they were taught. In the words of one of her long time students “you taught me how to see the world again”. Teaching has become an important part of Anna’s art making process as the different perspectives and conversations remind her how important expressing yourself and how meaningful it is to create something.
  When she is not teaching Anna is working on her current body of work. Using mediums such as oil paint, watercolor, and ceramics she creates worlds inspired by identity, dreams, symbolism, and nature. Fascinated by the imagery in religious and occult art works and the surrealists mission of depicting the unseen within ourselves and in our world Anna’s work incorporates many symbols and motifs we see in these movements. In her work we see the surreal reflection of the artist in the mirror, a portrait surrounded by symbols representing the models interior thoughts, or a depiction of the remembered fragments of a dream. Anna’s work has the intimacy of a diary but with the use of universal symbols the viewer can find themselves within her world.
+ 
 
-Exhibition Text:
-Anna Lyons created this body of work over the past several years as she moved through life in a journey of self discovery and artistic growth. This series of paintings, drawings, ceramics, and found objects represents a curiosity and exploration of identity. The title, Portraits & Other Objects, references both the literal subject of the art in this body of work, as well as Lyons’ fascination with inverting the typical portrait and instead imagining what if objects served as portraits of people, and if people could be represented as objects? Inspired by the legacy of Surrealist painters such as Frida Kahlo, Leonora Carrington, and Hilma af Klint, this series of portraits takes the subject and creates a new world of representation. Each piece begins with nothing more than a thought or even a dream that ignites a creative fire that Lyons harnesses into new work. The resulting dreamlike art opens up an otherworldly environment for the viewer to explore. As you examine the work in this gallery, we invite you to reflect on your own dreams and thoughts and how they could exist in this world.",oil on canvas,oil,canvas,12.75 x 15.75 in.,,Recent Acquisitions 2026,,,
-acm-ra-christy-white-where-good-things-flow,,Where Good Things Flow,Christy White,2026,false,"This piece is a visual board of my dreams and goals, an exhibition in MS was one of those dreams. 
+ Exhibition Text:
+ Anna Lyons created this body of work over the past several years as she moved through life in a journey of self discovery and artistic growth. This series of paintings, drawings, ceramics, and found objects represents a curiosity and exploration of identity. The title, Portraits & Other Objects, references both the literal subject of the art in this body of work, as well as Lyons’ fascination with inverting the typical portrait and instead imagining what if objects served as portraits of people, and if people could be represented as objects? Inspired by the legacy of Surrealist painters such as Frida Kahlo, Leonora Carrington, and Hilma af Klint, this series of portraits takes the subject and creates a new world of representation. Each piece begins with nothing more than a thought or even a dream that ignites a creative fire that Lyons harnesses into new work. The resulting dreamlike art opens up an otherworldly environment for the viewer to explore. As you examine the work in this gallery, we invite you to reflect on your own dreams and thoughts and how they could exist in this world.",City of Jackson Permanent Collection,,,
+acm-ra-christy-white-where-good-things-flow,Where Good Things Flow,Christy White,2026,FALSE,"collage, pen, acrylic, ink on canvas",,ACM.2026/128,48 x 27.25 in.,"This piece is a visual board of my dreams and goals, an exhibition in MS was one of those dreams. 
+ 
 
-I created this while in Barcelona on a virtual vision board family call. My family has made sure to keep the lines of communication open even across borders.","Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;collage, pen, acrylic, ink on canvas",,,,Arts Center of Mississippi,acm-ra-christy-white-where-good-things-flow,artwork,"collage, pen, acrylic, ink on canvas",English,,,record,,,,,"Artist Bio:
-Chris Meshel is an artist, poet, writer, and licensedimmigration attorney born in Canton, Mississippi andbased between Barcelona and the American South.
-Working across mixed media, textiles, raw canvas,handwritten text, and installation, her practice combinesvisual art with spoken word and performance-basedapproaches. Influenced by her background inimmigration law and Black Southern storytellingtraditions, her work engages with questions of identity,movement, memory, and cultural perception.
-Her artistic development has been shaped throughinternational residencies in Costa Rica, Naples, Berlin,Portugal, and Barcelona. Recent projects include “TheBody Keeps the Score” (Soho House Barcelona andStudio 46 Barcelona, 2025) and “But Where Are You From,From?” (Arts Center of Mississippi, Jackson, 2026).
+ I created this while in Barcelona on a virtual vision board family call. My family has made sure to keep the lines of communication open even across borders.",,"Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;collage, pen, acrylic, ink on canvas",,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Chris Meshel is an artist, poet, writer, and licensedimmigration attorney born in Canton, Mississippi andbased between Barcelona and the American South.
+ Working across mixed media, textiles, raw canvas,handwritten text, and installation, her practice combinesvisual art with spoken word and performance-basedapproaches. Influenced by her background inimmigration law and Black Southern storytellingtraditions, her work engages with questions of identity,movement, memory, and cultural perception.
+ Her artistic development has been shaped throughinternational residencies in Costa Rica, Naples, Berlin,Portugal, and Barcelona. Recent projects include “TheBody Keeps the Score” (Soho House Barcelona andStudio 46 Barcelona, 2025) and “But Where Are You From,From?” (Arts Center of Mississippi, Jackson, 2026).
+ 
 
-Social / Website:
-instagram and tiktok: chrismeshel ; chrismeshel.com","collage, pen, acrylic, ink on canvas","collage, pen, acrylic, ink",canvas,48 x 27.25 in.,,Recent Acquisitions 2026,,,
-acm-ra-jesse-brent-mcdaniels-symmetry-i,,Symmetry I,Jesse Brent McDaniels,2025,false,SYMMETRY IS ONE OF THE PRIMARY THEMES IN MY WORK,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;digital photography,,,,Arts Center of Mississippi,acm-ra-jesse-brent-mcdaniels-symmetry-i,artwork,digital photography,English,,,record,,,,,"Artist Bio:
-From the artist: I’m from the trailer park.
+ Social / Website:
+ instagram and tiktok: chrismeshel ; chrismeshel.com",City of Jackson Permanent Collection,,,
+acm-ra-jesse-brent-mcdaniels-symmetry-i,Symmetry I,Jesse Brent McDaniels,2025,FALSE,digital photography,,ACM.2025/129,23.75 x 41.25 in.,SYMMETRY IS ONE OF THE PRIMARY THEMES IN MY WORK,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;digital photography,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ From the artist: I’m from the trailer park.
+ 
 
-Written internally: Plastic Broccoli, also known as Jesse Brent McDaniel, is a Mississippi photographer whose work captures and warps the natural environment around him. By manipulating saturation, colors, and symmetry he creates vibrant and jarring scenes that transform the familiar into something that seems other-worldly.
+ Written internally: Plastic Broccoli, also known as Jesse Brent McDaniel, is a Mississippi photographer whose work captures and warps the natural environment around him. By manipulating saturation, colors, and symmetry he creates vibrant and jarring scenes that transform the familiar into something that seems other-worldly.
+ 
 
-Social / Website:
-plasticbroccoli (instagram)
+ Social / Website:
+ plasticbroccoli (instagram)
+ 
 
-Exhibition Text:
-In his debut exhibition, Plastic Broccoli explores nature through a personal lens. The photographs in this gallery create a nearly abstract environment from familiar imagery. These works began as sketches or quick notes by the artist that then took days or even years to come to reality. In documentation the space and time around him from his own viewpoint, Plastic Broccoli invites us to share his world in this space.",digital photography,,,23.75 x 41.25 in.,,Recent Acquisitions 2026,,,
-acm-ra-keylon-mcclendon-born-again-denim,,Born Again Denim,Keylon McClendon,2021,false,"I chose to donate this piece because it reflects my journey as a textile artist. As an artist who works with upcycled textiles, I wanted this piece to be shared with the community and Mississippi culture. ""The ""B"" stands for Born Again, symbolizing renewal and taking something that has been overlooked and giving it a new purpose. 
+ Exhibition Text:
+ In his debut exhibition, Plastic Broccoli explores nature through a personal lens. The photographs in this gallery create a nearly abstract environment from familiar imagery. These works began as sketches or quick notes by the artist that then took days or even years to come to reality. In documentation the space and time around him from his own viewpoint, Plastic Broccoli invites us to share his world in this space.",City of Jackson Permanent Collection,,,
+acm-ra-keylon-mcclendon-born-again-denim,Born Again Denim,Keylon McClendon,2021,FALSE,Recycled jeans and scraps,,ACM.2021/130,,"I chose to donate this piece because it reflects my journey as a textile artist. As an artist who works with upcycled textiles, I wanted this piece to be shared with the community and Mississippi culture. ""The ""B"" stands for Born Again, symbolizing renewal and taking something that has been overlooked and giving it a new purpose. 
+ 
 
-This piece transforms an everyday denim into a wearable art",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;Recycled jeans and scraps,,,,Arts Center of Mississippi,acm-ra-keylon-mcclendon-born-again-denim,artwork,Recycled jeans and scraps,English,,,record,,,,,"Artist Bio:
-Keylon McClendon is a Jackson, Mississippi based fashion and textile artist and the founder of Born Again Denim. A brand dedicated to reworking denim, tapestry reclaiming fabrics into new, sustainable pieces. A graduate of Mississippi State University, she holds a bachelor’s degree in Fashion Design and Merchandising, which informs her strong foundation in construction, fabric manipulation, and creative design.McClendon is known for reworking vintage fabrics, repurposing old garments, and giving new life to materials that carry history. Her practice blends craftsmanship, sustainability, and storytelling to create pieces that feel both familiar and reimagined. Her work has been featured in community events and highlighted by WLBT 3, reflecting her growing impact within Jackson’s creative community. Rooted in Southern culture and intentional, resourceful creativity, she continues to expand her artistic practice through community engagement, and innovative design.
+ This piece transforms an everyday denim into a wearable art",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;Recycled jeans and scraps,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Keylon McClendon is a Jackson, Mississippi based fashion and textile artist and the founder of Born Again Denim. A brand dedicated to reworking denim, tapestry reclaiming fabrics into new, sustainable pieces. A graduate of Mississippi State University, she holds a bachelor’s degree in Fashion Design and Merchandising, which informs her strong foundation in construction, fabric manipulation, and creative design.McClendon is known for reworking vintage fabrics, repurposing old garments, and giving new life to materials that carry history. Her practice blends craftsmanship, sustainability, and storytelling to create pieces that feel both familiar and reimagined. Her work has been featured in community events and highlighted by WLBT 3, reflecting her growing impact within Jackson’s creative community. Rooted in Southern culture and intentional, resourceful creativity, she continues to expand her artistic practice through community engagement, and innovative design.
+ 
 
-Social / Website:
-Instagram: Bornagaindenim
+ Social / Website:
+ Instagram: Bornagaindenim
+ 
 
-Instagram: Youngmodel
+ Instagram: Youngmodel
+ 
 
-Exhibition Text:
-What happens to the clothing that we stop wearing? Artist Keylon McClendon answers this question with a practice that is deeply rooted in sustainability. Primarily working with thrifted and found fabrics gave birth to the artist’s personal business: Born Again Denim. At a time when fast fashion and clothing trends dominate personal aesthetics, McClendon breathes new life into forgotten garments by creating custom clothing that reflects her passion for sewing and renewable couture. Inspired by the history behind these old and neglected fabrics, the new stories that McClendon crafts reflect a unique perspective. As you explore this exhibition we invite you to consider your own relationship with your clothes and how we can all find new value and style in the clothing we have forgotten.",Recycled jeans and scraps,,,,,Recent Acquisitions 2026,,,
-acm-ra-kimberly-hill-the-felling,,The Felling,Kimberly Hill,2026,false,"This piece captures my overall experience with conveying surrealism through feeling. 
+ Exhibition Text:
+ What happens to the clothing that we stop wearing? Artist Keylon McClendon answers this question with a practice that is deeply rooted in sustainability. Primarily working with thrifted and found fabrics gave birth to the artist’s personal business: Born Again Denim. At a time when fast fashion and clothing trends dominate personal aesthetics, McClendon breathes new life into forgotten garments by creating custom clothing that reflects her passion for sewing and renewable couture. Inspired by the history behind these old and neglected fabrics, the new stories that McClendon crafts reflect a unique perspective. As you explore this exhibition we invite you to consider your own relationship with your clothes and how we can all find new value and style in the clothing we have forgotten.",City of Jackson Permanent Collection,,,
+acm-ra-kimberly-hill-the-felling,The Felling,Kimberly Hill,2026,FALSE,acrylic paint and soil on canvas,,ACM.2026/131,38.5 x 26.5 in.,"This piece captures my overall experience with conveying surrealism through feeling. 
+ 
 
-This piece doesn’t deny itself to fit into a space. It’s the culmination of every preexisting energy in a space. It acts as an acceptance of each individual energy. Within each of my pieces i wanr to convey feeling in its rawest form. When it’s first felt vs. when it’s been processed and left to be picked apart with questions.",Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;acrylic paint and soil on canvas,,,,Arts Center of Mississippi,acm-ra-kimberly-hill-the-felling,artwork,acrylic paint and soil on canvas,English,,,record,,,,,"Artist Bio:
-Kimberly Hill is a self-taught painter and installation artist from Jackson, Mississippi whose work explores the complex intersections of gender identity and African American heritage. Drawing inspiration from the vivid landscapes of the South and the deep cultural narratives of their upbringing, Kimberly’s surrealist paintings are a powerful fusion of dreamlike imagery and raw, introspective symbolism.
+ This piece doesn’t deny itself to fit into a space. It’s the culmination of every preexisting energy in a space. It acts as an acceptance of each individual energy. Within each of my pieces i wanr to convey feeling in its rawest form. When it’s first felt vs. when it’s been processed and left to be picked apart with questions.",,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;acrylic paint and soil on canvas,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,"Artist Bio:
+ Kimberly Hill is a self-taught painter and installation artist from Jackson, Mississippi whose work explores the complex intersections of gender identity and African American heritage. Drawing inspiration from the vivid landscapes of the South and the deep cultural narratives of their upbringing, Kimberly’s surrealist paintings are a powerful fusion of dreamlike imagery and raw, introspective symbolism.
  Rooted in an exploration of personal and collective identity, Kimberly’s paintings often feature fluid, distorted forms that challenge conventional understandings of gender and race, inviting the viewer to consider identity as something ever-evolving and multifaceted. The surreal landscapes and figures in their work act as metaphors for the lived experiences of marginalized communities, with a focus on reclaiming and redefining the boundaries of identity.
-A product of both deep introspection and the rich traditions of Southern Black culture, Kimberly's art pushes the boundaries of visual storytelling. Through vibrant colors, distorted shapes, and symbolic imagery, they create a dialogue about the complexities of self-discovery, non-conformity, and transformation.
+ A product of both deep introspection and the rich traditions of Southern Black culture, Kimberly's art pushes the boundaries of visual storytelling. Through vibrant colors, distorted shapes, and symbolic imagery, they create a dialogue about the complexities of self-discovery, non-conformity, and transformation.
+ 
 
-Social / Website:
-Insta: Antmessiah
+ Social / Website:
+ Insta: Antmessiah
+ 
 
-Exhibition Text:
-Reflecting on traditionally masculine spaces such as the barbershop, Ant Hill set out to create a body of work that ""Cuts down"" traditional ideas of homophobia, sexism, and bio-essentialism. In this series Hill intentionally employs mundane and familiar imagery such as a barshop apron and chair, shears, plants and flora, and magazine cuttings. Taking these recognizable objects and contrasting them with queer and swamp motifs raises the question of who these traditional spaces serve and how we can bring these ideas together. The Cut asks the question, how do we cut down the restrictions around us to reimagine a more supportive and collective environment?",acrylic paint and soil on canvas,acrylic paint and soil,canvas,38.5 x 26.5 in.,,Recent Acquisitions 2026,,,
-acm-ra-leah-joy-byers-guardimin-majestic,,Majestic,Leah Joy Byers Guardimino,2025,false,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;acrylic on particle board,,,,Arts Center of Mississippi,acm-ra-leah-joy-byers-guardimin-majestic,artwork,acrylic on particle board,English,,,record,,,,,,acrylic on particle board,acrylic,particle board,18 x 24 in.,,Recent Acquisitions 2026,,,
+ Exhibition Text:
+ Reflecting on traditionally masculine spaces such as the barbershop, Ant Hill set out to create a body of work that ""Cuts down"" traditional ideas of homophobia, sexism, and bio-essentialism. In this series Hill intentionally employs mundane and familiar imagery such as a barshop apron and chair, shears, plants and flora, and magazine cuttings. Taking these recognizable objects and contrasting them with queer and swamp motifs raises the question of who these traditional spaces serve and how we can bring these ideas together. The Cut asks the question, how do we cut down the restrictions around us to reimagine a more supportive and collective environment?",City of Jackson Permanent Collection,,,
+acm-ra-leah-joy-byers-guardimin-majestic,Majestic,Leah Joy Byers Guardimino,2025,FALSE,acrylic on particle board,,ACM.2025/132,18 x 24 in.,,,Arts Center of Mississippi;Recent Acquisitions;Exhibition 2026;acrylic on particle board,,,,Arts Center of Mississippi,artwork,English,,,record,,,,,,City of Jackson Permanent Collection,,,

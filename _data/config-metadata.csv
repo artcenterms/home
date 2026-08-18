@@ -2,23 +2,21 @@ field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 creator,Creator,,,DCTERMS.creator,creator
 date,Date Created,,,DCTERMS.date,dateCreated
-medium,Medium,,,,
-materials,Materials,,,,
-support,Support,,,,
+Medium,Medium,,,,
 dimensions,Dimensions,,,,
 credit_line,Credit Line,,,,
 collection,Collection,,,,
-accession_number,Accession Number,,,identifier
-culture,Culture,,,,
-style_period,Style or Period,,,,
+identifier,Accession Number,,,identifier
+Nationality,Nationality,,,,
+Period,Period,,,,
 description,Description,,,DCTERMS.description,description
+artist quote,Artist Quote,,,,
+artist bio,Artist Bio,,,,
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,DCTERMS.coverage,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
-identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
 language,Language,,,DCTERMS.language,
 rightsstatement,,,,DCTERMS.rights,license
