@@ -7,20 +7,6 @@
 {%- assign page_feet = page.custom-foot | split: ";" -%}
 {%- assign layout_feet = layout.custom-foot | split: ";" -%}
 {%- assign feet = page_feet | concat: layout_feet -%}
-{% for f in feet %}
-{% case f %}
-{% when 'js/browse-js.html' %}
-{% include js/browse-js.html %}
-{% when 'js/lunr-js.html' %}
-{% include js/lunr-js.html %}
-{% when 'js/table-js.html' %}
-{% include js/table-js.html %}
-{% when 'js/timeline-js.html' %}
-{% include js/timeline-js.html %}
-{% when 'js/map-js.html' %}
-{% include js/map-js.html %}
-{% when 'js/modal-hash-js.html' %}
-{% include js/modal-hash-js.html %}
-{% endcase %}
+{% for f in feet %}{% include {{ f }} %}
 {% endfor %}
 {%- endif -%}

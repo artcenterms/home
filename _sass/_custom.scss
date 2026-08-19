@@ -1089,14 +1089,6 @@ a:focus {
     overflow: hidden;
 }
 
-.item-page__media .img-fluid {
-    display: block;
-    width: 100%;
-    max-width: min(88%, 760px);
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .site-footer {
     background: var(--acm-black) !important;
     border-top: 8px solid var(--acm-red);
