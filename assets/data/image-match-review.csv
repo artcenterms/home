@@ -1,15 +1,42 @@
 source_file,proposed_objectid,title,creator,identifier,confidence,notes,target_filename
-IMG_9919.png,acm_002,Portrait,Unknown,ACM.2022.001,high,Content match verified from image audit after folder-order shift.,acm_002.png
-IMG_9930.png,acm_003,Winter Scene,Elizabeth Piazza,ACM.1982.001,high,Content match verified from image audit after folder-order shift.,acm_003.png
-IMG_9934.png,acm_004,Tulips,Not listed,ACM.2022.002,high,Content match verified from image audit after folder-order shift.,acm_004.png
-IMG_9935.png,acm_005,Apples,Not listed,ACM.2022.003,high,Content match verified from image audit after folder-order shift.,acm_005.png
-IMG_9937.png,acm_006,Clothes on the Line,Sarah Beaugez,ACM.2000.001,high,Content match verified from image audit after folder-order shift.,acm_006.png
-IMG_9940.png,acm_008,Calm Waters,Carl Johnson,ACM.2017.001,high,Content match verified from image audit after folder-order shift.,acm_008.png
-IMG_9954.png,acm_015,Mushrooms,Lindsey,ACM.2022.010,high,Content match verified from image audit after folder-order shift.,acm_015.png
-IMG_9956.png,acm_016,"Ligon-Gale Home, Municipal Art Gallery",H Radcliffe,ACM.2022.011,high,Content match verified from image audit after folder-order shift.,acm_016.png
-IMG_9961.png,acm_019,Man with head wrap,John Derby,ACM.2022.013,high,Content match verified from image audit after folder-order shift.,acm_019.png
-IMG_9970.png,acm_025,Geranium,Yvette Sturgis,ACM.2022.017,high,Content match verified from image audit after folder-order shift.,acm_025.png
-IMG_9971.png,acm_026,"The Old Door, Natchez",Henry Gurley,ACM.1978.001,high,Content match verified from image audit after folder-order shift.,acm_026.png
-IMG_9976.png,acm_029,Flowers in Blue Vase,Bewey Bowden,ACM.2022.018,high,Content match verified from image audit after folder-order shift.,acm_029.png
-IMG_9990.png,acm_037,Thrashers,Harry Maddox,ACM.1984.001,high,Content match verified from image audit after folder-order shift.,acm_037.png
-IMG_9992.png,acm_038,Under Glass,Gerald Marley,ACM.2022.022,high,Content match verified from image audit after folder-order shift.,acm_038.png
+IMG_9919.png,acm_001,Untitled (Example Painting),Elizabeth Hilton,ACM.2009.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_001.png
+IMG_9925.png,acm_002,Portrait,Unknown,ACM.2022.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_002.png
+IMG_9930.png,acm_003,Winter Scene,Elizabeth Piazza,ACM.1982.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_003.png
+IMG_9934.png,acm_004,Tulips,Not listed,ACM.2022.002,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_004.png
+IMG_9935.png,acm_005,Apples,Not listed,ACM.2022.003,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_005.png
+IMG_9937.png,acm_006,Clothes on the Line,Sarah Beaugez,ACM.2000.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_006.png
+IMG_9939.png,acm_007,"Small ""Brim"" at Reservoir",Hazel Bush,ACM.2022.004,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_007.png
+IMG_9940.png,acm_008,Calm Waters,Carl Johnson,ACM.2017.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_008.png
+IMG_9941.png,acm_009,Untitled,,ACM.2022.005,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_009.png
+IMG_9942.png,acm_010,Untitled,Miller,ACM.2022.006,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_010.png
+IMG_9943.png,acm_011,Untitled,Sharon Richardson,ACM.2022.007,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_011.png
+IMG_9946.png,acm_012,Let the Sunshine In,Francine L Greenlee,ACM.2022.008,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_012.png
+IMG_9947.png,acm_013,Tulips in the Light,Sarah Beaugez,ACM.2000.002,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_013.png
+IMG_9951.png,acm_014,Purple Cape,Eleanor Graves,ACM.2022.009,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_014.png
+IMG_9954.png,acm_015,Mushrooms,Lindsey,ACM.2022.010,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_015.png
+IMG_9956.png,acm_016,"Ligon-Gale Home, Municipal Art Gallery",H Radcliffe,ACM.2022.011,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_016.png
+IMG_9958.png,acm_017,Untitled,C S Langston,ACM.2007.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_017.png
+IMG_9960.png,acm_018,Untitled,Stanley Robinson,ACM.2022.012,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_018.png
+IMG_9961.png,acm_019,Man with head wrap,John Derby,ACM.2022.013,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_019.png
+IMG_9963.png,acm_020,Two Onions and One Tomato,Robert Burns,ACM.1987.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_020.png
+IMG_9964.png,acm_021,Untitled,Tommy Smith Vaniz,ACM.2022.014,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_021.png
+IMG_9966.png,acm_022,Untitled,,ACM.2022.015,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_022.png
+IMG_9967.png,acm_023,Untitled,,ACM.2022.016,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_023.png
+IMG_9969.png,acm_024,Untitled,Jack Olson,ACM.1986.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_024.png
+IMG_9970.png,acm_025,Geranium,Yvette Sturgis,ACM.2022.017,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_025.png
+IMG_9971.png,acm_026,"The Old Door, Natchez",Henry Gurley,ACM.1978.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_026.png
+IMG_9972.png,acm_027,Untitled,C S Langston,ACM.2000.003,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_027.png
+IMG_9975.png,acm_028,Untitled,Yvette Sturgis,ACM.1985.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_028.png
+IMG_9976.png,acm_029,Flowers in Blue Vase,Bewey Bowden,ACM.2022.018,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_029.png
+IMG_9979.png,acm_030,Harvest,Landrough Miller,ACM.2007.002,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_030.png
+IMG_9980.png,acm_031,Rosalie,Doris. B. Nunn,ACM.1963.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_031.png
+IMG_9982.png,acm_032,7/25,Susan Habeeb,ACM.1979.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_032.png
+IMG_9985.png,acm_033,Jack Dison,,ACM.2022.019,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_033.png
+IMG_9986.png,acm_034,Untitled,,ACM.2022.020,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_034.png
+IMG_9987.png,acm_035,Untitled,,ACM.2022.021,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_035.png
+IMG_9988.png,acm_036,Untitled,,ACM.2007.003,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_036.png
+IMG_9990.png,acm_037,Thrashers,Harry Maddox,ACM.1984.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_037.png
+IMG_9992.png,acm_038,Under Glass,Gerald Marley,ACM.2022.022,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_038.png
+IMG_9996.png,acm_039,Falling Colors,,ACM.2022.023,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_039.png
+IMG_9997.png,acm_040,Untitled,Laurel Schoolar,ACM.2022.024,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_040.png
+IMG_9998.png,acm_041,"Gymnasts for Peace, Kyoto, Japan",Susan Brumfiled,ACM.1981.001,ordered-by-folder,Assigned by user-confirmed folder sequence starting at acm_001.,acm_041.png
