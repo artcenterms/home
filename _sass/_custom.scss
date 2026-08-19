@@ -1089,6 +1089,19 @@ a:focus {
     overflow: hidden;
 }
 
+.item-page__image {
+    display: block;
+    width: 84%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767.98px) {
+    .item-page__image {
+        width: 100%;
+    }
+}
+
 .site-footer {
     background: var(--acm-black) !important;
     border-top: 8px solid var(--acm-red);
