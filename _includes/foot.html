@@ -4,9 +4,11 @@
 <script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/lazysizes.min.js" async></script>
 {% if layout.gallery == true or page.gallery == true %}<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/spotlight.bundle.js" defer></script>{% endif %}
 {% if page.custom-foot or layout.custom-foot %}
-{%- assign page_feet = page.custom-foot | split: ";" -%}
-{%- assign layout_feet = layout.custom-foot | split: ";" -%}
-{%- assign feet = page_feet | concat: layout_feet -%}
-{% for f in feet %}{% include {{ f }} %}
-{% endfor %}
+{%- capture feet -%}{{ page.custom-foot }};{{ layout.custom-foot }}{%- endcapture -%}
+{% if feet contains 'js/lunr-js.html' %}{% include js/lunr-js.html %}{% endif %}
+{% if feet contains 'js/table-js.html' %}{% include js/table-js.html %}{% endif %}
+{% if feet contains 'js/timeline-js.html' %}{% include js/timeline-js.html %}{% endif %}
+{% if feet contains 'js/modal-hash-js.html' %}{% include js/modal-hash-js.html %}{% endif %}
+{% if feet contains 'js/map-js.html' %}{% include js/map-js.html %}{% endif %}
+{% if feet contains 'js/browse-js.html' %}{% include js/browse-js.html %}{% endif %}
 {%- endif -%}
