@@ -7,6 +7,6 @@
 {%- assign page_feet = page.custom-foot | split: ";" -%}
 {%- assign layout_feet = layout.custom-foot | split: ";" -%}
 {%- assign feet = page_feet | concat: layout_feet -%}
-{% for f in feet %}{% include {{ f }} %}
+{% for f in feet %}{% include f %}
 {% endfor %}
 {%- endif -%}
