@@ -1,46 +1,46 @@
-﻿objectid,title,creator,date,date-is-approximate?,Medium,description,identifier,dimensions,artist bio,artist quote,subject,location,latitude,longitude,source,type,language,rights,rightsstatement,display_template,object_location,image_small,image_thumb,image_alt_text,object_transcript,credit_line,Nationality,Period,parentid
+objectid,title,creator,date,date-is-approximate?,Medium,description,identifier,dimensions,artist bio,artist quote,subject,location,latitude,longitude,source,type,language,rights,rightsstatement,display_template,object_location,image_small,image_thumb,image_alt_text,object_transcript,credit_line,Nationality,Period,parentid
 acm_001,Untitled (Example Painting),Elizabeth Hilton,Possibly 2009,TRUE,Oil pastel on paper,,ACM.2009.001,12 x 8.5 in.,,,,Jackson,,,Arts Center of Mississippi,image,English,In copyright,https://rightsstatements.org/vocab/InC/1.0/,image,/objects/acm_001.jpg,/objects/small/acm_001_small.jpg,/objects/thumbs/acm_001_thumb.jpg,Portrait painting with a dark background and a seated figure.,,City of Jackson Permanent Collection,American,Contemporary,
-acm_002,Portrait,Unknown,,TRUE,Oil on canvas board,,ACM.2022.001,17.5 x 21.5 in.,,,,Mississippi,,,Arts Center of Mississippi,image,English,In copyright,https://rightsstatements.org/vocab/InC/1.0/,image,/objects/acm_002.jpg,/objects/small/acm_002_small.jpg,/objects/thumbs/acm_002_thumb.jpg,Small landscape painting showing a river and low horizon.,,City of Jackson Permanent Collection,American,Modern,city of jackson 44998
-acm_003,Winter Scene,Elizabeth Piazza,1982,FALSE,Watercolor on Paper,,ACM.1982.001,14 x 10.5 in.,,,,Mississippi,,,Arts Center of Mississippi,image,English,In copyright,https://rightsstatements.org/vocab/InC/1.0/,image,/objects/acm_002.jpg,/objects/small/acm_002_small.jpg,/objects/thumbs/acm_002_thumb.jpg,Small landscape painting showing a river and low horizon.,,City of Jackson Permanent Collection,American,Modern,city of jackson 44903
-acm_004,Tulips,Not listed,,,Acrylic on wood,,ACM.2022.002,24 x 16 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
-acm_005,Apples,Not listed,,,Acrylic on wood,,ACM.2022.003,25 x 16 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
-acm_006,Clothes on the Line,Sarah Beaugez,2000,FALSE,Photograph,,ACM.2000.001,17 x 12 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
-acm_007,"Small ""Brim"" at Reservoir",Hazel Bush,,,Acrylic on canvas,,ACM.2022.004,16 x 11.5 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
-acm_008,Calm Waters,Carl Johnson,2017,FALSE,Digital Photograph,,ACM.2017.001,8.5 x 10 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
-acm_009,Untitled,,,,Pencil on Paper,Sketch of a guitar player,ACM.2022.005,5.5 x 8.5 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
-acm_010,Untitled,Miller,,,Watercolor on Paper,Apple and water glass,ACM.2022.006,6 x 4 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
-acm_011,Untitled,Sharon Richardson,,,Oil on canvas,,ACM.2022.007,15 x 16 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,city of Jackson 44965
-acm_012,Let the Sunshine In,Francine L Greenlee,,,Watercolor on Paper,,ACM.2022.008,8.5 x 14 in.,,,,,,,,,,,,,,,,,,City of Jackson Permanent Collection,,,
-acm_013,Tulips in the Light,Sarah Beaugez,2000,FALSE,Photography,,ACM.2000.002,9.5 x 13 in.,,,,,,,,,,,,,,,,,,,,,
-acm_014,Purple Cape,Eleanor Graves,,,Oil on Canvas,,ACM.2022.009,13.5 x 13. 5 in.,,,,,,,,,,,,,,,,,,,,,city of jackson 44971
-acm_015,Mushrooms,Lindsey,,,Watercolor and acylic on paper,,ACM.2022.010,8 x 11 in.,,,,,,,,,,,,,,,,,,,,,
-acm_016,"Ligon-Gale Home, Municipal Art Gallery",H Radcliffe,,,Ink pen on paper,,ACM.2022.011,12.5 x 10 in.,,,,,,,,,,,,,,,,,,,,,
-acm_017,Untitled,C S Langston,2007,FALSE,Watercolor on Paper,,ACM.2007.001,8 x 11 in.,,,,,,,,,,,,,,,,,,,,,
-acm_018,Untitled,Stanley Robinson,,,Oil on canvas,,ACM.2022.012,11 x 15 in.,,,,,,,,,,,,,,,,,,,,,city of jackson 44904
-acm_019,Man with head wrap,John Derby,,,Oil pastel on paper,,ACM.2022.013,11 x 14 in.,,,,,,,,,,,,,,,,,,,,,
-acm_020,Two Onions and One Tomato,Robert Burns,1987,FALSE,Oil on canvas,,ACM.1987.001,11.5 x 9 in.,,,,,,,,,,,,,,,,,,,,,
-acm_021,Untitled,Tommy Smith Vaniz,,,Watercolor and acylic on paper,,ACM.2022.014,6 x 9 in.,,,,,,,,,,,,,,,,,,,,,
-acm_022,Untitled,,,,Oil pastel on paper,Portrait,ACM.2022.015,15 x 19 in.,,,,,,,,,,,,,,,,,,,,,
-acm_023,Untitled,,,,Oil on canvas,Landscape and castle,ACM.2022.016,19 x 10.5 in.,,,,,,,,,,,,,,,,,,,,,
-acm_024,Untitled,Jack Olson,1986,FALSE,Watercolor on Paper,Log pile,ACM.1986.001,21 x 14 in.,,,,,,,,,,,,,,,,,,,,,
-acm_025,Geranium,Yvette Sturgis,,,Print,,ACM.2022.017,19 x 22 in.,,,,,,,,,,,,,,,,,,,,,
-acm_026,"The Old Door, Natchez",Henry Gurley,1978,FALSE,Photographic print on canvas,,ACM.1978.001,11 x 14 in.,,,,,,,,,,,,,,,,,,,,,44910
-acm_027,Untitled,C S Langston,2000,FALSE,oil on canvas,,ACM.2000.003,24 x 18 on.,,,,,,,,,,,,,,,,,,,,,
-acm_028,Untitled,Yvette Sturgis,1985,FALSE,oil on canvas,,ACM.1985.001,20 x 10 in.,,,,,,,,,,,,,,,,,,,,,
-acm_029,Flowers in Blue Vase,Bewey Bowden,,,Oil on canvas,,ACM.2022.018,12 x 24 in.,,,,,,,,,,,,,,,,,,,,,44972
-acm_030,Harvest,Landrough Miller,2007,FALSE,Watercolor on paper,,ACM.2007.002,9.5 x 7.5 in.,,,,,,,,,,,,,,,,,,,,,
-acm_031,Rosalie,Doris. B. Nunn,1963,FALSE,Watercolor on paper,,ACM.1963.001,20 x 14 in.,,,,,,,,,,,,,,,,,,,,,
-acm_032,7/25,Susan Habeeb,1979,FALSE,Photographic print on canvas,,ACM.1979.001,19 x 15 in.,,,,,,,,,,,,,,,,,,,,,1987
-acm_033,Jack Dison,,,,Water color on paper,,ACM.2022.019,21 x 14 in.,,,,,,,,,,,,,,,,,,,,,44979
-acm_034,Untitled,,,,acrylic on canvas,landscape,ACM.2022.020,4 x 6 in.,,,,,,,,,,,,,,,,,,,,,
-acm_035,Untitled,,,,acrylic on canvas,watermelon,ACM.2022.021,8 x 10 in.,,,,,,,,,,,,,,,,,,,,,
-acm_036,Untitled,,2007,FALSE,watercolor on paper,,ACM.2007.003,4 x 6 in.,,,,,,,,,,,,,,,,,,,,,
-acm_037,Thrashers,Harry Maddox,1984,FALSE,watercolor on paper,,ACM.1984.001,12 x 17 in.,,,,,,,,,,,,,,,,,,,,,44926
-acm_038,Under Glass,Gerald Marley,,,watercolor on paper,,ACM.2022.022,16 x 18 in.,,,,,,,,,,,,,,,,,,,,,
-acm_039,Falling Colors,,,,Acrylic and shellac on Paper,,ACM.2022.023,11 x 14 in.,,,,,,,,,,,,,,,,,,,,,
-acm_040,Untitled,Laurel Schoolar,,,Oil pastel on paper,,ACM.2022.024,8 x 10 in.,,,,,,,,,,,,,,,,,,,,,
-acm_041,"Gymnasts for Peace, Kyoto, Japan",Susan Brumfiled,1981,FALSE,Photograph,,ACM.1981.001,8 x 10.5 in.,,,,,,,,,,,,,,,,,,,,,
-acm_042,Untitled,N P Mauldin,,,Acrylic on canvas,,ACM.2022.025,15 x 11 in.,,,,,,,,,,,,,,,,,,,,,44946
+acm_002,Portrait,Unknown,,TRUE,Oil on canvas board,,ACM.2022.001,17.5 x 21.5 in.,,,,Mississippi,,,Arts Center of Mississippi,image,English,In copyright,https://rightsstatements.org/vocab/InC/1.0/,image,/objects/acm_002.png,/objects/small/acm_002_small.png,/objects/thumbs/acm_002_thumb.png,Digital image of Portrait.,,City of Jackson Permanent Collection,American,Modern,city of jackson 44998
+acm_003,Winter Scene,Elizabeth Piazza,1982,FALSE,Watercolor on Paper,,ACM.1982.001,14 x 10.5 in.,,,,Mississippi,,,Arts Center of Mississippi,image,English,In copyright,https://rightsstatements.org/vocab/InC/1.0/,image,/objects/acm_003.png,/objects/small/acm_003_small.png,/objects/thumbs/acm_003_thumb.png,Digital image of Winter Scene.,,City of Jackson Permanent Collection,American,Modern,city of jackson 44903
+acm_004,Tulips,Not listed,,,Acrylic on wood,,ACM.2022.002,24 x 16 in.,,,,,,,,,,,,image,/objects/acm_004.png,/objects/small/acm_004_small.png,/objects/thumbs/acm_004_thumb.png,Digital image of Tulips.,,City of Jackson Permanent Collection,,,
+acm_005,Apples,Not listed,,,Acrylic on wood,,ACM.2022.003,25 x 16 in.,,,,,,,,,,,,image,/objects/acm_005.png,/objects/small/acm_005_small.png,/objects/thumbs/acm_005_thumb.png,Digital image of Apples.,,City of Jackson Permanent Collection,,,
+acm_006,Clothes on the Line,Sarah Beaugez,2000,FALSE,Photograph,,ACM.2000.001,17 x 12 in.,,,,,,,,,,,,image,/objects/acm_006.png,/objects/small/acm_006_small.png,/objects/thumbs/acm_006_thumb.png,Digital image of Clothes on the Line.,,City of Jackson Permanent Collection,,,
+acm_007,"Small ""Brim"" at Reservoir",Hazel Bush,,,Acrylic on canvas,,ACM.2022.004,16 x 11.5 in.,,,,,,,,,,,,image,/objects/acm_007.png,/objects/small/acm_007_small.png,/objects/thumbs/acm_007_thumb.png,"Digital image of Small ""Brim"" at Reservoir.",,City of Jackson Permanent Collection,,,
+acm_008,Calm Waters,Carl Johnson,2017,FALSE,Digital Photograph,,ACM.2017.001,8.5 x 10 in.,,,,,,,,,,,,image,/objects/acm_008.png,/objects/small/acm_008_small.png,/objects/thumbs/acm_008_thumb.png,Digital image of Calm Waters.,,City of Jackson Permanent Collection,,,
+acm_009,Untitled,,,,Pencil on Paper,Sketch of a guitar player,ACM.2022.005,5.5 x 8.5 in.,,,,,,,,,,,,image,/objects/acm_009.png,/objects/small/acm_009_small.png,/objects/thumbs/acm_009_thumb.png,Digital image for untitled artwork record acm_009.,,City of Jackson Permanent Collection,,,
+acm_010,Untitled,Miller,,,Watercolor on Paper,Apple and water glass,ACM.2022.006,6 x 4 in.,,,,,,,,,,,,image,/objects/acm_010.png,/objects/small/acm_010_small.png,/objects/thumbs/acm_010_thumb.png,Digital image for untitled artwork record acm_010.,,City of Jackson Permanent Collection,,,
+acm_011,Untitled,Sharon Richardson,,,Oil on canvas,,ACM.2022.007,15 x 16 in.,,,,,,,,,,,,image,/objects/acm_011.png,/objects/small/acm_011_small.png,/objects/thumbs/acm_011_thumb.png,Digital image for untitled artwork record acm_011.,,City of Jackson Permanent Collection,,,city of Jackson 44965
+acm_012,Let the Sunshine In,Francine L Greenlee,,,Watercolor on Paper,,ACM.2022.008,8.5 x 14 in.,,,,,,,,,,,,image,/objects/acm_012.png,/objects/small/acm_012_small.png,/objects/thumbs/acm_012_thumb.png,Digital image of Let the Sunshine In.,,City of Jackson Permanent Collection,,,
+acm_013,Tulips in the Light,Sarah Beaugez,2000,FALSE,Photography,,ACM.2000.002,9.5 x 13 in.,,,,,,,,,,,,image,/objects/acm_013.png,/objects/small/acm_013_small.png,/objects/thumbs/acm_013_thumb.png,Digital image of Tulips in the Light.,,,,,
+acm_014,Purple Cape,Eleanor Graves,,,Oil on Canvas,,ACM.2022.009,13.5 x 13. 5 in.,,,,,,,,,,,,image,/objects/acm_014.png,/objects/small/acm_014_small.png,/objects/thumbs/acm_014_thumb.png,Digital image of Purple Cape.,,,,,city of jackson 44971
+acm_015,Mushrooms,Lindsey,,,Watercolor and acylic on paper,,ACM.2022.010,8 x 11 in.,,,,,,,,,,,,image,/objects/acm_015.png,/objects/small/acm_015_small.png,/objects/thumbs/acm_015_thumb.png,Digital image of Mushrooms.,,,,,
+acm_016,"Ligon-Gale Home, Municipal Art Gallery",H Radcliffe,,,Ink pen on paper,,ACM.2022.011,12.5 x 10 in.,,,,,,,,,,,,image,/objects/acm_016.png,/objects/small/acm_016_small.png,/objects/thumbs/acm_016_thumb.png,"Digital image of Ligon-Gale Home, Municipal Art Gallery.",,,,,
+acm_017,Untitled,C S Langston,2007,FALSE,Watercolor on Paper,,ACM.2007.001,8 x 11 in.,,,,,,,,,,,,image,/objects/acm_017.png,/objects/small/acm_017_small.png,/objects/thumbs/acm_017_thumb.png,Digital image for untitled artwork record acm_017.,,,,,
+acm_018,Untitled,Stanley Robinson,,,Oil on canvas,,ACM.2022.012,11 x 15 in.,,,,,,,,,,,,image,/objects/acm_018.png,/objects/small/acm_018_small.png,/objects/thumbs/acm_018_thumb.png,Digital image for untitled artwork record acm_018.,,,,,city of jackson 44904
+acm_019,Man with head wrap,John Derby,,,Oil pastel on paper,,ACM.2022.013,11 x 14 in.,,,,,,,,,,,,image,/objects/acm_019.png,/objects/small/acm_019_small.png,/objects/thumbs/acm_019_thumb.png,Digital image of Man with head wrap.,,,,,
+acm_020,Two Onions and One Tomato,Robert Burns,1987,FALSE,Oil on canvas,,ACM.1987.001,11.5 x 9 in.,,,,,,,,,,,,image,/objects/acm_020.png,/objects/small/acm_020_small.png,/objects/thumbs/acm_020_thumb.png,Digital image of Two Onions and One Tomato.,,,,,
+acm_021,Untitled,Tommy Smith Vaniz,,,Watercolor and acylic on paper,,ACM.2022.014,6 x 9 in.,,,,,,,,,,,,image,/objects/acm_021.png,/objects/small/acm_021_small.png,/objects/thumbs/acm_021_thumb.png,Digital image for untitled artwork record acm_021.,,,,,
+acm_022,Untitled,,,,Oil pastel on paper,Portrait,ACM.2022.015,15 x 19 in.,,,,,,,,,,,,image,/objects/acm_022.png,/objects/small/acm_022_small.png,/objects/thumbs/acm_022_thumb.png,Digital image for untitled artwork record acm_022.,,,,,
+acm_023,Untitled,,,,Oil on canvas,Landscape and castle,ACM.2022.016,19 x 10.5 in.,,,,,,,,,,,,image,/objects/acm_023.png,/objects/small/acm_023_small.png,/objects/thumbs/acm_023_thumb.png,Digital image for untitled artwork record acm_023.,,,,,
+acm_024,Untitled,Jack Olson,1986,FALSE,Watercolor on Paper,Log pile,ACM.1986.001,21 x 14 in.,,,,,,,,,,,,image,/objects/acm_024.png,/objects/small/acm_024_small.png,/objects/thumbs/acm_024_thumb.png,Digital image for untitled artwork record acm_024.,,,,,
+acm_025,Geranium,Yvette Sturgis,,,Print,,ACM.2022.017,19 x 22 in.,,,,,,,,,,,,image,/objects/acm_025.png,/objects/small/acm_025_small.png,/objects/thumbs/acm_025_thumb.png,Digital image of Geranium.,,,,,
+acm_026,"The Old Door, Natchez",Henry Gurley,1978,FALSE,Photographic print on canvas,,ACM.1978.001,11 x 14 in.,,,,,,,,,,,,image,/objects/acm_026.png,/objects/small/acm_026_small.png,/objects/thumbs/acm_026_thumb.png,"Digital image of The Old Door, Natchez.",,,,,44910
+acm_027,Untitled,C S Langston,2000,FALSE,oil on canvas,,ACM.2000.003,24 x 18 on.,,,,,,,,,,,,image,/objects/acm_027.png,/objects/small/acm_027_small.png,/objects/thumbs/acm_027_thumb.png,Digital image for untitled artwork record acm_027.,,,,,
+acm_028,Untitled,Yvette Sturgis,1985,FALSE,oil on canvas,,ACM.1985.001,20 x 10 in.,,,,,,,,,,,,image,/objects/acm_028.png,/objects/small/acm_028_small.png,/objects/thumbs/acm_028_thumb.png,Digital image for untitled artwork record acm_028.,,,,,
+acm_029,Flowers in Blue Vase,Bewey Bowden,,,Oil on canvas,,ACM.2022.018,12 x 24 in.,,,,,,,,,,,,image,/objects/acm_029.png,/objects/small/acm_029_small.png,/objects/thumbs/acm_029_thumb.png,Digital image of Flowers in Blue Vase.,,,,,44972
+acm_030,Harvest,Landrough Miller,2007,FALSE,Watercolor on paper,,ACM.2007.002,9.5 x 7.5 in.,,,,,,,,,,,,image,/objects/acm_030.png,/objects/small/acm_030_small.png,/objects/thumbs/acm_030_thumb.png,Digital image of Harvest.,,,,,
+acm_031,Rosalie,Doris. B. Nunn,1963,FALSE,Watercolor on paper,,ACM.1963.001,20 x 14 in.,,,,,,,,,,,,image,/objects/acm_031.png,/objects/small/acm_031_small.png,/objects/thumbs/acm_031_thumb.png,Digital image of Rosalie.,,,,,
+acm_032,7/25,Susan Habeeb,1979,FALSE,Photographic print on canvas,,ACM.1979.001,19 x 15 in.,,,,,,,,,,,,image,/objects/acm_032.png,/objects/small/acm_032_small.png,/objects/thumbs/acm_032_thumb.png,Digital image of 7/25.,,,,,1987
+acm_033,Jack Dison,,,,Water color on paper,,ACM.2022.019,21 x 14 in.,,,,,,,,,,,,image,/objects/acm_033.png,/objects/small/acm_033_small.png,/objects/thumbs/acm_033_thumb.png,Digital image of Jack Dison.,,,,,44979
+acm_034,Untitled,,,,acrylic on canvas,landscape,ACM.2022.020,4 x 6 in.,,,,,,,,,,,,image,/objects/acm_034.png,/objects/small/acm_034_small.png,/objects/thumbs/acm_034_thumb.png,Digital image for untitled artwork record acm_034.,,,,,
+acm_035,Untitled,,,,acrylic on canvas,watermelon,ACM.2022.021,8 x 10 in.,,,,,,,,,,,,image,/objects/acm_035.png,/objects/small/acm_035_small.png,/objects/thumbs/acm_035_thumb.png,Digital image for untitled artwork record acm_035.,,,,,
+acm_036,Untitled,,2007,FALSE,watercolor on paper,,ACM.2007.003,4 x 6 in.,,,,,,,,,,,,image,/objects/acm_036.png,/objects/small/acm_036_small.png,/objects/thumbs/acm_036_thumb.png,Digital image for untitled artwork record acm_036.,,,,,
+acm_037,Thrashers,Harry Maddox,1984,FALSE,watercolor on paper,,ACM.1984.001,12 x 17 in.,,,,,,,,,,,,image,/objects/acm_037.png,/objects/small/acm_037_small.png,/objects/thumbs/acm_037_thumb.png,Digital image of Thrashers.,,,,,44926
+acm_038,Under Glass,Gerald Marley,,,watercolor on paper,,ACM.2022.022,16 x 18 in.,,,,,,,,,,,,image,/objects/acm_038.png,/objects/small/acm_038_small.png,/objects/thumbs/acm_038_thumb.png,Digital image of Under Glass.,,,,,
+acm_039,Falling Colors,,,,Acrylic and shellac on Paper,,ACM.2022.023,11 x 14 in.,,,,,,,,,,,,image,/objects/acm_039.png,/objects/small/acm_039_small.png,/objects/thumbs/acm_039_thumb.png,Digital image of Falling Colors.,,,,,
+acm_040,Untitled,Laurel Schoolar,,,Oil pastel on paper,,ACM.2022.024,8 x 10 in.,,,,,,,,,,,,image,/objects/acm_040.png,/objects/small/acm_040_small.png,/objects/thumbs/acm_040_thumb.png,Digital image for untitled artwork record acm_040.,,,,,
+acm_041,"Gymnasts for Peace, Kyoto, Japan",Susan Brumfiled,1981,FALSE,Photograph,,ACM.1981.001,8 x 10.5 in.,,,,,,,,,,,,image,/objects/acm_041.png,/objects/small/acm_041_small.png,/objects/thumbs/acm_041_thumb.png,"Digital image of Gymnasts for Peace, Kyoto, Japan.",,,,,
+acm_042,Untitled,N P Mauldin,,,Acrylic on canvas,,ACM.2022.025,15 x 11 in.,,,,,,,,,,,,image,/objects/acm_042.png,/objects/small/acm_042_small.png,/objects/thumbs/acm_042_thumb.png,Digital image for untitled artwork record acm_042.,,,,,44946
 acm_043,Fruit Good and Bad,Landrough Miller,2007,FALSE,Watercolor on paper,,ACM.2007.004,9.5 x 8 in.,,,,,,,,,,,,,,,,,,,,,
 acm_044,Untitled,Mildred Nungester Wolfe,1955,FALSE,Oil on canvas,,ACM.1955.001,12 x 16 in.,,,,,,,,,,,,,,,,,,,,,44911
 acm_045,Beholder's Beauty,Jeffrey Yentz,,,Pen on paper,,ACM.2022.026,23 x 18 in.,,,,,,,,,,,,,,,,,,,,,
