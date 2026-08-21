@@ -1,11 +1,24 @@
 ---
 # create collection description and stats 
 ---
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-{%- assign raw-dates = items | map: 'date' | compact | uniq -%}
+{%- assign object_count = 0 -%}
+{%- capture raw-dates -%}
+{%- for item in site.data[site.metadata] -%}
+{%- if item.objectid -%}
+{%- assign object_count = object_count | plus: 1 -%}
+{%- if item.date -%}{{ item.date }};{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- capture raw-formats -%}
+{%- for item in site.data[site.metadata] -%}
+{%- if item.objectid and item.format -%}{{ item.format }};{%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign raw-dates = raw-dates | split: ";" | uniq -%}
 {%- capture clean-years -%}{% for date in raw-dates %}{% if date contains "-" %}{{ date | strip | split: "-" | first }}{% elsif date contains "/" %}{{ date | strip | split: "/" | last }}{% else %}{{ date | strip }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
 {%- assign date-range = clean-years | remove: " " | split: ";" | uniq | sort  -%}
-{%- assign formats = items | map: 'format' -%}
+{%- assign formats = raw-formats | split: ";" -%}
 {%- assign formats_uniq = formats | uniq -%}
 { 
     "title": "{{ site.title }}",
@@ -20,10 +33,21 @@
     "date_start": "{{ date-range | first }}",
     "date_end": "{{ date-range | last }}",
     "objects": {
-        {% for f in formats_uniq %}{% assign count = formats | where_exp: 'i', 'i contains f' | size %}{{ f | jsonify }}: "{{ count }}"{% unless forloop.last %},{% endunless %}
-        {% endfor %}
+        {%- assign first_format = true -%}
+        {%- for f in formats_uniq -%}
+        {%- if f != "" -%}
+        {%- assign count = 0 -%}
+        {%- for format_value in formats -%}
+        {%- if format_value == f -%}
+        {%- assign count = count | plus: 1 -%}
+        {%- endif -%}
+        {%- endfor -%}
+        {%- unless first_format -%},{%- endunless -%}
+        {{ f | jsonify }}: "{{ count }}"
+        {%- assign first_format = false -%}
+        {%- endif -%}
+        {%- endfor -%}
     },
     "data": "{{ '/assets/data/datapackage.json' | absolute_url }}",
     "last_build_date": "{{ site.time | date: '%Y-%m-%d' }}"
 }
-

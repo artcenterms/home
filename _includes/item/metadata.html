@@ -4,14 +4,13 @@
     Fields are configured via _data/config-metadata.csv 
     
 {%- endcomment -%}
-{%- assign fields = site.data.config-metadata | where_exp: 'item', 'item.display_name != nil' -%}
 <div id="item-metadata">
     <div class="item-metadata__header">
         <p class="item-metadata__eyebrow">Collection Record</p>
         <h2 class="item-metadata__title">Metadata</h2>
     </div>
     <dl class="item-metadata__list">
-        {% for f in fields %}{% if page[f.field] %}
+        {% for f in site.data.config-metadata %}{% if f.display_name and page[f.field] %}
         <div class="item-metadata__row">
         <dt class="field item-metadata__term">{{ f.display_name }}</dt>
         <dd class="field-value item-metadata__value">

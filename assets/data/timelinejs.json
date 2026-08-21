@@ -3,7 +3,6 @@
 # includes all items in metadata that have a "date" field filled.
 # to just feature parent objects of compound objects, you will want to change the where_exp below to "where_exp: 'item','item.parentid == nil'"
 ---
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: 'item', 'item.date' -%}
 {
     "title": {
         "media": {
@@ -18,7 +17,11 @@
         }
     },
     "events": [
-      {% for item in items %}{
+      {%- assign first_event = true -%}
+      {%- for item in site.data[site.metadata] -%}
+      {%- if item.objectid and item.date -%}
+      {%- unless first_event -%},{%- endunless -%}
+      {
         "media": {
           "url": "{{ item.object_location | default: item.image_small | default: item.image_thumb | absolute_url }}",
           "alt": {{ item.image_alt_text | default: item.description | default: item.title | jsonify }},
@@ -36,6 +39,9 @@
           "headline": {{ item.title | jsonify }}{% if item.description %},
           "text": {{ item.description | jsonify }}{% endif %}
         }
-      }{% unless forloop.last %},{% endunless %}{% endfor %}
+      }
+      {%- assign first_event = false -%}
+      {%- endif -%}
+      {%- endfor -%}
     ]
 }

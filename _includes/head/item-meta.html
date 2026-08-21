@@ -2,8 +2,7 @@
 {% if page.description %}<meta name="description" content="Item from {{ site.title | escape }}: {{ page.description | truncatewords: 25 | escape }}">{% endif %}
 <!-- DC meta -->
 <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
-{%- assign dc-fields = site.data.config-metadata | where_exp: 'item', 'item.dc_map != nil' -%}
-{% for f in dc-fields %}{% if page[f.field] %}<meta name="{{ f.dc_map | xml_escape }}" content="{{ page[f.field] | truncatewords: 25 | xml_escape }}" xml:lang="en" />
+{% for f in site.data.config-metadata %}{% if f.dc_map and page[f.field] %}<meta name="{{ f.dc_map | xml_escape }}" content="{{ page[f.field] | truncatewords: 25 | xml_escape }}" xml:lang="en" />
 {% endif %}{% endfor %}
 {% if site.organization-name %}<meta name="DCTERMS.publisher" content="{{ site.organization-name | escape }}" xml:lang="en" />{% endif %}
 <!-- Open Graph meta -->
@@ -21,8 +20,7 @@
 { 
     "@context": "http://schema.org",
     "@type": "CreativeWork",
-    {%- assign sc-fields = site.data.config-metadata | where_exp: 'item', 'item.schema_map != nil' -%}
-    {% for f in sc-fields %}{% if page[f.field] %}
+    {% for f in site.data.config-metadata %}{% if f.schema_map and page[f.field] %}
     "{{ f.schema_map }}": {{ page[f.field] | jsonify }},{% endif %}{% endfor %}
     "isPartOf": {{ site.title | jsonify }},
     {% if page.image_small %}"image": "{{ page.image_small | absolute_url }}",{% endif %}
