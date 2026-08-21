@@ -14,12 +14,17 @@
 
 {%- endcomment -%}
 {% assign date_field = include.date_field | default: 'date' %}
-{% if site.data.theme.timeline-child-objects == true %}
-{%- assign date-items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-{% else %}
-{%- assign date-items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
-{% endif %}
-{%- assign raw-dates = date-items | map: date_field | compact | uniq -%}
+{%- capture raw_dates_csv -%}
+{%- for item in site.data[site.metadata] -%}
+{%- if item.objectid -%}
+{%- if site.data.theme.timeline-child-objects == true or item.parentid == nil or item.parentid == '' -%}
+{%- if item[date_field] -%}
+{{ item[date_field] }};{%- endif -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign raw-dates = raw_dates_csv | split: ";" | compact | uniq -%}
 {%- capture clean-years -%}{% for date in raw-dates %}{% if date contains "-" %}{{ date | strip | split: "-" | first }}{% elsif date contains "/" %}{{ date | strip | split: "/" | last }}{% else %}{{ date | strip }}{% endif %}{% unless forloop.last %};{% endunless %}{%- endfor -%}{%- endcapture -%}
 {%- assign date-range = clean-years | remove: " " | split: ";" | uniq | sort  -%}
 <div class="card mb-3">

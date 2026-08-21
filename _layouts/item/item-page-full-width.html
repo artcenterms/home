@@ -5,11 +5,18 @@ layout: default
 # item-meta adds rich meta markup in HTML <head> element to the page on production build for better SEO
 item-meta: true
 ---
-{% if page.display_template == "compound_object" %}{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}{% endif %}
+{%- assign full_children_count = 0 -%}
+{%- if page.display_template == "compound_object" -%}
+{%- for item in site.data[site.metadata] -%}
+{%- if item.parentid == page.objectid -%}
+{%- assign full_children_count = full_children_count | plus: 1 -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
 <div class="container-fluid py-3">
 
     {% include item/breadcrumbs.html %}
-    <div class="my-0 h5 small">{{ page.display_template | replace: "_", " " | upcase }} {% if page.display_template == "compound_object" %} ({{ children | size }} Items){% endif %}</div>
+    <div class="my-0 h5 small">{{ page.display_template | replace: "_", " " | upcase }} {% if page.display_template == "compound_object" %} ({{ full_children_count }} Items){% endif %}</div>
     <h2 class="mb-3">{{ page.title }} 
         {% unless page.display_template == 'record' %}<a href="#metadata" class="ms-5 btn btn-sm btn-outline-dark small">Item Info 
             <svg class="bi icon-sprite" role="img" aria-label="Jump to Item Info">

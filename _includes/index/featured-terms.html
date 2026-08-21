@@ -31,11 +31,14 @@
 {% endcomment %}
 {% assign termsField = include.field | default: "subject" %}
 {% assign termsMax = include.max | default: 5 %}
-{% if site.data.theme.browse-child-objects == true %}
-{%- assign terms = site.data[site.metadata] | where_exp: 'item','item.objectid' | map: termsField | join: ";" -%}
-{% else %}
-{%- assign terms = site.data[site.metadata] | where_exp: 'item','item.parentid == nil' | map: termsField | join: ";" -%}
+{%- capture terms -%}
+{%- for item in site.data[site.metadata] -%}
+{%- if site.data.theme.browse-child-objects == true or item.parentid == nil or item.parentid == '' -%}
+{%- if item[termsField] -%}
+{{ item[termsField] }};{%- endif -%}
 {%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
 {%- assign uniqTerms = terms | downcase | split: ";" | array_count_uniq -%}
 {% capture topTerms %}
 {% for i in uniqTerms limit: termsMax %}{{ i[0] }};{% endfor %}{% endcapture %}

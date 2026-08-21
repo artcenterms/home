@@ -18,27 +18,55 @@
 
 {%- endcomment -%}
 {%- assign object_field = include.object_field | default: 'display_template' -%}
-{% if include.child-objects == true %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-{% else %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
-{% endif %}
-{%- assign templates = items | map: object_field -%}
+{%- assign templates_csv = "" -%}
+{%- for item in site.data[site.metadata] -%}
+{%- if item.objectid -%}
+{%- if include.child-objects == true or item.parentid == nil or item.parentid == '' -%}
+{%- assign template_value = item[object_field] | strip -%}
+{%- if template_value != "" -%}
+{%- assign templates_csv = templates_csv | append: template_value | append: ";" -%}
+{%- endif -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- assign templates = templates_csv | split: ";" -%}
 {%- assign types = templates | uniq | compact | sort -%}
 <div class="card mb-3" >
     <div class="card-body">
         <{{ include.heading_level | default: 'h2' | strip }} class="card-title h5">Content</{{ include.heading_level | default: 'h2' | strip }}>
         <p class="card-text">
         {% for t in types %}
-        {%- assign count = templates | where_exp: 'item', 'item contains t' | size -%}
-        {% if count > 0 %}
-        {{ count }}
-        <a class="text-dark" href="{{ '/browse.html' | relative_url }}#display_template:{{ t }}">{{ t | upcase | replace: "_", " " }} 
-        {% include helpers/get-icon-svg.html type="hidden" template=t %}</a><br>
+        {%- assign term = t | strip -%}
+        {%- if term != "" -%}
+        {%- assign count = 0 -%}
+        {%- for template in templates -%}
+        {%- if template == term -%}
+        {%- assign count = count | plus: 1 -%}
         {%- endif -%}
         {%- endfor -%}
-        {% if include.others == true %}{% assign others = templates | where_exp: 'item', 'item == nil or item == ""' | size %}{% if others > 0 %}
-        {{ others }} OTHER {% include helpers/get-icon-svg.html type="hidden" %}<br>{% endif %}{% endif %}
+        {% if count > 0 %}
+        {{ count }}
+        <a class="text-dark" href="{{ '/browse.html' | relative_url }}#display_template:{{ term }}">{{ term | upcase | replace: "_", " " }}
+        {% include helpers/get-icon-svg.html type="hidden" template=term %}</a><br>
+        {%- endif -%}
+        {%- endif -%}
+        {%- endfor -%}
+        {% if include.others == true %}
+        {%- assign others = 0 -%}
+        {%- for item in site.data[site.metadata] -%}
+        {%- if item.objectid -%}
+        {%- if include.child-objects == true or item.parentid == nil or item.parentid == '' -%}
+        {%- assign other_value = item[object_field] | strip -%}
+        {%- if other_value == "" -%}
+        {%- assign others = others | plus: 1 -%}
+        {%- endif -%}
+        {%- endif -%}
+        {%- endif -%}
+        {%- endfor -%}
+        {% if others > 0 %}
+        {{ others }} OTHER {% include helpers/get-icon-svg.html type="hidden" %}<br>
+        {% endif %}
+        {% endif %}
         {% if include.total == true %}
         {{ templates | size }} TOTAL ITEMS<br>{% endif %}
         <a class="btn btn-sm btn-{{ include.btn-color | default: 'outline-secondary' }} mt-2" href="{{ '/data.html' | relative_url }}">View table</a>

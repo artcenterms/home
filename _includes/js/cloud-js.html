@@ -4,20 +4,24 @@
     Requires CB's array_count_uniq.rb plugin!
 
 {%- endcomment -%}
-{% if site.data.theme.browse-child-objects == true %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-{% else %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
-{% endif %}
 {%- assign termsMin = include.min | plus: 0 | default: 1 -%}
 {%- assign cloud_id = include.id | default: "cloud" -%}
 {%- assign cloud-fields = include.fields | default: "subject" -%}
-{%- assign uniqTerms = items | field_count_uniq: cloud-fields | where_exp: 't','t[1] >= termsMin' -%}
+{%- assign uniqTerms = site.data[site.metadata] | field_count_uniq: cloud-fields -%}
 {% if include.stopwords %}{% assign uniqTerms = uniqTerms | remove_stopwords: include.stopwords %}{%- endif -%}
 <script>
 (function(){    
     /* subject terms + count */
-    var terms = {{ uniqTerms | jsonify }};
+    var terms = [
+        {%- assign first_term = true -%}
+        {%- for t in uniqTerms -%}
+        {%- if t[1] >= termsMin -%}
+        {%- unless first_term -%},{%- endunless -%}
+        {{ t | jsonify }}
+        {%- assign first_term = false -%}
+        {%- endif -%}
+        {%- endfor -%}
+    ];
 
     /* calculate max size */
     var counts = terms.map(function(obj){ return obj[1]; });

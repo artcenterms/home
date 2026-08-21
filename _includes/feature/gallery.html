@@ -30,21 +30,6 @@
     
 {%- endcomment -%}
 
-{% if include.child-objects == true %}
-{%- assign gallery-items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-{% else %}
-{%- assign gallery-items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
-{% endif %}
-{% if include.gallery-type %}
-{%- assign gallery-items = gallery-items | where_exp: "item","item.display_template == include.gallery-type" -%}
-{% else %}
-{%- assign gallery-items = gallery-items |  where_exp: "item","item.image_small != nil or item.image_thumb != nil or item.object_location != nil" -%}
-{% endif %} 
-{%- if include.filter-field and include.filter-value -%}
-{%- assign gallery-items = gallery-items | where_exp: 'item','item[include.filter-field] contains include.filter-value' -%}
-{%- elsif include.filter -%}
-{%- assign gallery-items = gallery-items | where_exp: 'item',include.filter -%}
-{% endif %}
 {% assign gallery-limit = include.limit | default: 50 %}
 {% capture captions %}{{ include.captions | default: "true" }}{% endcapture %}
 
@@ -57,7 +42,37 @@
 <h2>{{ include.heading }}</h2>{% endif %}
 <div class="row my-3 py-3 {{ include.container-styles }}">
     {% if include.context %}<p> {{include.context}} </p>{% endif %}
-    {% for item in gallery-items limit:gallery-limit %}
+    {%- assign gallery_count = 0 -%}
+    {% for item in site.data[site.metadata] %}
+    {%- if item.objectid -%}
+    {%- assign show_gallery_item = true -%}
+    {%- if include.child-objects != true and item.parentid and item.parentid != "" -%}
+    {%- assign show_gallery_item = false -%}
+    {%- endif -%}
+    {%- if include.gallery-type -%}
+    {%- if item.display_template != include.gallery-type -%}
+    {%- assign show_gallery_item = false -%}
+    {%- endif -%}
+    {%- else -%}
+    {%- if item.image_small == nil and item.image_thumb == nil and item.object_location == nil -%}
+    {%- assign show_gallery_item = false -%}
+    {%- endif -%}
+    {%- endif -%}
+    {%- if include.filter-field and include.filter-value -%}
+    {%- assign field_value = item[include.filter-field] | downcase -%}
+    {%- assign filter_value = include.filter-value | downcase -%}
+    {%- assign matches_filter = false -%}
+    {%- if field_value contains filter_value -%}
+    {%- assign matches_filter = true -%}
+    {%- endif -%}
+    {%- if field_value == "" or matches_filter == false -%}
+    {%- assign show_gallery_item = false -%}
+    {%- endif -%}
+    {%- elsif include.filter -%}
+    {%- assign show_gallery_item = false -%}
+    {%- endif -%}
+    {%- if show_gallery_item and gallery_count < gallery-limit -%}
+    {%- assign gallery_count = gallery_count | plus: 1 -%}
     <div class="{% if include.item-size == 'tiny' %}col-lg-2 col-sm-4 col-xs-6{% elsif include.item-size == 'small' %}col-lg-3 col-sm-6{% elsif include.item-size == 'large' %}col-xl-4 col-lg-6{% else %}col-lg-4 col-sm-6{% endif %} {{ include.item-styles }}">
         {% if include.gallery-type == "video" %}
         {% include feature/video.html objectid=item.objectid caption=include.captions %}
@@ -68,5 +83,7 @@
         {% else %}
         {% include feature/image.html objectid=item.objectid caption=include.captions %}{% endif %}
     </div>
+    {%- endif -%}
+    {%- endif -%}
     {% endfor %}
 </div>

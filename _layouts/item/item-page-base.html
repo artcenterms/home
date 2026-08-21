@@ -7,9 +7,17 @@ item-meta: true
 ---
 <div class="item-page container py-4">
     {% include item/breadcrumbs.html %}
+    {%- assign compound_children_count = 0 -%}
+    {%- if page.display_template == "compound_object" or page.display_template == "multiple" -%}
+    {%- for item in site.data[site.metadata] -%}
+    {%- if item.parentid == page.objectid -%}
+    {%- assign compound_children_count = compound_children_count | plus: 1 -%}
+    {%- endif -%}
+    {%- endfor -%}
+    {%- endif -%}
     <header class="item-page__header">
         <div class="item-page__type">
-            {{ page.display_template | replace: "_", " " | upcase }} {% if page.display_template == "compound_object" or page.display_template == "multiple" %}{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}<span class="item-page__type-count">({{ children | size }} Items)</span>{% endif %}
+            {{ page.display_template | replace: "_", " " | upcase }} {% if page.display_template == "compound_object" or page.display_template == "multiple" %}<span class="item-page__type-count">({{ compound_children_count }} Items)</span>{% endif %}
         </div>
         <div class="item-page__heading">
             <h1 class="item-page__title">{{ page.title }}</h1>
