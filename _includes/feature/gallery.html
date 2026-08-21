@@ -38,7 +38,7 @@
 {% if include.gallery-type %}
 {%- assign gallery-items = gallery-items | where_exp: "item","item.display_template == include.gallery-type" -%}
 {% else %}
-{%- assign gallery-items = gallery-items |  where_exp: "item","item.image_small != nil or item.image_thumb != nil" -%}
+{%- assign gallery-items = gallery-items |  where_exp: "item","item.image_small != nil or item.image_thumb != nil or item.object_location != nil" -%}
 {% endif %} 
 {%- if include.filter-field and include.filter-value -%}
 {%- assign gallery-items = gallery-items | where_exp: 'item','item[include.filter-field] contains include.filter-value' -%}
@@ -70,4 +70,3 @@
     </div>
     {% endfor %}
 </div>
-

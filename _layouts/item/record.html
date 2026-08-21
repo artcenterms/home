@@ -5,7 +5,7 @@ layout: item/item-page-base
 
 <div class="mb-4 text-center">
 
-    {% if page.image_small or page.image_thumb %}
+    {% if page.image_small or page.image_thumb or page.object_location %}
     <p>
         {% include item/item-thumb.html %}
     </p>
