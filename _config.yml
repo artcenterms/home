@@ -35,15 +35,17 @@ author: Arts Center of Mississippi
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
 metadata: acm-confirmed-metadata 
-# page generation settings [optional!]
-# [optional: only used if you need to tweak CB defaults or generate from more than one data file]
-# page_gen:
-#   - data: 'demo-metadata'
-#     template: 'item'
-#     name: 'objectid'
-#     dir: 'items'
-#     extension: 'html' 
-#     filter: 'objectid'  
+# page generation settings
+# Generate an item page for every metadata row with an objectid, even if the
+# record has a legacy parentid value or no image paths yet.
+page_gen:
+  - data: 'acm-confirmed-metadata'
+    template: 'item'
+    name: 'objectid'
+    dir: 'items'
+    extension: 'html'
+    filter: 'objectid'
+    filter_condition: 'true'
 
 ##########
 # ORGANIZATION SETTINGS
