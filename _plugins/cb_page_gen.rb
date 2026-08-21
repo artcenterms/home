@@ -189,23 +189,19 @@ module CollectionBuilderPageGenerator
 
   end
 
-  # Subclass of `Jekyll::Page` with custom method definitions.
-  class ItemPage < Jekyll::Page
+  # Subclass of `Jekyll::PageWithoutAFile` so generated item pages behave
+  # like normal Jekyll pages under modern builds without requiring a source file.
+  class ItemPage < Jekyll::PageWithoutAFile
 
     # function to generate each individual page
     def initialize(site, record, dir, extension)
-      @site = site             # the current site instance.
-      @base = site.source      # path to the source directory.
-      @dir  = dir         # the directory the page will output in
-      
-      @basename = record['base_filename']  # filename without the extension.
-      @ext      = "." + extension.to_s  # the extension.
-      @name     = record['base_filename'] + "." + extension.to_s # @basename + @ext.
+      filename = record['base_filename'] + "." + extension.to_s
+      super(site, site.source, dir, filename)
 
       # add record data to the page
       # all record data will be available in page object
-      @data = record
-
+      self.data = self.data.merge(record)
+      self.content = ""
     end
   end
 
