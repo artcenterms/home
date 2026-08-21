@@ -30,7 +30,7 @@ layout: default
         {% for item in home_items limit: 1 %}
         <article class="home-rebuild__feature-card">
           <a class="home-rebuild__feature-media" href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">
-            <img src="{{ item.image_small | default: item.image_thumb | default: item.object_location | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
+            <img src="{{ item.object_location | default: item.image_small | default: item.image_thumb | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
           </a>
           <div class="home-rebuild__feature-body">
             {% if item.date %}<p class="home-rebuild__meta">{{ item.date }}</p>{% endif %}
@@ -70,7 +70,7 @@ layout: default
       <article class="home-rebuild__card">
         <a class="home-rebuild__card-media" href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">
           {% if item.image_thumb or item.image_small or item.object_location %}
-          <img src="{{ item.image_thumb | default: item.image_small | default: item.object_location | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
+          <img src="{{ item.object_location | default: item.image_small | default: item.image_thumb | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
           {% endif %}
         </a>
         <div class="home-rebuild__card-body">
