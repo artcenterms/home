@@ -6,11 +6,13 @@
 {% endif %}{% endfor %}
 {% if site.organization-name %}<meta name="DCTERMS.publisher" content="{{ site.organization-name | escape }}" xml:lang="en" />{% endif %}
 <!-- Open Graph meta -->
+{% capture meta_image_path %}{% include helpers/object-image-path.html item=page %}{% endcapture %}
+{% assign meta_image_path = meta_image_path | strip %}
 <meta property="og:title" content="{{ page.title | escape }}" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Item from {{ site.title | escape }}. {{ page.description | truncatewords: 30 | escape }}" />
-{% if page.image_small or page.image_thumb %}
-<meta property="og:image" content="{{ page.image_small | default: page.image_thumb | absolute_url }}" />
+{% if meta_image_path != '' %}
+<meta property="og:image" content="{{ meta_image_path | absolute_url }}" />
 <meta property="og:image:alt" content="{{ page.title | escape }}" />{% endif %}
 <meta property="og:site_name" content="{{ site.title | escape }}" />
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
@@ -23,7 +25,7 @@
     {% for f in site.data.config-metadata %}{% if f.schema_map and page[f.field] %}
     "{{ f.schema_map }}": {{ page[f.field] | jsonify }},{% endif %}{% endfor %}
     "isPartOf": {{ site.title | jsonify }},
-    {% if page.image_small %}"image": "{{ page.image_small | absolute_url }}",{% endif %}
+    {% if meta_image_path != '' %}"image": "{{ meta_image_path | absolute_url }}",{% endif %}
     {% if page.image_thumb %}"thumbnailUrl": "{{ page.image_thumb | absolute_url }}",{% endif %}
     "url": {{ page.url | absolute_url | jsonify }}
 }

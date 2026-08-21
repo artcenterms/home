@@ -11,12 +11,12 @@ layout: default
 {% assign jumboSrc = jumboId | relative_url %}
 {% else %}
 {% assign jumboItem = site.data[site.metadata] | where: "objectid", jumboId | first %}
-{% capture jumboSrc %}{{ jumboItem.object_location | default: jumboItem.image_small | relative_url }}{% endcapture %}
+{% capture jumboSrc %}{% include helpers/object-image-path.html item=jumboItem %}{% endcapture %}
 {%- endif -%}
 <section
     id="about-feature"
     class="site-hero site-hero--page"
-    style="--site-hero-image: url('{{ jumboSrc }}'); --site-hero-position: {{ page.position | default: 'center' }}; --site-hero-padding-top: {{ page.padding | default: '6em' }};"
+    style="--site-hero-image: url('{{ jumboSrc | strip | relative_url }}'); --site-hero-position: {{ page.position | default: 'center' }}; --site-hero-padding-top: {{ page.padding | default: '6em' }};"
 >
     <div class="container site-hero__inner">
         <div id="about-title-box" class="site-hero__content site-hero__content--page">

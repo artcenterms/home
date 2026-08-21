@@ -1,0 +1,38 @@
+{%- assign record = include.item -%}
+{%- assign fallback = record.object_location | default: record.image_small | default: record.image_thumb -%}
+{%- assign resolved = "" -%}
+
+{%- if record.object_location -%}
+  {%- assign direct_match = site.static_files | where_exp: "file", "file.path == record.object_location" | first -%}
+  {%- if direct_match -%}
+    {%- assign resolved = record.object_location -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if resolved == "" and record.objectid -%}
+  {%- assign candidates = ".png|.jpg|.JPG|.jpeg|.JPEG|.webp|.WEBP" | split: "|" -%}
+  {%- for ext in candidates -%}
+    {%- assign candidate_path = "/objects/" | append: record.objectid | append: ext -%}
+    {%- assign candidate_match = site.static_files | where_exp: "file", "file.path == candidate_path" | first -%}
+    {%- if candidate_match -%}
+      {%- assign resolved = candidate_path -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+{%- if resolved == "" and record.image_small -%}
+  {%- assign small_match = site.static_files | where_exp: "file", "file.path == record.image_small" | first -%}
+  {%- if small_match -%}
+    {%- assign resolved = record.image_small -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if resolved == "" and record.image_thumb -%}
+  {%- assign thumb_match = site.static_files | where_exp: "file", "file.path == record.image_thumb" | first -%}
+  {%- if thumb_match -%}
+    {%- assign resolved = record.image_thumb -%}
+  {%- endif -%}
+{%- endif -%}
+
+{{- resolved | default: fallback -}}
