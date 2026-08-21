@@ -35,10 +35,9 @@ layout: default
         {%- assign featured_shown = false -%}
         {%- for item in site.data[site.metadata] -%}
         {%- if item.objectid and item.parentid == nil and featured_shown == false -%}
-        {% capture featured_image_path %}{% include helpers/object-image-path.html item=item %}{% endcapture %}
         <article class="home-rebuild__feature-card">
           <a class="home-rebuild__feature-media" href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">
-            <img src="{{ featured_image_path | strip | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
+            <img src="{{ item.object_location | default: item.image_small | default: item.image_thumb | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
           </a>
           <div class="home-rebuild__feature-body">
             {% if item.date %}<p class="home-rebuild__meta">{{ item.date }}</p>{% endif %}
@@ -81,11 +80,10 @@ layout: default
       {%- if item.objectid and item.parentid == nil -%}
       {%- assign featured_offset = featured_offset | plus: 1 -%}
       {%- if featured_offset > 1 and featured_offset <= 4 -%}
-      {% capture card_image_path %}{% include helpers/object-image-path.html item=item %}{% endcapture %}
       <article class="home-rebuild__card">
         <a class="home-rebuild__card-media" href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">
-          {% if card_image_path | strip != '' %}
-          <img src="{{ card_image_path | strip | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
+          {% if item.image_thumb or item.image_small or item.object_location %}
+          <img src="{{ item.object_location | default: item.image_small | default: item.image_thumb | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
           {% endif %}
         </a>
         <div class="home-rebuild__card-body">

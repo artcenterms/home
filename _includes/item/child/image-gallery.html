@@ -4,9 +4,7 @@
     Ensure dependencies are added by including `gallery: true` in the layout front matter calling this include.
 
 {%- endcomment -%}
-{% capture child_gallery_path %}{% include helpers/object-image-path.html item=child %}{% endcapture %}
-{% assign child_gallery_path = child_gallery_path | strip %}
-<a id="{{ child.objectid }}" class="spotlight gallery-img" {% if child.object_location %}data-download="true"{% endif %} title="{{ child.title | escape }}" href="{{ child_gallery_path | relative_url }}">
-    <img src="{{ child_gallery_path | relative_url }}" alt="{{ child.image_alt_text | default: child.description | default: child.title | escape }}" class="img-fluid">
+<a id="{{ child.objectid }}" class="spotlight gallery-img" {% if child.object_location %}data-download="true"{% endif %} title="{{ child.title | escape }}" href="{{ child.object_location | default: child.image_small | default: child.image_thumb | relative_url }}">
+    <img src="{{ child.object_location | default: child.image_small | default: child.image_thumb | relative_url }}" alt="{{ child.image_alt_text | default: child.description | default: child.title | escape }}" class="img-fluid">
     <div><small class="text-dark">Click to view full screen</small></div>
 </a>

@@ -1,10 +1,9 @@
 {% comment %}
     For image items, render the image directly without lightbox or download behavior.
 {%- endcomment -%}
-{% capture resolved_object_image %}{% include helpers/object-image-path.html item=page %}{% endcapture %}
 <img
     id="{{ page.objectid }}"
-    src="{{ resolved_object_image | strip | relative_url }}"
+    src="{{ page.object_location | default: page.image_small | default: page.image_thumb | relative_url }}"
     alt="{{ page.image_alt_text | default: page.description | default: page.title | escape }}"
     class="img-fluid item-page__image"
 >

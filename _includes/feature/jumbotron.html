@@ -22,7 +22,7 @@
 {% assign jumboSrc = jumboId | relative_url %}
 {% else %}
 {% assign jumboItem = site.data[site.metadata] | where: "objectid", jumboId | first %}
-{% capture jumboSrc %}{% include helpers/object-image-path.html item=jumboItem %}{% endcapture %}
+{% capture jumboSrc %}{{ jumboItem.object_location | default: jumboItem.image_small | relative_url }}{% endcapture %}
 {%- endif -%}
 
 <style>
@@ -33,7 +33,7 @@
     border-radius: 0.3rem;
 }  
 #{{ jumbo_div_id }} {
-    background-image: url({{ jumboSrc | strip | relative_url }});
+    background-image: url({{ jumboSrc }});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: {{ include.position | default: 'center' }};
