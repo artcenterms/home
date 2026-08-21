@@ -1,9 +1,15 @@
-{% if site.data.theme.browse-child-objects == true %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-{% else %}
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
-{% endif %}
+{%- assign source_items = site.data[site.metadata] -%}
 {%- assign fields = site.data.config-browse -%}
+{%- assign browse_count = 0 -%}
+{%- for cb_item in source_items -%}
+    {%- if cb_item.objectid -%}
+        {%- if site.data.theme.browse-child-objects == true -%}
+            {%- assign browse_count = browse_count | plus: 1 -%}
+        {%- elsif cb_item.parentid == nil or cb_item.parentid == '' -%}
+            {%- assign browse_count = browse_count | plus: 1 -%}
+        {%- endif -%}
+    {%- endif -%}
+{%- endfor -%}
 {% unless site.data.theme.faceted-search or site.data.theme.advanced-search %}
 {% include js/browse-simple-js.html %}
 {% else %}
@@ -23,7 +29,11 @@
  * Initialize items array from Jekyll site data
  */
 var items = [
-    {% for item in items %}
+    {%- assign first_browse_item = true -%}
+    {%- for item in source_items -%}
+    {%- if item.objectid -%}
+    {%- if site.data.theme.browse-child-objects == true or item.parentid == nil or item.parentid == '' -%}
+    {%- unless first_browse_item -%},{%- endunless -%}
     { {% for f in fields %}{% if item[f.field] %}{{ f.field | escape | jsonify }}:{{ item[f.field] | strip | jsonify }}, {%- endif -%}{%- endfor -%}
         {% if item.image_thumb or item.image_small or item.object_location %}"img": {{ item.object_location | default: item.image_small | default: item.image_thumb | relative_url | jsonify }}, {%- endif -%} 
         {% if item.display_template %}"display_template": {{ item.display_template | jsonify }}, {%- endif -%}
@@ -31,7 +41,11 @@ var items = [
         {% if item.image_alt_text %}"alt": {{ item.image_alt_text | escape | jsonify }}, {%- endif -%}
         "title":{{ item.title | strip | escape | jsonify }},
         {% if item.parentid %}"parent": {{ item.parentid | jsonify }}, {%- endif -%}
-        "id":{{ item.objectid | jsonify }} }{% unless forloop.last %},{% endunless %}{%- endfor -%}
+        "id":{{ item.objectid | jsonify }} }
+    {%- assign first_browse_item = false -%}
+    {%- endif -%}
+    {%- endif -%}
+    {%- endfor -%}
 ];
 
 // Valid field names for URL-based searches
