@@ -6,6 +6,17 @@ The resulting static site can be hosted on any basic web server (or built automa
 
 Visit the [CollectionBuilder Docs](https://collectionbuilder.github.io/cb-docs/) for step-by-step details for getting started and building collections!
 
+## Records Workflow
+
+For this project, the canonical records file is [`_data/artwork-records.csv`](/Users/Birittany/Documents/Art%20Center%20MS/_data/artwork-records.csv).
+
+- Edit that file locally.
+- Keep the filename exactly `artwork-records.csv`.
+- Upload or commit that updated file to the repository.
+- On the next push to `master`, GitHub Actions rebuilds and redeploys the site from that CSV.
+
+The active metadata pointer in [`_config.yml`](/Users/Birittany/Documents/Art%20Center%20MS/_config.yml) is set to `metadata: artwork-records`, so the site regenerates from that file.
+
 ## Brief Overview of Building a Collection
 
 The [CollectionBuilder Docs](https://collectionbuilder.github.io/cb-docs/) contain detailed information about building a collection from start to finish--including installing software, using Git/GitHub, preparing digital objects, and formatting metadata.

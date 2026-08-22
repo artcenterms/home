@@ -3,12 +3,21 @@ from __future__ import annotations
 
 import csv
 from pathlib import Path
+import re
 
 
 ROOT = Path(__file__).resolve().parent.parent
-METADATA = ROOT / "_data" / "acm-confirmed-metadata.csv"
+CONFIG = ROOT / "_config.yml"
 OBJECTS = ROOT / "objects"
 ALLOWED_EXTS = {".png", ".jpg", ".jpeg", ".webp", ".tif", ".tiff"}
+
+
+def metadata_path() -> Path:
+    config_text = CONFIG.read_text(encoding="utf-8")
+    match = re.search(r"^\s*metadata:\s*([^\s#]+)", config_text, re.MULTILINE)
+    if not match:
+        raise RuntimeError("Could not find 'metadata:' in _config.yml.")
+    return ROOT / "_data" / f"{match.group(1).strip()}.csv"
 
 
 def build_object_lookup() -> dict[str, str]:
@@ -23,7 +32,8 @@ def build_object_lookup() -> dict[str, str]:
 
 
 def sync_metadata() -> int:
-    with METADATA.open(newline="", encoding="utf-8-sig") as handle:
+    metadata = metadata_path()
+    with metadata.open(newline="", encoding="utf-8-sig") as handle:
         reader = csv.DictReader(handle)
         fieldnames = reader.fieldnames
         if not fieldnames:
@@ -45,7 +55,7 @@ def sync_metadata() -> int:
                 row[field] = actual_path
                 updates += 1
 
-    with METADATA.open("w", newline="", encoding="utf-8") as handle:
+    with metadata.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
@@ -55,4 +65,4 @@ def sync_metadata() -> int:
 
 if __name__ == "__main__":
     changed = sync_metadata()
-    print(f"Synchronized object paths in {METADATA.name}: {changed} field updates")
+    print(f"Synchronized object paths in {metadata_path().name}: {changed} field updates")
