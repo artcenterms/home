@@ -428,7 +428,7 @@ function updateDisplay(filteredItems, query = "", field = "", startDate = "", en
     browseItemsDiv.appendChild(fragment);
     
     // Update count
-    document.querySelector("#numberOf").innerHTML = `${filteredItems.length} of {{ items | size }} items`;
+    document.querySelector("#numberOf").innerHTML = `${filteredItems.length} of {{ browse_count }} items`;
     
     // Focus active input (only if needed)
     if (query || startDate || endDate) {
@@ -887,6 +887,8 @@ window.addEventListener('load', function() {
     loadingIcon = document.querySelector("#loadingIcon");
     filterTextBox = document.querySelector('#filterTextBox');
     browseItemsDiv = document.querySelector("#browseItems");
+    const browseFilterForm = document.querySelector('#browseFilter');
+    const fieldSelect = document.querySelector("#fieldSelect");
     
     // Initialize default sort
     {% if site.data.theme.default-sort-field %}
@@ -958,6 +960,10 @@ window.addEventListener('load', function() {
             for (let i = 0; i < 3; i++) addSearchRow();
         }
         filterItems(items, "", "all");
+    }
+
+    if (browseFilterForm && fieldSelect) {
+        toggleDateInputs(fieldSelect.value || "all", browseFilterForm);
     }
     
     // Set up event handlers
