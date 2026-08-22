@@ -2238,6 +2238,13 @@ button,
     object-fit: cover;
 }
 
+.home-rebuild__feature-media {
+    display: block;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: rgba(17, 17, 17, 0.04);
+}
+
 .home-rebuild__feature-body,
 .home-rebuild__card-body {
     padding: 1.25rem;
