@@ -38,8 +38,8 @@ var items = [
         {% if item.object_location %}"img": {{ item.object_location | relative_url | jsonify }}, {%- endif -%} 
         {% if item.display_template %}"display_template": {{ item.display_template | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | jsonify }}, {%- endif -%}
-        {% if item.image_alt_text %}"alt": {{ item.image_alt_text | escape | jsonify }}, {%- endif -%}
-        "title":{{ item.title | strip | escape | jsonify }},
+        {% if item.image_alt_text %}"alt": {{ item.image_alt_text | jsonify }}, {%- endif -%}
+        "title":{{ item.title | strip | jsonify }},
         {% if item.parentid %}"parent": {{ item.parentid | jsonify }}, {%- endif -%}
         "id":{{ item.objectid | jsonify }} }
     {%- assign first_browse_item = false -%}

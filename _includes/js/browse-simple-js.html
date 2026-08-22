@@ -23,8 +23,8 @@ var items = [
         {% if item.object_location %}"img": {{ item.object_location | relative_url | jsonify }}, {%- endif -%} 
         {% if item.display_template %}"display_template": {{ item.display_template | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | jsonify }}, {%- endif -%}
-        {% if item.image_alt_text %}"alt": {{ item.image_alt_text | escape | jsonify }}, {%- endif -%}
-        "title":{{ item.title | strip | escape | jsonify }},
+        {% if item.image_alt_text %}"alt": {{ item.image_alt_text | jsonify }}, {%- endif -%}
+        "title":{{ item.title | strip | jsonify }},
         {% if item.parentid %}"parent": {{ item.parentid | jsonify }}, {%- endif -%}
         "id":{{ item.objectid | jsonify }} }
     {%- assign first_browse_item = false -%}
@@ -34,6 +34,15 @@ var items = [
 ];
 
 {% include helpers/get-icon.js %}
+
+function escapeHtml(str) {
+    return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
 
 /* function to create cards for each item */ 
 function makeCard(obj) {
@@ -56,10 +65,10 @@ function makeCard(obj) {
     var card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
     // top image for items with image
     if(imgSrc) {
-        card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
+        card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + escapeHtml(imgAlt) + '"></a>';
     }
     // title
-    card += '<div class="card-body text-center"> <h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
+    card += '<div class="card-body text-center"> <h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + escapeHtml(obj.title) + '</a></h3>';
     // icon thumb for item without image
     if(thumbIcon){
         card += '<p><a href="' + itemHref + '">' + thumbIcon + '</a></p>';
@@ -77,7 +86,7 @@ function makeCard(obj) {
         }
     }
     {% else %}
-    card += obj[{{ f.field | jsonify }}];
+    card += escapeHtml(obj[{{ f.field | jsonify }}]);
     {% endif %}
     {% unless forloop.last %}card += '<br>';{% endunless %}
     }
@@ -90,7 +99,7 @@ function makeCard(obj) {
         obj.template.toUpperCase().replace("_"," ") + ' ' + mediaIcon + '</a></small></p>';
     }
     // view button
-    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Full Record</a>';
+    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + escapeHtml(obj.title) + '">View Full Record</a>';
     // close divs
     card += '</div></div></div>';
     // send back big string
