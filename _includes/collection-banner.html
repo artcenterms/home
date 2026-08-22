@@ -24,7 +24,7 @@
         {% capture jumboLink %}{% endcapture %}
     {% elsif page.banner-featured-image and page.banner-featured-image != true %}
         {% assign jumboItem = site.data[site.metadata] | where: "objectid", page.banner-featured-image | first %}
-        {% capture jumboSrc %}{% if jumboItem.display_template == 'image' %}{{ jumboItem.object_location | default: jumboItem.image_small | default: jumboItem.image_thumb | relative_url }}{% else %}{{ jumboItem.object_location | default: jumboItem.image_small | default: jumboItem.image_thumb | relative_url }}{% endif %}{% endcapture %}
+        {% capture jumboSrc %}{{ jumboItem.object_location | relative_url }}{% endcapture %}
         {% capture jumboLink %}{{ '/items/' | relative_url }}{% if jumboItem.parentid %}{{ jumboItem.parentid }}.html#{{ jumboItem.objectid }}{% else %}{{ jumboItem.objectid }}.html{% endif %}{% endcapture %}
     {% else %}
         {% capture jumboSrc %}{{ site.data.featured_item.src | relative_url }}{% endcapture %}

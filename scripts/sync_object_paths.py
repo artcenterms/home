@@ -50,10 +50,9 @@ def sync_metadata() -> int:
         actual_path = object_lookup.get(objectid.lower())
         if not actual_path:
             continue
-        for field in ("object_location", "image_small", "image_thumb"):
-            if row.get(field) != actual_path:
-                row[field] = actual_path
-                updates += 1
+        if row.get("object_location") != actual_path:
+            row["object_location"] = actual_path
+            updates += 1
 
     with metadata.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)

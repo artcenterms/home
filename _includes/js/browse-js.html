@@ -35,7 +35,7 @@ var items = [
     {%- if site.data.theme.browse-child-objects == true or item.parentid == nil or item.parentid == '' -%}
     {%- unless first_browse_item -%},{%- endunless -%}
     { {% for f in fields %}{% if item[f.field] %}{{ f.field | escape | jsonify }}:{{ item[f.field] | strip | jsonify }}, {%- endif -%}{%- endfor -%}
-        {% if item.image_thumb or item.image_small or item.object_location %}"img": {{ item.object_location | default: item.image_small | default: item.image_thumb | relative_url | jsonify }}, {%- endif -%} 
+        {% if item.object_location %}"img": {{ item.object_location | relative_url | jsonify }}, {%- endif -%} 
         {% if item.display_template %}"display_template": {{ item.display_template | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | jsonify }}, {%- endif -%}
         {% if item.image_alt_text %}"alt": {{ item.image_alt_text | escape | jsonify }}, {%- endif -%}

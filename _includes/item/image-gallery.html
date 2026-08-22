@@ -3,7 +3,7 @@
 {%- endcomment -%}
 <img
     id="{{ page.objectid }}"
-    src="{{ page.object_location | default: page.image_small | default: page.image_thumb | relative_url }}"
+    src="{{ page.object_location | relative_url }}"
     alt="{{ page.image_alt_text | default: page.description | default: page.title | escape }}"
     class="img-fluid item-page__image"
 >

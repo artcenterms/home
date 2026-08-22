@@ -54,7 +54,7 @@
     {%- assign show_gallery_item = false -%}
     {%- endif -%}
     {%- else -%}
-    {%- if item.image_small == nil and item.image_thumb == nil and item.object_location == nil -%}
+    {%- if item.object_location == nil -%}
     {%- assign show_gallery_item = false -%}
     {%- endif -%}
     {%- endif -%}

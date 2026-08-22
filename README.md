@@ -12,6 +12,7 @@ For this project, the canonical records file is [`_data/artwork-records.csv`](/U
 
 - Edit that file locally.
 - Keep the filename exactly `artwork-records.csv`.
+- Use `object_location` as the single image path field for any object image you want the site to display.
 - Upload or commit that updated file to the repository.
 - On the next push to `master`, GitHub Actions rebuilds and redeploys the site from that CSV.
 

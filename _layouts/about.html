@@ -11,7 +11,7 @@ layout: default
 {% assign jumboSrc = jumboId | relative_url %}
 {% else %}
 {% assign jumboItem = site.data[site.metadata] | where: "objectid", jumboId | first %}
-{% capture jumboSrc %}{{ jumboItem.object_location | default: jumboItem.image_small | relative_url }}{% endcapture %}
+{% capture jumboSrc %}{{ jumboItem.object_location | relative_url }}{% endcapture %}
 {%- endif -%}
 <section
     id="about-feature"

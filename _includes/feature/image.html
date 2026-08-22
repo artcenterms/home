@@ -37,7 +37,7 @@
         {%- capture image_link -%}{{ '/items/' | relative_url }}{% if figure.parentid %}{{ figure.parentid }}.html#{{ figure.objectid }}{% else %}{{ figure.objectid }}.html{% endif %}{% endcapture %}
         {%- capture image_caption -%}{{ captions[forloop.index0] | default: figure.title }}{%- endcapture -%}
         {%- capture image_alt -%}{{ alts[forloop.index0] | default: figure.image_alt_text | default: figure.description | default: figure.title }}{%- endcapture -%}
-        {%- capture image_src -%}{{ figure.object_location | default: figure.image_small | default: figure.image_thumb | relative_url }}{% endcapture %}
+        {%- capture image_src -%}{{ figure.object_location | relative_url }}{% endcapture %}
     {% endif %}
     <div class="col-md {% if figcount == 1 %}{% elsif forloop.first %}text-md-end{% elsif forloop.last %}text-md-start{% else %}text-center{% endif %}">
         <figure class="figure {% if include.width %}feature-w-{{ include.width }}{% endif %}">
