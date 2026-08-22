@@ -2,8 +2,9 @@
 from __future__ import annotations
 
 from pathlib import Path
+import sys
 
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, UnidentifiedImageError
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -56,6 +57,7 @@ def main() -> None:
     sources = iter_source_images()
     valid_stems = {path.stem for path in sources}
     generated = 0
+    skipped: list[Path] = []
 
     for stale in BROWSE.glob("*.jpg"):
         if stale.stem not in valid_stems:
@@ -68,10 +70,17 @@ def main() -> None:
             dst_stat = derivative.stat()
             if dst_stat.st_mtime >= src_stat.st_mtime and dst_stat.st_size > 0:
                 continue
-        generate_derivative(source)
+        try:
+            generate_derivative(source)
+        except (UnidentifiedImageError, OSError) as err:
+            skipped.append(source)
+            print(f"Warning: skipping invalid source image {source}: {err}", file=sys.stderr)
+            continue
         generated += 1
 
     print(f"Generated browse derivatives: {generated} updated, {len(sources)} total")
+    if skipped:
+        print(f"Skipped invalid images: {len(skipped)}", file=sys.stderr)
 
 
 if __name__ == "__main__":

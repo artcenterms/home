@@ -48,7 +48,3 @@ As records are added, the site will support:
 - subject and location-based discovery
 - map and timeline views for contextual research
 - downloadable metadata for scholars, staff, and the public
-
-## Why This Site Exists
-
-The goal is to make the Arts Center of Mississippi easier to understand, visit, and study online while building a stronger long-term record of its public-facing cultural work.
