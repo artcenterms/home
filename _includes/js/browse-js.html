@@ -35,7 +35,8 @@ var items = [
     {%- if site.data.theme.browse-child-objects == true or item.parentid == nil or item.parentid == '' -%}
     {%- unless first_browse_item -%},{%- endunless -%}
     { {% for f in fields %}{% if item[f.field] %}{{ f.field | escape | jsonify }}:{{ item[f.field] | strip | jsonify }}, {%- endif -%}{%- endfor -%}
-        {% if item.object_location %}"img": {{ item.object_location | relative_url | jsonify }}, {%- endif -%} 
+        {% if item.object_location %}"full": {{ item.object_location | relative_url | jsonify }}, {%- endif -%}
+        {% if item.object_location and item.object_location contains '/objects/' %}"img": {{ '/objects/browse/' | append: item.objectid | append: '.jpg' | relative_url | jsonify }}, {%- elsif item.object_location %}"img": {{ item.object_location | relative_url | jsonify }}, {%- endif -%}
         {% if item.display_template %}"display_template": {{ item.display_template | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | jsonify }}, {%- endif -%}
         {% if item.image_alt_text %}"alt": {{ item.image_alt_text | jsonify }}, {%- endif -%}
@@ -108,6 +109,9 @@ function makeCard(obj) {
         image.classList.remove('d-none');
         image.src = placeholder;
         image.dataset.src = obj.img;
+        if (obj.full && obj.full !== obj.img) {
+            image.dataset.fallback = obj.full;
+        }
         image.alt = obj.alt || obj.title;
         iconWrap.remove();
     } else {
@@ -1101,5 +1105,18 @@ function setupEventHandlers() {
         });
     }
 }
+
+document.addEventListener('error', event => {
+    const target = event.target;
+    if (!target.classList || !target.classList.contains('browse-card__image')) {
+        return;
+    }
+    const fallback = target.dataset.fallback;
+    if (!fallback || target.dataset.failedFallback === "true") {
+        return;
+    }
+    target.dataset.failedFallback = "true";
+    target.src = fallback;
+}, true);
 </script>
 {% endunless %}

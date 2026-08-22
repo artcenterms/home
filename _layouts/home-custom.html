@@ -7,6 +7,7 @@ layout: default
 {%- assign home_item_count = home_item_count | plus: 1 -%}
 {%- endif -%}
 {%- endfor -%}
+{%- assign browse_preview_prefix = '/objects/browse/' | relative_url -%}
 
 <section class="home-rebuild">
   <div class="home-rebuild__masthead">
@@ -35,9 +36,13 @@ layout: default
         {%- assign featured_shown = false -%}
         {%- for item in site.data[site.metadata] -%}
         {%- if item.objectid and item.parentid == nil and featured_shown == false -%}
+        {%- assign featured_image = item.object_location | relative_url -%}
+        {%- if item.object_location and item.object_location contains '/objects/' -%}
+          {%- assign featured_image = browse_preview_prefix | append: item.objectid | append: '.jpg' -%}
+        {%- endif -%}
         <article class="home-rebuild__feature-card">
           <a class="home-rebuild__feature-media" href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">
-            <img src="{{ item.object_location | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
+            <img src="{{ featured_image }}" alt="{{ item.image_alt_text | default: item.title | escape }}"{% if featured_image != item.object_location | relative_url %} onerror="this.onerror=null;this.src='{{ item.object_location | relative_url }}'"{% endif %}>
           </a>
           <div class="home-rebuild__feature-body">
             {% if item.date %}<p class="home-rebuild__meta">{{ item.date }}</p>{% endif %}
@@ -80,10 +85,14 @@ layout: default
       {%- if item.objectid and item.parentid == nil -%}
       {%- assign featured_offset = featured_offset | plus: 1 -%}
       {%- if featured_offset > 1 and featured_offset <= 4 -%}
+      {%- assign card_image = item.object_location | relative_url -%}
+      {%- if item.object_location and item.object_location contains '/objects/' -%}
+        {%- assign card_image = browse_preview_prefix | append: item.objectid | append: '.jpg' -%}
+      {%- endif -%}
       <article class="home-rebuild__card">
         <a class="home-rebuild__card-media" href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">
           {% if item.object_location %}
-          <img src="{{ item.object_location | relative_url }}" alt="{{ item.image_alt_text | default: item.title | escape }}">
+          <img src="{{ card_image }}" alt="{{ item.image_alt_text | default: item.title | escape }}"{% if card_image != item.object_location | relative_url %} onerror="this.onerror=null;this.src='{{ item.object_location | relative_url }}'"{% endif %}>
           {% endif %}
         </a>
         <div class="home-rebuild__card-body">

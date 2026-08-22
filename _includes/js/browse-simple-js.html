@@ -20,7 +20,8 @@ var items = [
     {%- if site.data.theme.browse-child-objects == true or item.parentid == nil or item.parentid == '' -%}
     {%- unless first_browse_item -%},{%- endunless -%}
     { {% for f in fields %}{% if item[f.field] %}{{ f.field | escape | jsonify }}:{{ item[f.field] | strip | jsonify }}, {%- endif -%}{%- endfor -%}
-        {% if item.object_location %}"img": {{ item.object_location | relative_url | jsonify }}, {%- endif -%} 
+        {% if item.object_location %}"full": {{ item.object_location | relative_url | jsonify }}, {%- endif -%}
+        {% if item.object_location and item.object_location contains '/objects/' %}"img": {{ '/objects/browse/' | append: item.objectid | append: '.jpg' | relative_url | jsonify }}, {%- elsif item.object_location %}"img": {{ item.object_location | relative_url | jsonify }}, {%- endif -%}
         {% if item.display_template %}"display_template": {{ item.display_template | jsonify }}, {%- endif -%}
         {% if item.format %}"format": {{ item.format | jsonify }}, {%- endif -%}
         {% if item.image_alt_text %}"alt": {{ item.image_alt_text | jsonify }}, {%- endif -%}
@@ -65,7 +66,11 @@ function makeCard(obj) {
     var card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
     // top image for items with image
     if(imgSrc) {
-        card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + escapeHtml(imgAlt) + '"></a>';
+        var errorAttr = "";
+        if (obj.full && obj.full !== imgSrc) {
+            errorAttr = ' onerror="this.onerror=null;this.src=\\'' + escapeHtml(obj.full) + '\\'"';
+        }
+        card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + escapeHtml(imgAlt) + '"' + errorAttr + '></a>';
     }
     // title
     card += '<div class="card-body text-center"> <h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + escapeHtml(obj.title) + '</a></h3>';
