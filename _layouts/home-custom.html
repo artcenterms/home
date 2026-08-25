@@ -43,13 +43,13 @@ layout: default
           {%- endfor -%}
         </div>
         <div class="carousel-inner">
-          {%- for item in featured_items limit: 6 -%}
+          {%- for item in featured_items limit: 12 -%}
           {%- assign featured_index = forloop.index0 -%}
           {%- assign featured_image = item.object_location | relative_url -%}
           {%- if item.object_location contains '/objects/' -%}
             {%- assign featured_image = browse_preview_prefix | append: item.objectid | append: '.jpg' -%}
           {%- endif -%}
-          <article class="carousel-item home-rebuild__carousel-item{% if featured_index == 0 %} active{% endif %}">
+          <article class="carousel-item home-rebuild__carousel-item{% if featured_index == 0 %} active{% endif %}" data-featured-candidate="true">
             <div class="home-rebuild__feature-card">
               <a class="home-rebuild__feature-media" href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">
                 <img src="{{ featured_image }}" alt="{{ item.image_alt_text | default: item.title | default: item.objectid | escape }}"{% if featured_image != item.object_location | relative_url %} onerror="this.onerror=null;this.src='{{ item.object_location | relative_url }}'"{% endif %}>
@@ -102,3 +102,46 @@ layout: default
     </div>
   </div>
 </section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.getElementById("homeFeaturedCarousel");
+  if (!carousel) return;
+
+  const inner = carousel.querySelector(".carousel-inner");
+  const indicators = carousel.querySelector(".carousel-indicators");
+  const candidates = Array.from(inner.querySelectorAll("[data-featured-candidate='true']"));
+  if (candidates.length <= 1) return;
+
+  for (let i = candidates.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
+  }
+
+  const selected = candidates.slice(0, 6);
+  inner.innerHTML = "";
+  indicators.innerHTML = "";
+
+  selected.forEach((slide, index) => {
+    slide.classList.toggle("active", index === 0);
+    inner.appendChild(slide);
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.setAttribute("data-bs-target", "#homeFeaturedCarousel");
+    button.setAttribute("data-bs-slide-to", String(index));
+    button.setAttribute("aria-label", "Go to featured record " + (index + 1));
+    if (index === 0) {
+      button.classList.add("active");
+      button.setAttribute("aria-current", "true");
+    }
+    indicators.appendChild(button);
+  });
+
+  if (window.bootstrap && bootstrap.Carousel) {
+    const instance = bootstrap.Carousel.getOrCreateInstance(carousel);
+    instance.to(0);
+    instance.cycle();
+  }
+});
+</script>
